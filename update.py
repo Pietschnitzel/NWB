@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event
-
+import re
 URL = "https://www.nordwestbahn.de/de/regio-s-bahn/service/geplante-baumassnahmen"
 
 ICS_FILE = "baustellen.ics"
