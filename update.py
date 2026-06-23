@@ -91,30 +91,27 @@ def extract_description(text: str):
 def fetch():
     log.info(f"Requesting {URL}")
 
-    # STEP 1: fetch raw ONCE
     raw = requests.get(URL, timeout=30).text
     raw = raw.replace("\\u002F", "/").replace("\\r\\n", "\n")
 
-    pdf_pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
+    pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
 
     seen = set()
     items = []
 
-    # STEP 2: extract unique PDFs only (NO context, NO slicing)
-    for match in pdf_pattern.finditer(raw):
-        pdf = normalize_pdf_url(match.group(0))
+    for m in pattern.finditer(raw):
+        pdf = normalize_pdf_url(m.group(0))
 
         if pdf in seen:
             continue
         seen.add(pdf)
 
         items.append({
-            "pdf": pdf
+            "pdf": pdf,
+            "anchor": m.start()
         })
 
-    log.info(f"Unique PDF events: {len(items)}")
-
-    # STEP 3: return raw ONCE + items (no duplication)
+    log.info(f"PDF matches: {len(items)}")
     return items, raw
 
 
