@@ -23,16 +23,17 @@ log = logging.getLogger("scraper")
 # ---------------- URL NORMALIZATION ----------------
 def normalize_pdf_url(url: str) -> str:
     url = url.replace("\\u002F", "/").replace("\\/", "/")
-    # decode URL encoding
     url = requests.utils.unquote(url)
-    # fix known broken S3 host
-    url = url.replace(
-        "https://s3.storage.planetary-networks.de",
-        "https://download.transdev.de/transdev/uploads/nwb"
-    )
-    # also fix accidental TENANT placeholder if it appears
-    url = url.replace("/TENANT/", "/nwb/")
-    return url
+
+    # extract file path AFTER schedule ID
+    m = re.search(r'schedule/\d+/.+$', url)
+    if not m:
+        return url  # fallback
+
+    path = m.group(0)
+
+    # rebuild clean canonical URL
+    return f"https://download.transdev.de/transdev/uploads/nwb/{path}"
 
 # ---------------- TIME EXTRACTION ----------------
 ISO_RE = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}')
