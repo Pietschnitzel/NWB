@@ -5,33 +5,33 @@ BEGIN:VEVENT
 SUMMARY:RB84 – Baustelle
 DTSTART;TZID="UTC+02:00":20260625T210000
 DTEND;TZID="UTC+02:00":20260628T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506053/rb-84-ersatzfahrplan-vom-25-06-bis-27-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506053/rb-
+ 84-ersatzfahrplan-vom-25-06-bis-27-06-2026.pdf
 CATEGORIES:RB84
 DESCRIPTION:RB84 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506053/rb-84-ersatzfahrplan-vom-2
- 5-06-bis-27-06-2026.pdf
+ loads/nwb/schedule/1506053/rb-84-ersatzfahrplan-vom-25-06-bis-27-06-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB84 – Baustelle
 DTSTART;TZID="UTC+02:00":20260706T210000
 DTEND;TZID="UTC+02:00":20260709T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506087/rb-84-ersatzfahrplan-vom-06-07-bis-08-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506087/rb-
+ 84-ersatzfahrplan-vom-06-07-bis-08-07-2026.pdf
 CATEGORIES:RB84
 DESCRIPTION:RB84 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506087/rb-84-ersatzfahrplan-vom-0
- 6-07-bis-08-07-2026.pdf
+ loads/nwb/schedule/1506087/rb-84-ersatzfahrplan-vom-06-07-bis-08-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB84 – Baustelle
 DTSTART;TZID="UTC+02:00":20260723T210000
 DTEND;TZID="UTC+02:00":20260725T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506090/rb-84-ersatzfahrplan-am-23-07-und-24-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506090/rb-
+ 84-ersatzfahrplan-am-23-07-und-24-07-2026.pdf
 CATEGORIES:RB84
 DESCRIPTION:RB84 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506090/rb-84-ersatzfahrplan-am-23
- -07-und-24-07-2026.pdf
+ loads/nwb/schedule/1506090/rb-84-ersatzfahrplan-am-23-07-und-24-07-2026.pd
+ f
 END:VEVENT
 END:VCALENDAR

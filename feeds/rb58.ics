@@ -5,66 +5,64 @@ BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260625T201500
 DTEND;TZID="UTC+02:00":20260626T003000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506064/rb-58-ersatzfahrplan-am-25-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-
+ 58-ersatzfahrplan-am-25-06-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506064/rb-58-ersatzfahrplan-am-25
- -06-2026.pdf
+ loads/nwb/schedule/1506064/rb-58-ersatzfahrplan-am-25-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260630T211500
 DTEND;TZID="UTC+02:00":20260701T001500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-
+ 58-ersatzfahrplan-am-30-06-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30
- -06-2026.pdf
+ loads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260702T201500
 DTEND;TZID="UTC+02:00":20260703T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-
+ 58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-0
- 2-07-bis-03-07-2026.pdf
+ loads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260703T211500
 DTEND;TZID="UTC+02:00":20260706T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-
+ 58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506098/rb-58-ersatzfahrplan-vom-0
- 3-07-bis-05-07-2026.pdf
+ loads/nwb/schedule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260706T061500
 DTEND;TZID="UTC+02:00":20260714T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-
+ 58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-0
- 6-07-bis-14-07-2026.pdf
+ loads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
 DTSTART;TZID="UTC+02:00":20260714T041500
 DTEND;TZID="UTC+02:00":20260727T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-
+ 58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
 CATEGORIES:RB58
 DESCRIPTION:RB58 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506103/rb-58-ersatzfahrplan-vom-1
- 4-07-bis-27-07-2026.pdf
+ loads/nwb/schedule/1506103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.p
+ df
 END:VEVENT
 END:VCALENDAR

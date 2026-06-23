@@ -5,44 +5,44 @@ BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
 DTSTART;TZID="UTC+02:00":20260624T210000
 DTEND;TZID="UTC+02:00":20260625T060000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506075/rb-75-ersatzfahrplan-vom-24-06-bis-25-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506075/rb-
+ 75-ersatzfahrplan-vom-24-06-bis-25-06-2026.pdf
 CATEGORIES:RB75
 DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506075/rb-75-ersatzfahrplan-vom-2
- 4-06-bis-25-06-2026.pdf
+ loads/nwb/schedule/1506075/rb-75-ersatzfahrplan-vom-24-06-bis-25-06-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
 DTSTART;TZID="UTC+02:00":20260702T213000
 DTEND;TZID="UTC+02:00":20260705T023000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506085/rb-75-ersatzfahrplan-vom-02-07-bis-05-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506085/rb-
+ 75-ersatzfahrplan-vom-02-07-bis-05-07-2026.pdf
 CATEGORIES:RB75
 DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506085/rb-75-ersatzfahrplan-vom-0
- 2-07-bis-05-07-2026.pdf
+ loads/nwb/schedule/1506085/rb-75-ersatzfahrplan-vom-02-07-bis-05-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
 DTSTART;TZID="UTC+02:00":20260722T210000
 DTEND;TZID="UTC+02:00":20260723T060000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-
+ 75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
 CATEGORIES:RB75
 DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-2
- 2-07-bis-23-07-2026.pdf
+ loads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.p
+ df
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
 DTSTART;TZID="UTC+02:00":20260730T213000
 DTEND;TZID="UTC+02:00":20260802T023000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506092/rb-75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506092/rb-
+ 75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
 CATEGORIES:RB75
 DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/transdev/uploads/nwb/schedule/1506092/rb-75-ersatzfahrplan-vom-3
- 0-07-bis-02-08-2026.pdf
+ loads/nwb/schedule/1506092/rb-75-ersatzfahrplan-vom-30-07-bis-02-08-2026.p
+ df
 END:VEVENT
 END:VCALENDAR

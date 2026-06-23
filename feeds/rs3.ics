@@ -5,77 +5,71 @@ BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1505901/rs-3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-
+ 3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan-vom-06-
- 02-bis-16-03-2026.pdf
+ oads/nwb/schedule/1505901/rs-3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-
+ 3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1505958/rs-3-ersatzfahrplan-vom-16-
- 03-bis-07-04-2026.pdf
+ oads/nwb/schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506020/rs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-
+ 3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506020/rs-3-ersatzfahrplan-vom-07-
- 04-bis-30-06-2026.pdf
+ oads/nwb/schedule/1506020/rs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+02:00":20260624T212800
 DTEND;TZID="UTC+02:00":20260625T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-
+ 3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-v
- om-24-bis-25-06-2026.pdf
+ oads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.
+ pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+02:00":20260626T231500
 DTEND;TZID="UTC+02:00":20260629T044500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-
+ 3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-
- bis-29-06-2026.pdf
+ oads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+02:00":20260630T213000
 DTEND;TZID="UTC+02:00":20260705T010000
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-
+ 3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-
- 06-bis-05-07-2026.pdf
+ oads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
 DTSTART;TZID="UTC+02:00":20260708T213000
 DTEND;TZID="UTC+02:00":20260712T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-
+ 3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
 CATEGORIES:RS3
 DESCRIPTION:RS3 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-0
- 7-und-11-07-2026.pdf
+ oads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

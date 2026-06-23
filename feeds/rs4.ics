@@ -5,11 +5,10 @@ BEGIN:VEVENT
 SUMMARY:RS4 – Baustelle
 DTSTART;TZID="UTC+02:00":20260710T213000
 DTEND;TZID="UTC+02:00":20260710T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
- /schedule/1506106/rs-4-ersatzfahrplan-am-10-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506106/rs-
+ 4-ersatzfahrplan-am-10-07-2026.pdf
 CATEGORIES:RS4
 DESCRIPTION:RS4 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/transdev/uploads/nwb/schedule/1506106/rs-4-ersatzfahrplan-am-10-0
- 7-2026.pdf
+ oads/nwb/schedule/1506106/rs-4-ersatzfahrplan-am-10-07-2026.pdf
 END:VEVENT
 END:VCALENDAR
