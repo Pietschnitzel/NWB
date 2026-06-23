@@ -36,26 +36,22 @@ def load_calendar():
 def save_calendar(cal):
     Path(ICS_FILE).write_bytes(cal.to_ical())
 
-
 def fetch():
     r = requests.get(URL)
-    soup = BeautifulSoup(r.text, "html.parser")
+    raw = r.text
+
+    # extract ANY pdf URL, even partially escaped
+    matches = re.findall(r"https:\\u002F\\u002F[^\"']+?\\.pdf", raw)
 
     results = []
+    seen = set()
 
-    for a in soup.find_all("a"):
-        href = a.get("href", "")
+    for m in matches:
+        url = m.replace("\\u002F", "/")
 
-        if not href:
-            continue
-
-        if "storage.planetary-networks.de" in href and href.endswith(".pdf"):
-            text = a.get_text(" ", strip=True)
-
-            results.append({
-                "title": text,
-                "pdf": href
-            })
+        if url not in seen:
+            seen.add(url)
+            results.append({"pdf": url})
 
     return results
 
