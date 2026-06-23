@@ -107,7 +107,8 @@ def extract_times(text: str):
 def build_calendars(items):
     calendars = defaultdict(lambda: Calendar())
     cal.add("prodid", f"-//NWB {line}//")
-    cal.add("version", "2.0")
+    cal.add("version", "2.0")        
+    cal = calendars[line]
     for item in items:
         pdf = item["pdf"]
         text = item["text"]
@@ -117,11 +118,7 @@ def build_calendars(items):
 
         if not start or not end:
             continue
-
-        cal = calendars[line]
-
-
-
+            
         event = Event()
         event.add("summary", f"{line} – Baustelle")
         event.add("dtstart", start)
@@ -129,7 +126,6 @@ def build_calendars(items):
         event.add("uid", pdf)
         event.add("description", f"{line} Ersatzfahrplan:\n{pdf}")
         event.add("categories", [line])
-
         cal.add_component(event)
 
     return calendars
