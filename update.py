@@ -37,8 +37,8 @@ def normalize_pdf_url(url: str) -> str:
 # ---------------- TIME EXTRACTION ----------------
 START_RE = re.compile(r'"starts_at":"([^"]+)"')
 END_RE = re.compile(r'"ends_at":"([^"]+)"')
-
-
+VALUE_RE = re.compile(r'"([^"]+)"')
+ISO_RE = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}')
 def parse_iso(dt: str):
     return datetime.fromisoformat(dt) if dt else None
 
