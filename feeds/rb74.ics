@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+VERSION:2.0
+PRODID:-//NWB RB74//
+PRODID:-//NWB RB74//
+BEGIN:VEVENT
+SUMMARY:RB74 – Baustelle
+DTSTART;TZID="UTC+02:00":20260703T190000
+DTEND;TZID="UTC+02:00":20260704T021500
+UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506086/
+ rb-74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
+CATEGORIES:RB74
+DESCRIPTION:RB74 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
+ loads/TENANT/schedule/1506086/rb-74-ersatzfahrplan-vom-03-07-bis-04-07-202
+ 6.pdf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RB74 – Baustelle
+DTSTART;TZID="UTC+02:00":20260731T190000
+DTEND;TZID="UTC+02:00":20260801T021500
+UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506093/
+ rb-74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
+CATEGORIES:RB74
+DESCRIPTION:RB74 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
+ loads/TENANT/schedule/1506093/rb-74-ersatzfahrplan-vom-31-07-bis-01-08-202
+ 6.pdf
+END:VEVENT
+END:VCALENDAR
