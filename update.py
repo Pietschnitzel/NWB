@@ -1,7 +1,6 @@
 from pathlib import Path
 from datetime import datetime
 import logging
-import json
 import re
 import requests
 from icalendar import Calendar, Event
@@ -18,7 +17,7 @@ logging.basicConfig(
 log = logging.getLogger("scraper")
 
 
-# ---------------- NORMALIZE PDF ----------------
+# ---------------- URL NORMALIZATION ----------------
 def normalize_pdf_url(url: str) -> str:
     if not url:
         return ""
@@ -26,7 +25,6 @@ def normalize_pdf_url(url: str) -> str:
     url = url.replace("\\u002F", "/").replace("\\/", "/")
     url = requests.utils.unquote(url)
 
-    # extract stable schedule path
     m = re.search(r"schedule/\d+/.+\.pdf", url)
     if not m:
         return url
@@ -34,7 +32,7 @@ def normalize_pdf_url(url: str) -> str:
     return f"https://download.transdev.de/transdev/uploads/nwb/{m.group(0)}"
 
 
-# ---------------- EXTRACT ISO TIMES ----------------
+# ---------------- TIME EXTRACTION ----------------
 ISO_RE = re.compile(
     r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}"
 )
@@ -48,14 +46,15 @@ def extract_times(text: str):
         return None, None
 
     try:
-        start = datetime.fromisoformat(matches[0])
-        end = datetime.fromisoformat(matches[1])
-        return start, end
+        return (
+            datetime.fromisoformat(matches[0]),
+            datetime.fromisoformat(matches[1])
+        )
     except Exception:
         return None, None
 
 
-# ---------------- EXTRACT LINE ----------------
+# ---------------- LINE EXTRACTION ----------------
 def extract_line(text: str):
     if not text:
         return "UNKNOWN"
@@ -70,39 +69,38 @@ def extract_line(text: str):
     return match.group(0).replace(" ", "").replace("-", "")
 
 
-# ---------------- CLEAN DESCRIPTION ----------------
+# ---------------- DESCRIPTION CLEANING ----------------
 def extract_description(text: str):
     if not text:
         return ""
 
-    # remove everything after PDF marker or obvious footer noise
-    cut_markers = [
-        "PDF-DOKUMENT",
-        "HERUNTERLADEN",
-        "DOWNLOAD",
-    ]
+    cut_markers = ["PDF-DOKUMENT", "DOWNLOAD", "HERUNTERLADEN"]
 
-    for marker in cut_markers:
-        idx = text.upper().find(marker)
+    for m in cut_markers:
+        idx = text.upper().find(m)
         if idx != -1:
             text = text[:idx]
 
     return text.strip()
 
 
-# ---------------- FETCH (NO SLICING, NO HACKS) ----------------
+# =========================================================
+# STEP 1–4 FIXED FETCH PIPELINE
+# =========================================================
+
 def fetch():
     log.info(f"Requesting {URL}")
 
+    # STEP 1: fetch raw ONCE
     raw = requests.get(URL, timeout=30).text
     raw = raw.replace("\\u002F", "/").replace("\\r\\n", "\n")
 
-    # find all PDFs
     pdf_pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
 
     seen = set()
     items = []
 
+    # STEP 2: extract unique PDFs only (NO context, NO slicing)
     for match in pdf_pattern.finditer(raw):
         pdf = normalize_pdf_url(match.group(0))
 
@@ -111,30 +109,33 @@ def fetch():
         seen.add(pdf)
 
         items.append({
-            "pdf": pdf,
-            "raw": raw  # shared reference only (NOT sliced)
+            "pdf": pdf
         })
 
     log.info(f"Unique PDF events: {len(items)}")
-    return items
+
+    # STEP 3: return raw ONCE + items (no duplication)
+    return items, raw
 
 
-# ---------------- BUILD CALENDAR ----------------
-def build_calendar(items):
+# =========================================================
+# STEP 4: BUILD CALENDAR (single raw source)
+# =========================================================
+
+def build_calendar(items, raw):
     cal = Calendar()
     cal.add("prodid", "-//NWB Baustellen//")
     cal.add("version", "2.0")
 
     for item in items:
-        text = item["raw"]
         pdf = item["pdf"]
 
-        start, end = extract_times(text)
+        start, end = extract_times(raw)
         if not start or not end:
             continue
 
-        line = extract_line(text)
-        desc = extract_description(text)
+        line = extract_line(raw)
+        desc = extract_description(raw)
 
         event = Event()
         event.add("summary", f"{line} – Baustelle")
@@ -163,8 +164,8 @@ def save_calendar(cal):
 
 # ---------------- MAIN ----------------
 def main():
-    items = fetch()
-    cal = build_calendar(items)
+    items, raw = fetch()
+    cal = build_calendar(items, raw)
     save_calendar(cal)
     log.info("Done")
 
