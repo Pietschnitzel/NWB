@@ -91,34 +91,42 @@ def build_calendar(items):
     cal.add("prodid", "-//NWB Baustellen//")
     cal.add("version", "2.0")
 
-    uids = []
+    groups = defaultdict(list)
 
     for item in items:
         pdf = item["pdf"]
         raw = item["raw"]
 
-        log.info(f"Processing {pdf}")
-
-        event = Event()
-        event.add("summary", "Baustellenmeldung")
-
+        line = extract_line(raw)
         start, end = extract_times(raw)
 
         if not start or not end:
-            log.warning("Missing timestamps → fallback")
-            start = datetime.now(tz=ZoneInfo("Europe/Berlin"))
-            end = start
+            continue
 
-        event.add("dtstart", start)
-        event.add("dtend", end)
-        event.add("uid", pdf)
-        event.add("description", f"Ersatzfahrplan:\n{pdf}")
+        groups[line].append((start, end, pdf, raw))
 
-        cal.add_component(event)
+    # SORT GROUPS
+    for line in sorted(groups.keys()):
+        log.info(f"Processing line {line} ({len(groups[line])} events)")
 
-        uids.append(pdf)
+        # sort events inside each line by start time
+        for start, end, pdf, raw in sorted(groups[line], key=lambda x: x[0]):
 
-    return cal, uids
+            event = Event()
+            event.add("summary", f"{line} Baustelle")
+
+            event.add("dtstart", start)
+            event.add("dtend", end)
+            event.add("uid", pdf)
+
+            event.add(
+                "description",
+                f"{line} Ersatzfahrplan:\n{pdf}"
+            )
+
+            cal.add_component(event)
+
+    return cal
 
 
 # ---------------- SAVE ----------------
