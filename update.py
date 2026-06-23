@@ -113,7 +113,11 @@ def fetch():
 
     log.info(f"PDF matches: {len(items)}")
     return items, raw
-
+    
+def extract_context(raw, anchor, window=1200):
+    start = max(0, anchor - window)
+    end = min(len(raw), anchor + window)
+    return raw[start:end]
 
 # =========================================================
 # STEP 4: BUILD CALENDAR (single raw source)
@@ -126,23 +130,26 @@ def build_calendar(items, raw):
 
     for item in items:
         pdf = item["pdf"]
+        ctx = extract_context(raw, item["anchor"])
 
-        start, end = extract_times(raw)
+        start, end = extract_times(ctx)
         if not start or not end:
             continue
 
-        line = extract_line(raw)
-        desc = extract_description(raw)
+        line = extract_line(ctx)
+        desc = extract_description(ctx)
 
         event = Event()
         event.add("summary", f"{line} – Baustelle")
         event.add("dtstart", start.astimezone(ZoneInfo("Europe/Berlin")))
         event.add("dtend", end.astimezone(ZoneInfo("Europe/Berlin")))
         event.add("uid", pdf)
+
         event.add(
             "description",
             f"{desc}\n\nErsatzfahrplan:\n{pdf}"
         )
+
         event.add("categories", [line])
 
         cal.add_component(event)
