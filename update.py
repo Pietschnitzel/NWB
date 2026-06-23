@@ -60,7 +60,17 @@ def extract_line(text: str):
     line = line.replace(" ", "").replace("-", "")
 
     return line
+# ---------description regex------------
+PDF_RE = re.compile(r'https?://\S+\.pdf|PDF-Dokument', re.IGNORECASE)
 
+def extract_description(text: str) -> str:
+    if not text:
+        return ""
+
+    # cut everything starting from PDF section
+    text = PDF_RE.split(text, maxsplit=1)[0]
+
+    return text.strip()
 # ---------------- FETCH ----------------
 def fetch():
     log.info(f"Requesting {URL}")
@@ -123,8 +133,8 @@ def build_calendars(items):
     for item in items:
         text = item["text"]
         line = extract_line(text)
-
         start, end = extract_times(text)
+        description = extract_description(text) # i could be a problem :3
         if not start or not end:
             continue
 
@@ -144,8 +154,11 @@ def build_calendars(items):
             event.add("dtstart", start)
             event.add("dtend", end)
             event.add("uid", pdf)
-            event.add("description", f"{line} Ersatzfahrplan:\n{pdf}")
-            event.add("categories", [line])
+            clean_desc = extract_description(text)
+            event.add(
+                "description",
+                f"{clean_desc}\n\nErsatzfahrplan:\n{pdf}"
+            )
 
             cal.add_component(event)
 
