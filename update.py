@@ -96,7 +96,7 @@ def fetch():
 
         items.append({
             "pdf": url,
-            "text": snippet
+            "text": raw
         })
 
     return items
