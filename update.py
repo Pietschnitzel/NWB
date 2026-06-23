@@ -95,22 +95,22 @@ def build_calendar(items):
     # ---------- GROUP ----------
     for item in items:
         pdf = item["pdf"]
-        raw = item["raw"]
+        text = item["text"]   # ✅ FIX HERE
 
-        line = extract_line(item["text"])
-        start, end = extract_times(raw)
+        line = extract_line(text)
+        start, end = extract_times(text)
 
         if not start or not end:
             log.warning(f"Skipping (no time): {pdf}")
             continue
 
-        groups[line].append((start, end, pdf, raw))
+        groups[line].append((start, end, pdf, text))
 
     # ---------- SORT + BUILD ----------
     for line in sorted(groups.keys()):
         log.info(f"Line {line}: {len(groups[line])} events")
 
-        for start, end, pdf, raw in sorted(groups[line], key=lambda x: x[0]):
+        for start, end, pdf, text in sorted(groups[line], key=lambda x: x[0]):
 
             event = Event()
             event.add("summary", f"{line} – Baustelle")
@@ -129,7 +129,6 @@ def build_calendar(items):
             cal.add_component(event)
 
     return cal
-
 
 # ---------------- SAVE ----------------
 def save_calendar(cal):
