@@ -6,7 +6,7 @@ import logging
 import requests
 from icalendar import Calendar, Event
 from zoneinfo import ZoneInfo
-
+from collections import defaultdict
 
 URL = "https://www.nordwestbahn.de/de/service/deine-reiseplanung/meldungen"
 
