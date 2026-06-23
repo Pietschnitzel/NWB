@@ -151,7 +151,7 @@ def save_calendars(calendars):
 # ---------------- MAIN ----------------
 items = fetch()
 
-cal = build_calendar(items)
+cal = build_calendars(items)
 
 save_calendar(cal)
 
