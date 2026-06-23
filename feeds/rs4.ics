@@ -7,8 +7,15 @@ DTSTART;TZID="UTC+02:00":20260710T213000
 DTEND;TZID="UTC+02:00":20260710T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506106/rs-
  4-ersatzfahrplan-am-10-07-2026.pdf
-CATEGORIES:RS4
-DESCRIPTION:RS4 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/schedule/1506106/rs-4-ersatzfahrplan-am-10-07-2026.pdf
+DESCRIPTION:\,"sort_date":914}\,4266\,"RS 4: Fahrplanabweichung: Hude ↔ 
+ Delmenhorst"\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur\\
+ u002FStrecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG
+ ) wird am Freitag\, 10. Juli\, in den späten Abendstunden je Richtung ein
+ e Zugverbindung zwischen Hude und Delmenhorst durch einen Ersatzverkehr mi
+ t Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitale
+ n Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fa
+ hrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufba
+ r und können hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/tr
+ ansdev/uploads/nwb/schedule/1506106/rs-4-ersatzfahrplan-am-10-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

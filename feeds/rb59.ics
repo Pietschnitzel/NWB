@@ -7,10 +7,16 @@ DTSTART;TZID="UTC+02:00":20260701T220000
 DTEND;TZID="UTC+02:00":20260706T231500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-
  59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
-CATEGORIES:RB59
-DESCRIPTION:RB59 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pd
- f
+DESCRIPTION:elmshaven ↔ Esens (Ostfriesl) "\,"Aufgrund von Instandhaltun
+ gsarbeiten an der Infrastruktur\\u002FStrecke (IH-Strecken-Container) der 
+ Deutschen Bahn (DB InfraGO AG) werden jeweils 2  Zugverbindungen in den sp
+ äten Abendstunden am Mittwoch\, 1. Juli\, und Montag\, 6. Juli\, zwischen
+  Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Bussen 
+ bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunf
+ tsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.
+ de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar und können hier als\n
+ \nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sched
+ ule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB59 – Baustelle
@@ -18,9 +24,15 @@ DTSTART;TZID="UTC+02:00":20260717T220000
 DTEND;TZID="UTC+02:00":20260721T070000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-
  59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
-CATEGORIES:RB59
-DESCRIPTION:RB59 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.p
- df
+DESCRIPTION:39\,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"
+ schedules":1140\,"lines":1145\,"sort_date":1147}\,4268\,"Aufgrund von Bahn
+ übergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zugverbin
+ dungen von Freitagabend\, 17. Juli\, bis Dienstagmorgen\, 21. Juli\, zwisc
+ hen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Buss
+ en bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Ausk
+ unftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplan
+ er.de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar und können hier al
+ s\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sc
+ hedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

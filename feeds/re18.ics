@@ -7,10 +7,16 @@ DTSTART;TZID="UTC+02:00":20260624T204500
 DTEND;TZID="UTC+02:00":20260626T073000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506063/re-
  18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.p
- df
+DESCRIPTION:den vier Zugverbindungen der Linie RE 18 in den späten Abend-
+  und Nachtstunden am Mittwoch\, 24. Juni\, zwischen Wilhelmshaven und Olde
+ nburg (Oldb) Hbf sowie sechs Zugverbindungen in den späten Abend-\, Nacht
+ - und frühen Morgenstunden von Donnerstag\, 25. Juni\, bis Freitag\, 26. 
+ Juni\, zwischen Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit 
+ Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen 
+ Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahr
+ planer.de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar und können hie
+ r als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nw
+ b/schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -18,10 +24,16 @@ DTSTART;TZID="UTC+02:00":20260701T200000
 DTEND;TZID="UTC+02:00":20260702T071500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-
  18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.p
- df
+DESCRIPTION:Hbf "\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruk
+ tur\\u002FStrecke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO 
+ AG) werden sechs Zugverbindungen in den späten Abend-\, Nacht- und frühe
+ n Morgenstunden von Mittwoch\, 1. Juli\, bis Donnerstag\, 2. Juli\, zwisch
+ en Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr mit Bu
+ ssen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Au
+ skunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrpl
+ aner.de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar und können hier 
+ als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/
+ schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -29,10 +41,17 @@ DTSTART;TZID="UTC+02:00":20260703T213000
 DTEND;TZID="UTC+02:00":20260714T003000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506095/re-
  18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.p
- df
+DESCRIPTION:li\, werden zudem zwei Zugverbindungen zwischen Oldenburg (Old
+ b) Hbf und Sandkrug durch einem Ersatzverkehr mit Bussen bedient.\\r\\n\\r
+ \\nWeitere ganztägige Baumaßnahmen:\\r\\n\\r\\n- 14.07. bis 17.07.2026 \
+ \r\\n   Essen (Oldb) \\u003C > Bramsche\\r\\n- 18.07. bis 26.07.2026 \\r\\
+ n   Huntlosen \\u003C > Bramsche\\r\\n- 27.07. bis 13.08.2026 \\r\\n   Hun
+ tlosen \\u003C > Cloppenburg\\r\\n\\r\\nAlle Fahrplanänderungen sind in d
+ en digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.
+ de) und [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar un
+ d können hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transd
+ ev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2
+ 026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -40,10 +59,16 @@ DTSTART;TZID="UTC+02:00":20260714T020000
 DTEND;TZID="UTC+02:00":20260718T020000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506107/re-
  18-ersatzfahrplan-vom-14-07-bis-18-07-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506107/re-18-ersatzfahrplan-vom-14-07-bis-18-07-2026.p
- df
+DESCRIPTION:en auf verschiedenen Streckenabschnitten zwischen Osnabrück H
+ bf und Oldenburg (Oldb) durch einen Ersatzverkehr mit Bussen bedient. \\r\
+ \n\\r\\nWeitere ganztägige Baumaßnahmen:\\r\\n- 18.07. bis 26.07.2026 \\
+ r\\n   Huntlosen \\u003C > Bramsche\\r\\n- 27.07. bis 13.08.2026 \\r\\n   
+ Huntlosen \\u003C > Cloppenburg\\r\\n\\r\\nAlle Fahrplanänderungen sind i
+ n den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.ba
+ hn.de) und [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar
+  und können hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/tra
+ nsdev/uploads/nwb/schedule/1506107/re-18-ersatzfahrplan-vom-14-07-bis-18-0
+ 7-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -51,10 +76,16 @@ DTSTART;TZID="UTC+02:00":20260718T043000
 DTEND;TZID="UTC+02:00":20260727T020000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-
  18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.p
- df
+DESCRIPTION:\, zwischen Bramsche und Huntlosen sowie in den späten Abend-
+ \, Nacht- und frühen Morgenstunden auf verschiedenen Streckenabschnitten 
+ zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr
+  mit Bussen bedient.\\r\\n\\r\\nWeitere ganztägige Baumaßnahme:\\r\\n- 2
+ 7.07. bis 13.08.2026 \\r\\n   Huntlosen \\u003C > Cloppenburg\\r\\n\\r\\nA
+ lle Fahrplanänderungen sind in den digitalen Auskunftsmedien unter [bahn.
+ de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](https:\\u002F\\u0
+ 02Fwww.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nht
+ tps://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-18-ers
+ atzfahrplan-vom-18-07-bis-27-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -62,9 +93,15 @@ DTSTART;TZID="UTC+02:00":20260813T020000
 DTEND;TZID="UTC+02:00":20260818T083000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506111/re-
  18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
-CATEGORIES:RE18
-DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.p
- df
+DESCRIPTION:ltungsarbeiten an der Infrastruktur\\u002FStrecke (IH-Strecken
+ - Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindun
+ gen von Donnerstag\, 13. August\, bis Dienstagmorgen\, 18. August\, zwisch
+ en Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabsc
+ hnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen ersatzlos
+  aus.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsm
+ edien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de]
+ (https:\\u002F\\u002Fwww.fahrplaner.de) abrufbar und können hier als\n\nE
+ rsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule
+ /1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
 END:VEVENT
 END:VCALENDAR

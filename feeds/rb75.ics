@@ -7,10 +7,16 @@ DTSTART;TZID="UTC+02:00":20260624T210000
 DTEND;TZID="UTC+02:00":20260625T060000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506075/rb-
  75-ersatzfahrplan-vom-24-06-bis-25-06-2026.pdf
-CATEGORIES:RB75
-DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506075/rb-75-ersatzfahrplan-vom-24-06-bis-25-06-2026.p
- df
+DESCRIPTION:Osnabrück Hbf ↔ Wellendorf "\,"Aufgrund von Instandhaltungs
+ arbeiten an der Infrastruktur\\u002F Strecke der Deutschen Bahn (DB InfraG
+ O AG) werden sechs Zugverbindungen von Mittwochabend\, 24. Juni\, bis Donn
+ erstagmorgen\, 25. Juni\, zwischen Osnabrück Hbf und Wellendorf durch ein
+ en Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen s
+ ind in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fw
+ ww.bahn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [
+ mobil.nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier al
+ s\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sc
+ hedule/1506075/rb-75-ersatzfahrplan-vom-24-06-bis-25-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
@@ -18,10 +24,16 @@ DTSTART;TZID="UTC+02:00":20260702T213000
 DTEND;TZID="UTC+02:00":20260705T023000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506085/rb-
  75-ersatzfahrplan-vom-02-07-bis-05-07-2026.pdf
-CATEGORIES:RB75
-DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506085/rb-75-ersatzfahrplan-vom-02-07-bis-05-07-2026.p
- df
+DESCRIPTION:altungsarbeiten an der Infrastruktur\\u002FStrecke (IH-Strecke
+ n-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindun
+ gen in den späten Abend- und Nachtstunden von Donnerstag\, 2. Juli\, bis 
+ Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Bielefeld Hbf durch einen 
+ Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind
+  in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.
+ bahn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [mob
+ il.nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier als\n
+ \nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sched
+ ule/1506085/rb-75-ersatzfahrplan-vom-02-07-bis-05-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
@@ -29,10 +41,16 @@ DTSTART;TZID="UTC+02:00":20260722T210000
 DTEND;TZID="UTC+02:00":20260723T060000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-
  75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
-CATEGORIES:RB75
-DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.p
- df
+DESCRIPTION:an der Infrastruktur\\u002FStrecke (IH-Strecken-Container) der
+  Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen in den späte
+ n Abend-\, Nacht- und frühen Morgenstunden von Mittwoch\, 22. Juli\, bis 
+ Donnerstag\, 23. Juli\, zwischen Osnabrück Hbf und Wellendorf durch einen
+  Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sin
+ d in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww
+ .bahn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [mo
+ bil.nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier als\
+ n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sche
+ dule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
@@ -40,9 +58,15 @@ DTSTART;TZID="UTC+02:00":20260730T213000
 DTEND;TZID="UTC+02:00":20260802T023000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506092/rb-
  75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
-CATEGORIES:RB75
-DESCRIPTION:RB75 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506092/rb-75-ersatzfahrplan-vom-30-07-bis-02-08-2026.p
- df
+DESCRIPTION:ungsarbeiten an der Infrastruktur\\u002FStrecke (IH-Strecken-C
+ ontainer) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen
+  in den späten Abend- und Nachtstunden von Donnerstag\, 30. Juli\, bis So
+ nntag\, 2. August\, zwischen Osnabrück Hbf und Bielefeld Hbf durch einen 
+ Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind
+  in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.
+ bahn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [mob
+ il.nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier als\n
+ \nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sched
+ ule/1506092/rb-75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
 END:VEVENT
 END:VCALENDAR
