@@ -5,20 +5,22 @@ BEGIN:VEVENT
 SUMMARY:RB85 – Baustelle
 DTSTART;TZID="UTC+02:00":20260715T203000
 DTEND;TZID="UTC+02:00":20260715T233000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506088/
- rb-85-ersatzfahrplan-am-15-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
 CATEGORIES:RB85
 DESCRIPTION:RB85 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506088/rb-85-ersatzfahrplan-am-15
+ -07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB85 – Baustelle
 DTSTART;TZID="UTC+02:00":20260723T203000
 DTEND;TZID="UTC+02:00":20260723T233000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506091/
- rb-85-ersatzfahrplan-am-23-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506091/rb-85-ersatzfahrplan-am-23-07-2026.pdf
 CATEGORIES:RB85
 DESCRIPTION:RB85 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506091/rb-85-ersatzfahrplan-am-23-07-2026.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506091/rb-85-ersatzfahrplan-am-23
+ -07-2026.pdf
 END:VEVENT
 END:VCALENDAR

@@ -5,53 +5,55 @@ BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
 DTSTART;TZID="UTC+02:00":20260611T211500
 DTEND;TZID="UTC+02:00":20260627T040000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506069/
- rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506069/rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
 CATEGORIES:RS2
 DESCRIPTION:RS2 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/TENANT/schedule/1506069/rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
+ oads/nwb/transdev/uploads/nwb/schedule/1506069/rs-2-ersatzfahrplan-vom-11-
+ bis-27-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
 DTSTART;TZID="UTC+02:00":20260623T203000
 DTEND;TZID="UTC+02:00":20260628T223000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506078/
- rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506078/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
 CATEGORIES:RS2
 DESCRIPTION:RS2 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/TENANT/schedule/1506078/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
+ oads/nwb/transdev/uploads/nwb/schedule/1506078/rs-2-ersatzfahrplan-vom-23-
+ bis-28-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
 DTSTART;TZID="UTC+02:00":20260629T214500
 DTEND;TZID="UTC+02:00":20260702T024500
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506081/
- rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
 CATEGORIES:RS2
 DESCRIPTION:RS2 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/TENANT/schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.
- pdf
+ oads/nwb/transdev/uploads/nwb/schedule/1506081/rs-2-ersatzfahrplan-vom-29-
+ 06-bis-02-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
 DTSTART;TZID="UTC+02:00":20260708T173000
 DTEND;TZID="UTC+02:00":20260713T051500
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506104/
- rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
 CATEGORIES:RS2
 DESCRIPTION:RS2 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/TENANT/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.
- pdf
+ oads/nwb/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-
+ 07-bis-13-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
 DTSTART;TZID="UTC+02:00":20260709T210000
 DTEND;TZID="UTC+02:00":20260713T011500
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506105/
- rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
 CATEGORIES:RS2
 DESCRIPTION:RS2 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/TENANT/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.
- pdf
+ oads/nwb/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-
+ 07-bis-13-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

@@ -5,22 +5,22 @@ BEGIN:VEVENT
 SUMMARY:RB59 – Baustelle
 DTSTART;TZID="UTC+02:00":20260701T220000
 DTEND;TZID="UTC+02:00":20260706T231500
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506083/
- rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
 CATEGORIES:RB59
 DESCRIPTION:RB59 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026
- .pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506083/rb-59-ersatzfahrplan-am-01
+ -07-und-06-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB59 – Baustelle
 DTSTART;TZID="UTC+02:00":20260717T220000
 DTEND;TZID="UTC+02:00":20260721T070000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506108/
- rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
 CATEGORIES:RB59
 DESCRIPTION:RB59 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-1
+ 7-07-bis-21-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

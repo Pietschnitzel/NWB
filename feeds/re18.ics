@@ -5,66 +5,66 @@ BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260624T204500
 DTEND;TZID="UTC+02:00":20260626T073000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506063/
- re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506063/re-18-ersatzfahrplan-vom-2
+ 4-06-bis-26-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260701T200000
 DTEND;TZID="UTC+02:00":20260702T071500
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506082/
- re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506082/re-18-ersatzfahrplan-vom-0
+ 1-07-bis-02-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260703T213000
 DTEND;TZID="UTC+02:00":20260714T003000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506095/
- re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-0
+ 3-07-bis-14-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260714T020000
 DTEND;TZID="UTC+02:00":20260718T020000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506107/
- re-18-ersatzfahrplan-vom-14-07-bis-18-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506107/re-18-ersatzfahrplan-vom-14-07-bis-18-07-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506107/re-18-ersatzfahrplan-vom-14-07-bis-18-07-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506107/re-18-ersatzfahrplan-vom-1
+ 4-07-bis-18-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260718T043000
 DTEND;TZID="UTC+02:00":20260727T020000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506109/
- re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-1
+ 8-07-bis-27-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
 DTSTART;TZID="UTC+02:00":20260813T020000
 DTEND;TZID="UTC+02:00":20260818T083000
-UID:https://download.transdev.de/transdev/uploads/TENANT/schedule/1506111/
- re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/transdev/uploads/nwb
+ /schedule/1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
 CATEGORIES:RE18
 DESCRIPTION:RE18 Ersatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/TENANT/schedule/1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-202
- 6.pdf
+ loads/nwb/transdev/uploads/nwb/schedule/1506111/re-18-ersatzfahrplan-vom-1
+ 3-08-bis-18-08-2026.pdf
 END:VEVENT
 END:VCALENDAR
