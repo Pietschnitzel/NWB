@@ -43,7 +43,7 @@ def extract_line(text: str):
     t = re.sub(r'https?://\S+', ' ', t)
 
     # strict RS/RB patterns only
-    match = re.search(r'\b(RS|RB)\s?-?\s?\d+\b', t)
+    match = re.search(r'\b(RS|RB|RE)\s?-?\s?\d+\b', t)
 
     if not match:
         return "UNKNOWN"
