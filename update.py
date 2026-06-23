@@ -53,28 +53,45 @@ def save_calendar(cal):
 
 
 def fetch():
-    log.info(f"Requesting {URL}")
-    r = requests.get(URL)
+    log.info(f"Requesting: {URL}")
+
+    r = requests.get(URL, timeout=30)
 
     log.info(f"HTTP status: {r.status_code}")
+    log.info(f"Response size: {len(r.text)} characters")
 
     raw = r.text
 
-    matches = re.findall(r"https:\\u002F\\u002F[^\"']+?\\.pdf", raw)
+    # Debug: confirm whether PDFs exist at all
+    pdf_hint_count = raw.count(".pdf")
+    log.info(f"'.pdf' occurrences in raw HTML: {pdf_hint_count}")
 
-    log.info(f"Found {len(matches)} raw matches")
+    # Show a small preview for sanity check
+    log.debug(f"HTML preview:\n{raw[:500]}")
+
+    # Match multiple escaping styles
+    pattern = r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf"
+
+    matches = re.findall(pattern, raw)
+
+    log.info(f"Regex matches found: {len(matches)}")
 
     results = []
     seen = set()
 
     for m in matches:
-        url = m.replace("\\u002F", "/")
+        url = (
+            m.replace("\\u002F", "/")
+             .replace("\\/","/")
+             .replace("\\\\u002F","/")
+        )
 
         if url not in seen:
             seen.add(url)
             results.append({"pdf": url})
+            log.info(f"Found PDF: {url}")
 
-    log.info(f"Deduplicated to {len(results)} PDFs")
+    log.info(f"Total unique PDFs: {len(results)}")
 
     return results
 
