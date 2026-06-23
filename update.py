@@ -104,29 +104,46 @@ def extract_times(text: str):
     except Exception:
         return None, None
 # ---------------- BUILD ICS ----------------
+from collections import defaultdict
+from icalendar import Calendar, Event
+
+
 def build_calendars(items):
-    calendars = defaultdict(lambda: Calendar())
-    cal.add("prodid", f"-//NWB {line}//")
-    cal.add("version", "2.0")        
-    cal = calendars[line]
+    calendars = defaultdict(Calendar)
+
+    # 1. FIRST: group items by line
+    grouped = defaultdict(list)
+
     for item in items:
-        pdf = item["pdf"]
         text = item["text"]
-
         line = extract_line(text)
-        start, end = extract_times(text)
 
+        start, end = extract_times(text)
         if not start or not end:
             continue
-            
-        event = Event()
-        event.add("summary", f"{line} – Baustelle")
-        event.add("dtstart", start)
-        event.add("dtend", end)
-        event.add("uid", pdf)
-        event.add("description", f"{line} Ersatzfahrplan:\n{pdf}")
-        event.add("categories", [line])
-        cal.add_component(event)
+
+        grouped[line].append((item["pdf"], text, start, end))
+
+    # 2. SECOND: build calendars per line
+    for line, entries in grouped.items():
+
+        cal = Calendar()
+        cal.add("prodid", f"-//NWB {line}//")
+        cal.add("version", "2.0")
+
+        for pdf, text, start, end in entries:
+
+            event = Event()
+            event.add("summary", f"{line} – Baustelle")
+            event.add("dtstart", start)
+            event.add("dtend", end)
+            event.add("uid", pdf)
+            event.add("description", f"{line} Ersatzfahrplan:\n{pdf}")
+            event.add("categories", [line])
+
+            cal.add_component(event)
+
+        calendars[line] = cal
 
     return calendars
 
