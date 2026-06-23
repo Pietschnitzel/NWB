@@ -7,16 +7,16 @@ DTSTART;TZID="UTC+02:00":20260703T190000
 DTEND;TZID="UTC+02:00":20260704T021500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506086/rb-
  74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
-DESCRIPTION:Freitag\, 3. Juli\, bis Samstag\, 4. Juli\, zwischen Bielefeld
-  Hbf und Paderborn Hbf aus. Nur die reguläre Zugverbindung um 0:23 Uhr ab
-  Paderborn Hbf nach Bielefeld Hbf wird durch einen Ersatzverkehr mit Busse
- n bedient. Die Zugverbindung um 19:04 Uhr ab Bielefeld Hbf hält zusätzli
- ch in Paderborn-Schloß Neuhaus. \\r\\n\\r\\nAlle Fahrplanänderungen sind
-  in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.
- bahn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [mob
- il.nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier als\n
- \nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sched
- ule/1506086/rb-74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
+DESCRIPTION:n späten Abend- und Nachtstunden von Freitag\, 3. Juli\, bis 
+ Samstag\, 4. Juli\, zwischen Bielefeld Hbf und Paderborn Hbf aus. Nur die 
+ reguläre Zugverbindung um 0:23 Uhr ab Paderborn Hbf nach Bielefeld Hbf wi
+ rd durch einen Ersatzverkehr mit Bussen bedient. Die Zugverbindung um 19:0
+ 4 Uhr ab Bielefeld Hbf hält zusätzlich in Paderborn-Schloß Neuhaus. \n\
+ nAlle Fahrplanänderungen sind in den digitalen Auskunftsmedien unter [bah
+ n.de](https://www.bahn.de)\, [fahrplaner.de](https://www.fahrplaner.de) un
+ d [mobil.nrw](https://www.mobil.nrw) abrufbar und können hier als\n\nErsa
+ tzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15
+ 06086/rb-74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB74 – Baustelle
@@ -24,15 +24,15 @@ DTSTART;TZID="UTC+02:00":20260731T190000
 DTEND;TZID="UTC+02:00":20260801T021500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506093/rb-
  74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
-DESCRIPTION:Bahn (DB InfraGO AG) fallen vier Zugverbindungen in den späte
- n Abend- und Nachtstunden von Freitag\, 31. Juli\, bis Samstag\, 1. August
- \, zwischen Bielefeld Hbf und Paderborn Hbf aus. Nur die reguläre Zugverb
- indung um 0:23 Uhr ab Paderborn Hbf nach Bielefeld Hbf wird durch einen Er
- satzverkehr mit Bussen bedient.\\r\\n\\r\\nAlle Fahrplanänderungen sind i
- n den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.ba
- hn.de)\, [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de) und [mobil
- .nrw](https:\\u002F\\u002Fwww.mobil.nrw) abrufbar und können hier als\n\n
- Ersatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedul
- e/1506093/rb-74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
+DESCRIPTION:IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) fall
+ en vier Zugverbindungen in den späten Abend- und Nachtstunden von Freitag
+ \, 31. Juli\, bis Samstag\, 1. August\, zwischen Bielefeld Hbf und Paderbo
+ rn Hbf aus. Nur die reguläre Zugverbindung um 0:23 Uhr ab Paderborn Hbf n
+ ach Bielefeld Hbf wird durch einen Ersatzverkehr mit Bussen bedient.\n\nAl
+ le Fahrplanänderungen sind in den digitalen Auskunftsmedien unter [bahn.d
+ e](https://www.bahn.de)\, [fahrplaner.de](https://www.fahrplaner.de) und [
+ mobil.nrw](https://www.mobil.nrw) abrufbar und können hier als\n\nErsatzf
+ ahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15060
+ 93/rb-74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
 END:VEVENT
 END:VCALENDAR

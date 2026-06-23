@@ -7,15 +7,15 @@ DTSTART;TZID="UTC+02:00":20260501T050000
 DTEND;TZID="UTC+02:00":20260710T223000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505946/rs-
  6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
-DESCRIPTION:el"\,"Aufgrund von baubedingten Einschränkungen der Deutschen
-  Bahn (DB InfraGO AG) werden die Zugverbindungen der Linie RS 6 von Freita
- g\, 1. Mai\, bis Freitag\, 10. Juli\, durch einen Ersatzverkehr mit Bussen
-  bedient. Zudem fahren einige Ersatzbusse weiter bis Scheeßel\, damit ein
-  Anschluss zu den Zügen der Linie RB 41 in\\u002Faus Richtung Hamburg bes
- teht.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsm
- edien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de]
- (https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und könne
- n hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploa
- ds/nwb/schedule/1505946/rs-6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
+DESCRIPTION:rg (Wümme) ↔ Verden (Aller) ↔ Scheeßel"\,"Aufgrund von b
+ aubedingten Einschränkungen der Deutschen Bahn (DB InfraGO AG) werden die
+  Zugverbindungen der Linie RS 6 von Freitag\, 1. Mai\, bis Freitag\, 10. J
+ uli\, durch einen Ersatzverkehr mit Bussen bedient. Zudem fahren einige Er
+ satzbusse weiter bis Scheeßel\, damit ein Anschluss zu den Zügen der Lin
+ ie RB 41 in/aus Richtung Hamburg besteht.\n\nAlle Fahrplanänderungen sind
+  in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und
+  [fahrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können 
+ hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads
+ /nwb/schedule/1505946/rs-6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

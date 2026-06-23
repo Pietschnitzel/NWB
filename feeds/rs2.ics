@@ -7,17 +7,16 @@ DTSTART;TZID="UTC+02:00":20260611T211500
 DTEND;TZID="UTC+02:00":20260627T040000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506069/rs-
  2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
-DESCRIPTION:Abend- und Nachtstunden von Donnerstag\, 11. Juni\, bis Samsta
- g\, 27. Juni\, zwischen Bremen Hbf und Twistringen durch einen Ersatzverke
- hr mit Bussen bedient. Außerdem hält am Donnerstag\, 11. Juni\, Montag\,
-  22. Juni\, und Freitag\, 26. Juni\, die Zugverbindung mit der Abfahrtszei
- t um 21:33 Uhr ab Bremen Hbf nicht in Dreye\, Barrien\, Bramstedt (b Syke)
-  und Bassum.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Aus
- kunftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrpla
- ner.de](https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und
-  können hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transde
- v/uploads/nwb/schedule/1506069/rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.p
- df
+DESCRIPTION:Zugverbindungen in den späten Abend- und Nachtstunden von Don
+ nerstag\, 11. Juni\, bis Samstag\, 27. Juni\, zwischen Bremen Hbf und Twis
+ tringen durch einen Ersatzverkehr mit Bussen bedient. Außerdem hält am D
+ onnerstag\, 11. Juni\, Montag\, 22. Juni\, und Freitag\, 26. Juni\, die Zu
+ gverbindung mit der Abfahrtszeit um 21:33 Uhr ab Bremen Hbf nicht in Dreye
+ \, Barrien\, Bramstedt (b Syke) und Bassum.\n\nAlle Fahrplanänderungen si
+ nd in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) u
+ nd [fahrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und könne
+ n hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploa
+ ds/nwb/schedule/1506069/rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
@@ -25,16 +24,16 @@ DTSTART;TZID="UTC+02:00":20260623T203000
 DTEND;TZID="UTC+02:00":20260628T223000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506078/rs-
  2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
-DESCRIPTION:\,"lines":747\,"sort_date":749}\,4237\,"RS 2: Fahrplanabweichu
- ng: Bremerhaven-Lehe → Twistringen"\,"Aufgrund von Oberleitungsarbeiten 
- der Deutschen Bahn (DB InfraGO AG) fahren insgesamt sechs Zugverbindungen 
- in den späten Abendstunden von Dienstag\, 23. Juni\, bis Sonntag\, 28. Ju
- ni\, von Bremerhaven bis Bremen Hbf bzw. Twistringen zu veränderten Fahrz
- eiten. \\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunft
- smedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.d
- e](https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und kön
- nen hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/upl
- oads/nwb/schedule/1506078/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
+DESCRIPTION:d":24\,"source":572\,"schedules":742\,"lines":747\,"sort_date"
+ :749}\,4237\,"RS 2: Fahrplanabweichung: Bremerhaven-Lehe → Twistringen"\
+ ,"Aufgrund von Oberleitungsarbeiten der Deutschen Bahn (DB InfraGO AG) fah
+ ren insgesamt sechs Zugverbindungen in den späten Abendstunden von Dienst
+ ag\, 23. Juni\, bis Sonntag\, 28. Juni\, von Bremerhaven bis Bremen Hbf bz
+ w. Twistringen zu veränderten Fahrzeiten. \n\nAlle Fahrplanänderungen si
+ nd in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) u
+ nd [fahrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und könne
+ n hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploa
+ ds/nwb/schedule/1506078/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
@@ -42,16 +41,16 @@ DTSTART;TZID="UTC+02:00":20260629T214500
 DTEND;TZID="UTC+02:00":20260702T024500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506081/rs-
  2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
-DESCRIPTION:"Aufgrund von Brücken- und Instandhaltungsarbeiten an der Inf
- rastruktur\\u002F Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG
- ) werden zwölf Zugverbindungen in den späten Abend- und Nachtstunden von
-  Montag\, 29. Juni\, bis Donnerstag\, 2. Juli\, zwischen Bremen Hbf und Ol
- denbüttel bzw. Bremerhaven-Lehe durch einen Ersatzverkehr mit Bussen bedi
- ent.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsme
- dien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](
- https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und können
-  hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/upload
- s/nwb/schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
+DESCRIPTION:ung: Bremerhaven-Lehe ↔ Bremen Hbf"\,"Aufgrund von Brücken-
+  und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) 
+ der Deutschen Bahn (DB InfraGO AG) werden zwölf Zugverbindungen in den sp
+ äten Abend- und Nachtstunden von Montag\, 29. Juni\, bis Donnerstag\, 2. 
+ Juli\, zwischen Bremen Hbf und Oldenbüttel bzw. Bremerhaven-Lehe durch ei
+ nen Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in 
+ den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
+ hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
+  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
+ /schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
@@ -59,16 +58,16 @@ DTSTART;TZID="UTC+02:00":20260708T173000
 DTEND;TZID="UTC+02:00":20260713T051500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-
  2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
-DESCRIPTION:ufgrund von Brücken- und Bahnübergangsarbeiten der Deutschen
-  Bahn (DB InfraGO AG) werden einige Zugverbindungen von Mittwoch\, 8. Juli
- \, bis Montag\, 13. Juli\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. a
- uf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedi
- ent. Zudem entfällt bei einigen Zugverbindungen der Halt in Bremerhaven H
- bf.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsmed
- ien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](h
- ttps:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und können 
- hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads
- /nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+DESCRIPTION:s":774\,"sort_date":776}\,4264\,"Aufgrund von Brücken- und Ba
+ hnübergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugv
+ erbindungen von Mittwoch\, 8. Juli\, bis Montag\, 13. Juli\, zwischen Brem
+ erhaven-Lehe und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch e
+ inen Ersatzverkehr mit Bussen bedient. Zudem entfällt bei einigen Zugverb
+ indungen der Halt in Bremerhaven Hbf.\n\nAlle Fahrplanänderungen sind in 
+ den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
+ hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
+  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
+ /schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
@@ -76,15 +75,15 @@ DTSTART;TZID="UTC+02:00":20260709T210000
 DTEND;TZID="UTC+02:00":20260713T011500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-
  2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
-DESCRIPTION:Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem hält 
- am Donnerstag\, 9. Juli\, die Zugverbindung mit der Abfahrtszeit um 21:33 
- Uhr ab Bremen Hbf nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum
- . Und am Montag\, 13. Juli\, fährt die Zugverbindung mit der regulären A
- bfahrtszeit um 0:11 Uhr ab Bremen Hbf bis Twistringen zu späteren Fahrzei
- ten.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsme
- dien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](
- https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und können
-  hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/upload
- s/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
+DESCRIPTION:zwischen Twistringen und Bremen Hbf durch einen Ersatzverkehr 
+ mit Bussen bedient. Zudem hält am Donnerstag\, 9. Juli\, die Zugverbindun
+ g mit der Abfahrtszeit um 21:33 Uhr ab Bremen Hbf nicht in Dreye\, Barrien
+ \, Bramstedt (b Syke) und Bassum. Und am Montag\, 13. Juli\, fährt die Zu
+ gverbindung mit der regulären Abfahrtszeit um 0:11 Uhr ab Bremen Hbf bis 
+ Twistringen zu späteren Fahrzeiten.\n\nAlle Fahrplanänderungen sind in d
+ en digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fah
+ rplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier 
+ als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/
+ schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
 END:VEVENT
 END:VCALENDAR

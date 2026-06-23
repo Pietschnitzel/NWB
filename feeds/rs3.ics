@@ -7,16 +7,16 @@ DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-
  3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
-DESCRIPTION:Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) n
- utzen.\\r\\n\\r\\n_Bitte beachten Sie\, dass in diesen Ersatzfahrplänen n
- ur der Haltausfall Bremen Neustadt dargestellt ist und es zu weiteren Fahr
- planänderungen aufgrund von Baumaßnahmen kommen kann. Diese sind dann in
-  gesonderten Ersatzfahrplänen dargestellt._\\r\\n\\r\\nAlle Fahrplanände
- rungen sind in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F
- \\u002Fwww.bahn.de) und [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner
- .de\\u002Fauskunft) abrufbar und können hier als\n\nErsatzfahrplan:\nhttp
- s://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatz
- fahrplan-vom-06-02-bis-16-03-2026.pdf
+DESCRIPTION:en Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 
+ 63 der Bremer Straßenbahn AG (BSAG) nutzen.\n\n_Bitte beachten Sie\, dass
+  in diesen Ersatzfahrplänen nur der Haltausfall Bremen Neustadt dargestel
+ lt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen k
+ ommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._
+ \n\nAlle Fahrplanänderungen sind in den digitalen Auskunftsmedien unter [
+ bahn.de](https://www.bahn.de) und [fahrplaner.de](https://www.fahrplaner.d
+ e/auskunft) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps://down
+ load.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan
+ -vom-06-02-bis-16-03-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -24,12 +24,12 @@ DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-
  3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
-DESCRIPTION:zfahrplänen dargestellt._\\r\\n\\r\\nAlle Fahrplanänderungen
-  sind in den digitalen Auskunftsmedien unter [bahn.de](https:\\u002F\\u002
- Fwww.bahn.de) und [fahrplaner.de](https:\\u002F\\u002Fwww.fahrplaner.de\\u
- 002Fauskunft) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps://do
- wnload.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-3-ersatzfahrpl
- an-vom-16-03-bis-07-04-2026.pdf
+DESCRIPTION:rund von Baumaßnahmen kommen kann. Diese sind dann in gesonde
+ rten Ersatzfahrplänen dargestellt._\n\nAlle Fahrplanänderungen sind in d
+ en digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fah
+ rplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier 
+ als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/
+ schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -37,31 +37,9 @@ DTSTART;TZID="UTC+01:00":20260206T000000
 DTEND;TZID="UTC+02:00":20260630T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-
  3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
-DESCRIPTION:en werden:"\,"2026-02-06T00:00:00.000+01:00"\,"2026-06-30T23:4
- 5:00.000+02:00"\,[798\,802\,806]\,{"id":799\,"title":800\,"starts_at":8\,"
- ends_at":8\,"download":801}\,1505901\,"RS 3: Ersatzfahrplan vom 06.02. bis
-  16.03.2026"\,"https:\\u002F\\u002Fs3.storage.planetary-networks.de\\u002F
- transdev\\u002Fuploads\\u002FTENANT\\u002Fschedule\\u002F1505901\\u002Frs-
- 3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf"\,{"id":803\,"title":804\,"s
- tarts_at":8\,"ends_at":8\,"download":805}\,1505958\,"RS 3: Ersatzfahrplan 
- vom 16.03. bis 07.04.2026"\,"https:\\u002F\\u002Fs3.storage.planetary-netw
- orks.de\\u002Ftransdev\\u002Fuploads\\u002FTENANT\\u002Fschedule\\u002F150
- 5958\\u002Frs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf"\,{"id":807\,"
- title":808\,"starts_at":8\,"ends_at":8\,"download":809}\,1506020\,"RS 3: E
- rsatzfahrplan vom 07.04. bis 30.06.2026"\,"https:\\u002F\\u002Fs3.storage.
- planetary-networks.de\\u002Ftransdev\\u002Fuploads\\u002FTENANT\\u002Fsche
- dule\\u002F1506020\\u002Frs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf"
- \,[811]\,{"id":619\,"number":620\,"transport_type":577\,"color":621\,"star
- t_point":622\,"between_point":11\,"end_point":614\,"route":623\,"show_map"
- :539\,"url":624}\,1770332400\,{"id":814\,"icon":667\,"category":668\,"titl
- e":8\,"short_description":815\,"long_description":816\,"starts_at":817\,"s
- tarts_at_date_only":24\,"ends_at":818\,"ends_at_date_only":24\,"expected_e
- nd":24\,"source":572\,"schedules":819\,"lines":824\,"sort_date":827}\,4238
- \," RS 3 | RS 30: Fahrplanabweichung: Bad Zwischenahn ↔ Oldenburg Hbf"\,
- "Aufgrund von Instandhaltungsarbeiten an der Infrastruktur\\u002FStrecke (
- IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier\n\nE
- rsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule
- /1506020/rs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
+DESCRIPTION:brufbar und können hier als\n\nErsatzfahrplan:\nhttps://downl
+ oad.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-3-ersatzfahrplan-
+ vom-07-04-bis-30-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -69,16 +47,16 @@ DTSTART;TZID="UTC+02:00":20260624T212800
 DTEND;TZID="UTC+02:00":20260625T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-
  3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
-DESCRIPTION:raGO AG) werden vier Zugverbindungen in den späten Abend- und
-  Nachtstunden von Mittwoch\, 24. Juni\, auf Donnerstag\, 25. Juni\, zwisch
- en Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen 
- bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrpla
- n zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\
- \r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsmedien 
- unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](https
- :\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und können hier
-  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
- /schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
+DESCRIPTION:Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugv
+ erbindungen in den späten Abend- und Nachtstunden von Mittwoch\, 24. Juni
+ \, auf Donnerstag\, 25. Juni\, zwischen Bad Zwischenahn und Oldenburg Hbf 
+ durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten Sie auch 
+ den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum
+  vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in den digit
+ alen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.
+ de](https://www.fahrplaner.de/auskunft) abrufbar und können hier als\n\nE
+ rsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule
+ /1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -86,16 +64,16 @@ DTSTART;TZID="UTC+02:00":20260626T231500
 DTEND;TZID="UTC+02:00":20260629T044500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-
  3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
-DESCRIPTION:DB InfraGO AG) werden einige Zugverbindungen in den späten Ab
- end-\, Nacht- und frühen Morgenstunden von Freitag\, 26. Juni\, bis Monta
- g\, 29. Juni\, zwischen Hude und Oldenburg Hbf durch einen Ersatzverkehr m
- it Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ers
- atzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.
- 06.2026._\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskun
- ftsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner
- .de](https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und k
- önnen hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/
- uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
+DESCRIPTION:tions-Container) der Deutschen Bahn (DB InfraGO AG) werden ein
+ ige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstund
+ en von Freitag\, 26. Juni\, bis Montag\, 29. Juni\, zwischen Hude und Olde
+ nburg Hbf durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten
+  Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt i
+ m Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in
+  den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [f
+ ahrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hie
+ r als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nw
+ b/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -103,17 +81,16 @@ DTSTART;TZID="UTC+02:00":20260630T213000
 DTEND;TZID="UTC+02:00":20260705T010000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-
  3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
-DESCRIPTION:ie RS 3 in den späten Abend-\, Nacht- und frühen Morgenstund
- en von Dienstag\, 30. Juni\, bis Mittwoch\, 1. Juli\, und Samstag\, 4. Jul
- i\, auf unterschiedlichen Streckenabschnitten durch einen Ersatzverkehr mi
- t Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersa
- tzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.0
- 6.2026._\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunf
- tsmedien unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.
- de](https:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und kö
- nnen hier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/up
- loads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pd
- f
+DESCRIPTION:) werden zehn Zugverbindungen der Linie RS 3 in den späten Ab
+ end-\, Nacht- und frühen Morgenstunden von Dienstag\, 30. Juni\, bis Mitt
+ woch\, 1. Juli\, und Samstag\, 4. Juli\, auf unterschiedlichen Streckenabs
+ chnitten durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten 
+ Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im
+  Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in 
+ den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
+ hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
+  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
+ /schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS3 – Baustelle
@@ -121,15 +98,15 @@ DTSTART;TZID="UTC+02:00":20260708T213000
 DTEND;TZID="UTC+02:00":20260712T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-
  3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
-DESCRIPTION:ie Zugverbindung mit der regulären Abfahrtszeit um 21:45 Uhr 
- ab Bad Zwischenahn bis Bremen Hbf zu früheren Fahrzeiten und am Samstag\,
-  11. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 23:45 Uhr
-  ab Bad Zwischenahn bis Bremen Hbf und in Gegenrichtung die Zugverbindung 
- mit der regulären Abfahrtszeit um 2:15 Uhr ab Bremen Hbf bis Oldenburg Hb
- f.\\r\\n\\r\\nAlle Fahrplanänderungen sind in den digitalen Auskunftsmedi
- en unter [bahn.de](https:\\u002F\\u002Fwww.bahn.de) und [fahrplaner.de](ht
- tps:\\u002F\\u002Fwww.fahrplaner.de\\u002Fauskunft) abrufbar und können h
- ier als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/
- nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
+DESCRIPTION:) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der reg
+ ulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu fr
+ üheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der r
+ egulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und 
+ in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15
+  Uhr ab Bremen Hbf bis Oldenburg Hbf.\n\nAlle Fahrplanänderungen sind in 
+ den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
+ hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
+  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
+ /schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
 END:VEVENT
 END:VCALENDAR
