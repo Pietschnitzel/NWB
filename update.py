@@ -46,13 +46,27 @@ def extract_times(raw: str):
 
 
 # ---------------- LINE EXTRACTION ----------------
-LINE_RE = re.compile(r'\b(RS|RB)\s?\d+\b.*?:')
+LINE_RE = re.compile(r'\b(RS|RB)\s?\d+\b')
 
 def extract_line(text: str):
-    m = LINE_RE.search(text)
+    matches = LINE_RE.findall(text)
+
+    if not matches:
+        return "UNKNOWN"
+
+    # rebuild full tokens like RS1, RB58
+    full = re.findall(r'\b(RS|RB)\s?\d+\b', text)
+
+    if not full:
+        return "UNKNOWN"
+
+    # pick FIRST valid occurrence only (important!)
+    m = re.search(r'\b(RS|RB)\s?\d+\b', text)
+
     if not m:
         return "UNKNOWN"
-    return m.group(0).split(":")[0].replace(" ", "")
+
+    return m.group(0).replace(" ", "")
 
 
 # ---------------- FETCH ----------------
