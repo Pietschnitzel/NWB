@@ -82,7 +82,7 @@ def fetch():
     raw = raw.replace("\\u002F", "/")
     raw = raw.replace("\\r\\n", "\n")
 
-    pattern = re.compile(r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf")
+    pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
 
     items = []
 
