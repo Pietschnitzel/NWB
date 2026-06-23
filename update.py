@@ -32,17 +32,28 @@ def normalize_pdf_url(url: str) -> str:
 # ---------------- TIME EXTRACTION ----------------
 ISO_RE = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}')
 
+def extract_line(text: str):
+    if not text:
+        return "UNKNOWN"
 
-def extract_times(raw: str):
-    times = ISO_RE.findall(raw)
+    # normalize separators (important!)
+    t = text.upper()
 
-    if len(times) < 2:
-        return None, None
+    # remove URL noise influence
+    t = re.sub(r'https?://\S+', ' ', t)
 
-    return (
-        datetime.fromisoformat(times[0]),
-        datetime.fromisoformat(times[1])
-    )
+    # strict RS/RB patterns only
+    match = re.search(r'\b(RS|RB)\s?-?\s?\d+\b', t)
+
+    if not match:
+        return "UNKNOWN"
+
+    line = match.group(0)
+
+    # normalize formats:
+    line = line.replace(" ", "").replace("-", "")
+
+    return line
 
 
 # ---------------- LINE EXTRACTION ----------------
