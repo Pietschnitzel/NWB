@@ -85,10 +85,18 @@ def fetch():
     for match in pattern.finditer(raw):
         pdf = normalize_pdf_url(match.group(0))
     
-        start, end = extract_times(local_context)
+        start = max(0, match.start() - 800)
+        end = min(len(raw), match.end() + 800)
+    
+        local_context = raw[start:end]
+    
+        start_time, end_time = extract_times(local_context)
         desc = extract_description(local_context)
     
-        event.add("description", desc + "\n" + pdf)
+        items.append({
+            "pdf": pdf,
+            "text": local_context
+        })
 
     log.info(f"PDF matches: {len(items)}")
     return items
