@@ -1,0 +1,58 @@
+name: Update NWB Calendar
+
+on:
+  schedule:
+    # täglich um 06:00 UTC
+    - cron: '0 6 * * *'
+
+  workflow_dispatch:
+
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+
+
+    permissions:
+      contents: write
+
+
+    steps:
+
+    - name: Repository auschecken
+      uses: actions/checkout@v4
+
+
+    - name: Python installieren
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+
+    - name: Pakete installieren
+      run: |
+        pip install -r requirements.txt
+
+
+    - name: Script ausführen
+      run: |
+        python update.py
+
+
+    - name: Änderungen committen
+      run: |
+
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+        git add .
+
+        git diff --cached --quiet || \
+        git commit -m "Update ICS"
+
+
+    - name: Push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
