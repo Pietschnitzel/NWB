@@ -104,55 +104,48 @@ def extract_times(text: str):
     except Exception:
         return None, None
 # ---------------- BUILD ICS ----------------
-def build_calendar(items):
-    cal = Calendar()
-    cal.add("prodid", "-//NWB Baustellen//")
-    cal.add("version", "2.0")
+def build_calendars(items):
+    calendars = defaultdict(lambda: Calendar())
 
-    groups = defaultdict(list)
-
-    # ---------- GROUP ----------
     for item in items:
         pdf = item["pdf"]
-        text = item["text"]   # ✅ FIX HERE
+        text = item["text"]
 
         line = extract_line(text)
         start, end = extract_times(text)
 
         if not start or not end:
-            log.warning(f"Skipping (no time): {pdf}")
             continue
 
-        groups[line].append((start, end, pdf, text))
+        cal = calendars[line]
 
-    # ---------- SORT + BUILD ----------
-    for line in sorted(groups.keys()):
-        log.info(f"Line {line}: {len(groups[line])} events")
+        cal.add("prodid", f"-//NWB {line}//")
+        cal.add("version", "2.0")
 
-        for start, end, pdf, text in sorted(groups[line], key=lambda x: x[0]):
+        event = Event()
+        event.add("summary", f"{line} – Baustelle")
+        event.add("dtstart", start)
+        event.add("dtend", end)
+        event.add("uid", pdf)
+        event.add("description", f"{line} Ersatzfahrplan:\n{pdf}")
+        event.add("categories", [line])
 
-            event = Event()
-            event.add("summary", f"{line} – Baustelle")
+        cal.add_component(event)
 
-            event.add("dtstart", start)
-            event.add("dtend", end)
-            event.add("uid", pdf)
-
-            event.add(
-                "description",
-                f"{line} Ersatzfahrplan:\n{pdf}"
-            )
-
-            event.add("categories", [line])
-
-            cal.add_component(event)
-
-    return cal
+    return calendars
 
 # ---------------- SAVE ----------------
-def save_calendar(cal):
-    Path(ICS_FILE).write_bytes(cal.to_ical())
-    log.info("ICS written")
+def save_calendars(calendars):
+    out_dir = Path("feeds")
+    out_dir.mkdir(exist_ok=True)
+
+    for line, cal in calendars.items():
+        safe_line = line.lower().replace(" ", "")
+
+        path = out_dir / f"{safe_line}.ics"
+        path.write_bytes(cal.to_ical())
+
+        log.info(f"Wrote {path}")
 
 
 # ---------------- MAIN ----------------
