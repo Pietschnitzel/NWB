@@ -11,48 +11,12 @@ from zoneinfo import ZoneInfo
 URL = "https://www.nordwestbahn.de/de/service/deine-reiseplanung/meldungen"
 
 ICS_FILE = "baustellen.ics"
-KNOWN_FILE = "known.json"
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 log = logging.getLogger("scraper")
-
-
-# ---------------- LOAD / SAVE ----------------
-def load_known():
-    p = Path(KNOWN_FILE)
-    if not p.exists():
-        return []
-
-    try:
-        content = p.read_text().strip()
-        if not content:
-            return []
-        return json.loads(content)
-    except json.JSONDecodeError:
-        log.warning("known.json corrupted → resetting")
-        return []
-
-
-def save_known(data):
-    Path(KNOWN_FILE).write_text(json.dumps(data, indent=2))
-
-
-def load_calendar():
-    p = Path(ICS_FILE)
-    if p.exists():
-        return Calendar.from_ical(p.read_bytes())
-
-    cal = Calendar()
-    cal.add("prodid", "-//NWB Baustellen//")
-    cal.add("version", "2.0")
-    return cal
-
-
-def save_calendar(cal):
-    Path(ICS_FILE).write_bytes(cal.to_ical())
 
 
 # ---------------- URL NORMALIZATION ----------------
@@ -70,25 +34,23 @@ def normalize_pdf_url(url: str) -> str:
     return url
 
 
-# ---------------- TIME PARSING (NEW SYSTEM) ----------------
+# ---------------- TIME EXTRACTION ----------------
 START_RE = re.compile(r'"starts_at":"([^"]+)"')
 END_RE = re.compile(r'"ends_at":"([^"]+)"')
 
 
 def parse_iso(dt: str):
-    if not dt:
-        return None
-    return datetime.fromisoformat(dt)
+    return datetime.fromisoformat(dt) if dt else None
 
 
 def extract_times(raw: str):
-    start_m = START_RE.search(raw)
-    end_m = END_RE.search(raw)
+    start = START_RE.search(raw)
+    end = END_RE.search(raw)
 
-    start = parse_iso(start_m.group(1)) if start_m else None
-    end = parse_iso(end_m.group(1)) if end_m else None
-
-    return start, end
+    return (
+        parse_iso(start.group(1)) if start else None,
+        parse_iso(end.group(1)) if end else None
+    )
 
 
 # ---------------- FETCH ----------------
@@ -102,70 +64,76 @@ def fetch():
 
     matches = re.findall(r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf", raw)
 
-    log.info(f"PDF matches found: {len(matches)}")
+    log.info(f"PDF matches: {len(matches)}")
 
-    results = []
     seen = set()
+    items = []
 
     for m in matches:
         url = normalize_pdf_url(m)
 
         if url not in seen:
             seen.add(url)
-            results.append({
+            items.append({
                 "pdf": url,
                 "raw": raw
             })
 
-    return results
+    return items
+
+
+# ---------------- BUILD ICS ----------------
+def build_calendar(items):
+    cal = Calendar()
+    cal.add("prodid", "-//NWB Baustellen//")
+    cal.add("version", "2.0")
+
+    uids = []
+
+    for item in items:
+        pdf = item["pdf"]
+        raw = item["raw"]
+
+        log.info(f"Processing {pdf}")
+
+        event = Event()
+        event.add("summary", "Baustellenmeldung")
+
+        start, end = extract_times(raw)
+
+        if not start or not end:
+            log.warning("Missing timestamps → fallback")
+            start = datetime.now(tz=ZoneInfo("Europe/Berlin"))
+            end = start
+
+        event.add("dtstart", start)
+        event.add("dtend", end)
+        event.add("uid", pdf)
+        event.add("description", f"Ersatzfahrplan:\n{pdf}")
+
+        cal.add_component(event)
+
+        uids.append(pdf)
+
+    return cal, uids
+
+
+# ---------------- SAVE ----------------
+def save_calendar(cal):
+    Path(ICS_FILE).write_bytes(cal.to_ical())
+    log.info("ICS written")
+
+
+def save_debug(uids):
+    Path("debug_uids.json").write_text(json.dumps(uids, indent=2))
 
 
 # ---------------- MAIN ----------------
-known = load_known()
-cal = load_calendar()
+items = fetch()
 
-log.info(f"Loaded known: {len(known)}")
-
-new = 0
-
-for item in fetch():
-
-    pdf = item["pdf"]
-    raw = item["raw"]
-
-    if pdf in known:
-        continue
-
-    log.info(f"New: {pdf}")
-
-    event = Event()
-    event.add("summary", "Baustellenmeldung")
-
-    # ✅ REAL TIME SOURCE (THIS IS THE FIX)
-    start, end = extract_times(raw)
-
-    if not start or not end:
-        log.warning("Missing starts_at/ends_at → fallback used")
-        start = datetime.now(tz=ZoneInfo("Europe/Berlin"))
-        end = start
-
-    else:
-        log.info(f"Event time: {start} → {end}")
-
-    event.add("dtstart", start)
-    event.add("dtend", end)
-    event.add("uid", pdf)
-    event.add("description", f"Ersatzfahrplan:\n{pdf}")
-
-    cal.add_component(event)
-
-    known.append(pdf)
-    new += 1
-
-
-log.info(f"Added {new} events")
+cal, uids = build_calendar(items)
 
 save_calendar(cal)
-save_known(known)
+save_debug(uids)
 
-log.info("Done")
+log.info(f"Rebuilt ICS with {len(uids)} events")
