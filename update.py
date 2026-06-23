@@ -85,15 +85,9 @@ def fetch():
     for match in pattern.finditer(raw):
         pdf_url = normalize_pdf_url(match.group(0))
 
-        # local context window (safe slicing)
-        start = max(0, match.start() - 800)
-        end = min(len(raw), match.end() + 800)
-
-        snippet = raw[start:end]
-
         items.append({
             "pdf": pdf_url,
-            "text": snippet
+            "text": raw   # <-- yes, FULL raw, but stable
         })
 
     log.info(f"PDF matches: {len(items)}")
