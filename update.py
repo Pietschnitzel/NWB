@@ -7,7 +7,7 @@ from icalendar import Calendar, Event
 import re
 import logging
 
-URL = "https://www.nordwestbahn.de/de/regio-s-bahn/service/geplante-baumassnahmen"
+URL = "https://www.nordwestbahn.de/de/service/deine-reiseplanung/meldungen?"
 
 ICS_FILE = "baustellen.ics"
 KNOWN_FILE = "known.json"
