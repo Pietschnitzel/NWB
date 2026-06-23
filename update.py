@@ -1,61 +1,68 @@
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 import re
 import logging
-
 import requests
 from icalendar import Calendar, Event
+from zoneinfo import ZoneInfo
 
 
-# ---------------- CONFIG ----------------
 URL = "https://www.nordwestbahn.de/de/service/deine-reiseplanung/meldungen"
 
 ICS_FILE = "baustellen.ics"
 KNOWN_FILE = "known.json"
 
-# ---------------- LOGGING ----------------
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
-
 log = logging.getLogger("scraper")
 
 
-# ---------------- STORAGE ----------------
-def load_known():
-    path = Path(KNOWN_FILE)
+# ---------------- MONTH MAP ----------------
+GERMAN_MONTHS = {
+    "Januar": 1,
+    "Februar": 2,
+    "März": 3,
+    "Maerz": 3,
+    "April": 4,
+    "Mai": 5,
+    "Juni": 6,
+    "Juli": 7,
+    "August": 8,
+    "September": 9,
+    "Oktober": 10,
+    "November": 11,
+    "Dezember": 12,
+}
 
-    if not path.exists():
-        log.info("No known.json found")
+
+# ---------------- LOAD / SAVE ----------------
+def load_known():
+    p = Path(KNOWN_FILE)
+    if not p.exists():
         return []
 
     try:
-        content = path.read_text().strip()
-
+        content = p.read_text().strip()
         if not content:
-            log.warning("known.json is empty → resetting")
             return []
-
         return json.loads(content)
-
     except json.JSONDecodeError:
-        log.warning("known.json is corrupted → resetting")
+        log.warning("known.json corrupted → resetting")
         return []
 
 
 def save_known(data):
     Path(KNOWN_FILE).write_text(json.dumps(data, indent=2))
-    log.info(f"Saved {len(data)} known entries")
 
 
 def load_calendar():
-    if Path(ICS_FILE).exists():
-        log.info("Loading existing ICS file")
-        return Calendar.from_ical(Path(ICS_FILE).read_bytes())
+    p = Path(ICS_FILE)
+    if p.exists():
+        return Calendar.from_ical(p.read_bytes())
 
-    log.info("Creating new calendar")
     cal = Calendar()
     cal.add("prodid", "-//NWB Baustellen//")
     cal.add("version", "2.0")
@@ -64,38 +71,60 @@ def load_calendar():
 
 def save_calendar(cal):
     Path(ICS_FILE).write_bytes(cal.to_ical())
-    log.info("Saved ICS file")
 
 
 # ---------------- URL NORMALIZATION ----------------
 def normalize_pdf_url(url: str) -> str:
     url = url.replace("\\u002F", "/").replace("\\/", "/")
 
-    if "s3.storage.planetary-networks.de" in url:
-        url = url.replace(
-            "s3.storage.planetary-networks.de",
-            "download.transdev.de"
-        )
+    url = url.replace(
+        "s3.storage.planetary-networks.de",
+        "download.transdev.de"
+    )
+
+    url = requests.utils.unquote(url)
+    url = url.replace(" ", "")
 
     return url
 
 
-# ---------------- DATE PARSING ----------------
-DATE_PATTERN = re.compile(
-    r"vom-(\d{2})-(\d{2})-bis-(\d{2})-(\d{2})-(\d{4})"
-)
+# ---------------- ZEITRAUM PARSING ----------------
+def parse_zeitraum(text: str):
+    pattern = (
+        r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})\s*"
+        r"(\d{1,2}:\d{2})\s*bis\s*"
+        r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})\s*"
+        r"(\d{1,2}:\d{2})"
+    )
 
-def extract_dates(url: str):
-    match = DATE_PATTERN.search(url)
-    if not match:
+    m = re.search(pattern, text)
+    if not m:
         return None, None
 
-    d1, m1, d2, m2, year = match.groups()
+    d1, m1, y1, t1, d2, m2, y2, t2 = m.groups()
 
-    start = datetime(int(year), int(m1), int(d1))
-    end = datetime(int(year), int(m2), int(d2))
+    def build(d, mon, y, t):
+        month = GERMAN_MONTHS.get(mon)
+        if not month:
+            return None
 
-    return start, end
+        h, mi = map(int, t.split(":"))
+
+        return datetime(
+            int(y),
+            month,
+            int(d),
+            h,
+            mi,
+            tzinfo=ZoneInfo("Europe/Berlin")
+        )
+
+    return build(d1, m1, y1, t1), build(d2, m2, y2, t2)
+
+
+def extract_zeitraum(raw: str):
+    m = re.search(r"Zeitraum:\s*(.+)", raw)
+    return m.group(1) if m else None
 
 
 # ---------------- FETCH ----------------
@@ -103,16 +132,13 @@ def fetch():
     log.info(f"Requesting {URL}")
 
     r = requests.get(URL, timeout=30)
-
-    log.info(f"HTTP status: {r.status_code}")
-    log.info(f"Response size: {len(r.text)} chars")
-
     raw = r.text
 
-    # broad match for escaped PDF URLs
+    log.info(f"HTTP {r.status_code} | size={len(raw)}")
+
     matches = re.findall(r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf", raw)
 
-    log.info(f"Raw PDF matches: {len(matches)}")
+    log.info(f"PDF matches found: {len(matches)}")
 
     results = []
     seen = set()
@@ -122,9 +148,10 @@ def fetch():
 
         if url not in seen:
             seen.add(url)
-            results.append({"pdf": url})
-
-    log.info(f"Unique PDFs: {len(results)}")
+            results.append({
+                "pdf": url,
+                "raw": raw
+            })
 
     return results
 
@@ -133,51 +160,47 @@ def fetch():
 known = load_known()
 cal = load_calendar()
 
-log.info(f"Loaded {len(known)} known entries")
+log.info(f"Loaded known: {len(known)}")
 
-new_count = 0
+new = 0
 
 for item in fetch():
+
     pdf = item["pdf"]
+    raw = item["raw"]
 
     if pdf in known:
-        log.info(f"Skipping known: {pdf}")
         continue
 
-    log.info(f"New PDF found: {pdf}")
+    log.info(f"New: {pdf}")
 
     event = Event()
-
-    # title fallback
     event.add("summary", "Baustellenmeldung")
 
-    # extract real dates from filename if possible
-    start, end = extract_dates(pdf)
+    zeitraum = extract_zeitraum(raw)
 
-    if start and end:
-        log.info(f"Parsed dates: {start.date()} → {end.date()}")
-    else:
-        log.warning("No date found in filename, using fallback")
-        start = datetime.now()
-        end = start + timedelta(days=1)
+    start = end = None
+
+    if zeitraum:
+        start, end = parse_zeitraum(zeitraum)
+
+    if not start or not end:
+        log.warning("No valid Zeitraum → fallback")
+        start = datetime.now(tz=ZoneInfo("Europe/Berlin"))
+        end = start
 
     event.add("dtstart", start)
     event.add("dtend", end)
-
-    event.add(
-        "description",
-        f"Ersatzfahrplan:\n{pdf}"
-    )
-
     event.add("uid", pdf)
+    event.add("description", f"Ersatzfahrplan:\n{pdf}")
 
     cal.add_component(event)
 
     known.append(pdf)
-    new_count += 1
+    new += 1
 
 
-log.info(f"Added {new_count} new events")
+log.info(f"Added {new} events")
 
 save_calendar(cal)
 save_known(known)
