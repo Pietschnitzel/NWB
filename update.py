@@ -153,6 +153,6 @@ items = fetch()
 
 cal = build_calendars(items)
 
-save_calendar(cal)
+save_calendars(cal)
 
 log.info("Done")
