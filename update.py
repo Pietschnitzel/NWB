@@ -20,24 +20,6 @@ logging.basicConfig(
 log = logging.getLogger("scraper")
 
 
-# ---------------- MONTH MAP ----------------
-GERMAN_MONTHS = {
-    "Januar": 1,
-    "Februar": 2,
-    "März": 3,
-    "Maerz": 3,
-    "April": 4,
-    "Mai": 5,
-    "Juni": 6,
-    "Juli": 7,
-    "August": 8,
-    "September": 9,
-    "Oktober": 10,
-    "November": 11,
-    "Dezember": 12,
-}
-
-
 # ---------------- LOAD / SAVE ----------------
 def load_known():
     p = Path(KNOWN_FILE)
@@ -88,43 +70,25 @@ def normalize_pdf_url(url: str) -> str:
     return url
 
 
-# ---------------- ZEITRAUM PARSING ----------------
-def parse_zeitraum(text: str):
-    pattern = (
-        r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})\s*"
-        r"(\d{1,2}:\d{2})\s*bis\s*"
-        r"(\d{1,2})\.\s*([A-Za-zäöüÄÖÜ]+)\s*(\d{4})\s*"
-        r"(\d{1,2}:\d{2})"
-    )
-
-    m = re.search(pattern, text)
-    if not m:
-        return None, None
-
-    d1, m1, y1, t1, d2, m2, y2, t2 = m.groups()
-
-    def build(d, mon, y, t):
-        month = GERMAN_MONTHS.get(mon)
-        if not month:
-            return None
-
-        h, mi = map(int, t.split(":"))
-
-        return datetime(
-            int(y),
-            month,
-            int(d),
-            h,
-            mi,
-            tzinfo=ZoneInfo("Europe/Berlin")
-        )
-
-    return build(d1, m1, y1, t1), build(d2, m2, y2, t2)
+# ---------------- TIME PARSING (NEW SYSTEM) ----------------
+START_RE = re.compile(r'"starts_at":"([^"]+)"')
+END_RE = re.compile(r'"ends_at":"([^"]+)"')
 
 
-def extract_zeitraum(raw: str):
-    m = re.search(r"Zeitraum:\s*(.+)", raw)
-    return m.group(1) if m else None
+def parse_iso(dt: str):
+    if not dt:
+        return None
+    return datetime.fromisoformat(dt)
+
+
+def extract_times(raw: str):
+    start_m = START_RE.search(raw)
+    end_m = END_RE.search(raw)
+
+    start = parse_iso(start_m.group(1)) if start_m else None
+    end = parse_iso(end_m.group(1)) if end_m else None
+
+    return start, end
 
 
 # ---------------- FETCH ----------------
@@ -177,17 +141,16 @@ for item in fetch():
     event = Event()
     event.add("summary", "Baustellenmeldung")
 
-    zeitraum = extract_zeitraum(raw)
-
-    start = end = None
-
-    if zeitraum:
-        start, end = parse_zeitraum(zeitraum)
+    # ✅ REAL TIME SOURCE (THIS IS THE FIX)
+    start, end = extract_times(raw)
 
     if not start or not end:
-        log.warning("No valid Zeitraum → fallback")
+        log.warning("Missing starts_at/ends_at → fallback used")
         start = datetime.now(tz=ZoneInfo("Europe/Berlin"))
         end = start
+
+    else:
+        log.info(f"Event time: {start} → {end}")
 
     event.add("dtstart", start)
     event.add("dtend", end)
