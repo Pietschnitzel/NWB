@@ -25,11 +25,24 @@ log = logging.getLogger("scraper")
 
 # ---------------- STORAGE ----------------
 def load_known():
-    if Path(KNOWN_FILE).exists():
-        log.info("Loading known.json")
-        return json.loads(Path(KNOWN_FILE).read_text())
-    log.info("No known.json found")
-    return []
+    path = Path(KNOWN_FILE)
+
+    if not path.exists():
+        log.info("No known.json found")
+        return []
+
+    try:
+        content = path.read_text().strip()
+
+        if not content:
+            log.warning("known.json is empty → resetting")
+            return []
+
+        return json.loads(content)
+
+    except json.JSONDecodeError:
+        log.warning("known.json is corrupted → resetting")
+        return []
 
 
 def save_known(data):
