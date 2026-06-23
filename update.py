@@ -44,13 +44,16 @@ def parse_iso(dt: str):
 
 
 def extract_times(raw: str):
-    start = START_RE.search(raw)
-    end = END_RE.search(raw)
+    # find all ISO timestamps in order
+    times = ISO_RE.findall(raw)
 
-    return (
-        parse_iso(start.group(1)) if start else None,
-        parse_iso(end.group(1)) if end else None
-    )
+    if len(times) < 2:
+        return None, None
+
+    start = datetime.fromisoformat(times[0])
+    end = datetime.fromisoformat(times[1])
+
+    return start, end
 
 
 # ---------------- FETCH ----------------
