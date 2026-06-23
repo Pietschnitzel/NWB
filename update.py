@@ -83,7 +83,26 @@ def fetch():
 
     return items
 
+ISO_RE = re.compile(
+    r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}'
+)
 
+def extract_times(text: str):
+    if not text:
+        return None, None
+
+    times = ISO_RE.findall(text)
+
+    if len(times) < 2:
+        return None, None
+
+    try:
+        return (
+            datetime.fromisoformat(times[0]),
+            datetime.fromisoformat(times[1])
+        )
+    except Exception:
+        return None, None
 # ---------------- BUILD ICS ----------------
 def build_calendar(items):
     cal = Calendar()
