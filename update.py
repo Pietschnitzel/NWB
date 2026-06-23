@@ -46,14 +46,13 @@ def extract_times(raw: str):
 
 
 # ---------------- LINE EXTRACTION ----------------
-LINE_RE = re.compile(r'\b(RS|RB)\s?\d+\b')
-
+LINE_RE = re.compile(r'\b(RS|RB)\s?\d+\b.*?:')
 
 def extract_line(text: str):
-    match = LINE_RE.search(text)
-    if not match:
+    m = LINE_RE.search(text)
+    if not m:
         return "UNKNOWN"
-    return match.group(0).replace(" ", "")
+    return m.group(0).split(":")[0].replace(" ", "")
 
 
 # ---------------- FETCH ----------------
@@ -67,15 +66,20 @@ def fetch():
 
     log.info(f"PDF matches: {len(matches)}")
 
-    seen = set()
     items = []
 
     for m in matches:
         url = normalize_pdf_url(m)
 
-        if url not in seen:
-            seen.add(url)
-            items.append({"pdf": url, "raw": raw})
+        # extract a *local context window around this URL*
+        # so line parsing is per-item, not global
+        idx = raw.find(m)
+        snippet = raw[max(0, idx - 800): idx + 800]
+
+        items.append({
+            "pdf": url,
+            "text": snippet   # ✅ per-item context
+        })
 
     return items
 
@@ -93,7 +97,7 @@ def build_calendar(items):
         pdf = item["pdf"]
         raw = item["raw"]
 
-        line = extract_line(raw)
+        line = extract_line(item["text"])
         start, end = extract_times(raw)
 
         if not start or not end:
