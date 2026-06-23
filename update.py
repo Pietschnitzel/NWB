@@ -78,27 +78,30 @@ def fetch():
     r = requests.get(URL, timeout=30)
     raw = r.text
 
-    matches = re.findall(r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf", raw)
+    # ✅ normalize FIRST (critical fix)
+    raw = raw.replace("\\u002F", "/")
+    raw = raw.replace("\\r\\n", "\n")
 
-    log.info(f"PDF matches: {len(matches)}")
+    pattern = re.compile(r"https:\\?u002F\\?u002F[^\"'\s]+?\.pdf")
 
     items = []
 
-    for m in matches:
-        url = normalize_pdf_url(m)
+    for match in pattern.finditer(raw):
+        url = normalize_pdf_url(match.group(0))
 
-        # extract a *local context window around this URL*
-        # so line parsing is per-item, not global
-        idx = raw.find(m)
-        snippet = raw[max(0, idx - 800): idx + 800]
+        start = max(0, match.start() - 800)
+        end = match.end() + 800
+
+        snippet = raw[start:end]
 
         items.append({
             "pdf": url,
-            "text": snippet   # ✅ per-item context
+            "text": snippet
         })
 
     return items
 
+# -------- isolate time ------------
 ISO_RE = re.compile(
     r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}'
 )
