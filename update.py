@@ -75,30 +75,28 @@ def extract_description(text: str) -> str:
 def fetch():
     log.info(f"Requesting {URL}")
 
-    r = requests.get(URL, timeout=30)
-    raw = r.text
-
-    # ✅ normalize FIRST (critical fix)
-    raw = raw.replace("\\u002F", "/")
-    raw = raw.replace("\\r\\n", "\n")
+    raw = requests.get(URL, timeout=30).text
+    raw = raw.replace("\\u002F", "/").replace("\\r\\n", "\n")
 
     pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
 
     items = []
 
     for match in pattern.finditer(raw):
-        url = normalize_pdf_url(match.group(0))
+        pdf_url = normalize_pdf_url(match.group(0))
 
+        # local context window (safe slicing)
         start = max(0, match.start() - 800)
-        end = match.end() + 800
+        end = min(len(raw), match.end() + 800)
 
         snippet = raw[start:end]
 
         items.append({
-            "pdf": url,
-            "text": raw
+            "pdf": pdf_url,
+            "text": snippet
         })
 
+    log.info(f"PDF matches: {len(items)}")
     return items
 
 # -------- isolate time ------------
