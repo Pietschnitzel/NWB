@@ -106,7 +106,8 @@ def extract_times(text: str):
 # ---------------- BUILD ICS ----------------
 def build_calendars(items):
     calendars = defaultdict(lambda: Calendar())
-
+    cal.add("prodid", f"-//NWB {line}//")
+    cal.add("version", "2.0")
     for item in items:
         pdf = item["pdf"]
         text = item["text"]
@@ -119,8 +120,7 @@ def build_calendars(items):
 
         cal = calendars[line]
 
-        cal.add("prodid", f"-//NWB {line}//")
-        cal.add("version", "2.0")
+
 
         event = Event()
         event.add("summary", f"{line} – Baustelle")
