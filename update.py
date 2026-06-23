@@ -38,27 +38,26 @@ def save_calendar(cal):
 
 
 def fetch():
-
     r = requests.get(URL)
     soup = BeautifulSoup(r.text, "html.parser")
 
-    entries = []
+    results = []
 
-    for link in soup.find_all("a"):
+    for a in soup.find_all("a"):
+        href = a.get("href", "")
 
-        href = link.get("href","")
+        if not href:
+            continue
 
-        if ".pdf" in href:
-            title = link.text.strip()
+        if "storage.planetary-networks.de" in href and href.endswith(".pdf"):
+            text = a.get_text(" ", strip=True)
 
-            if "RS 3" in title or "RS 30" in title:
-                entries.append({
-                    "title": title,
-                    "pdf": href
-                })
+            results.append({
+                "title": text,
+                "pdf": href
+            })
 
-    return entries
-
+    return results
 
 known = load_known()
 cal = load_calendar()
