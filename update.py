@@ -149,10 +149,16 @@ def extract_events(raw):
 # ------------------------------------------------------------
 def group_by_line(events):
     grouped = defaultdict(list)
-    for e in events:
-        grouped[e["line"]].append(e)
-    return grouped
 
+    for e in events:
+        line = e.get("line", "UNKNOWN")
+
+        # normalize again defensively
+        line = line.replace(" ", "").upper()
+
+        grouped[line].append(e)
+
+    return grouped
 
 # ------------------------------------------------------------
 # ICS HELPERS
@@ -171,7 +177,9 @@ def ics_escape(text: str) -> str:
 
 def to_ics(dt):
     return dt.replace(":", "").replace("-", "").split("+")[0]
-
+    
+def safe_filename(line: str) -> str:
+    return re.sub(r"[^a-zA-Z0-9]+", "", line).lower() or "unknown"
 
 # ------------------------------------------------------------
 # BUILD ICS (FIXED)
@@ -180,6 +188,7 @@ def build_ics(grouped):
     output = {}
 
     for line, events in grouped.items():
+
         log.info(f"Building ICS for {line}: {len(events)} events")
 
         ics = [
@@ -205,7 +214,9 @@ def build_ics(grouped):
 
         ics.append("END:VCALENDAR")
 
-        output[line.lower()] = "\n".join(ics)
+        filename = safe_filename(line)
+
+        output[filename] = "\n".join(ics)
 
     return output
 
