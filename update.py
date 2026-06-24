@@ -68,16 +68,39 @@ def extract_events(raw):
         pdf = m[2]
 
         idx = raw.find(pdf)
-        window = raw[max(0, idx - 1200): idx + 1200]
+        window = raw[max(0, idx - 2000): idx + 2000]
 
         start, end = extract_times(window)
 
         if not start or not end:
             continue
 
-        # SAFE description fallback (important fix)
-        desc_match = re.search(r"\"long_description\"\s*:\s*\"(.*?)\"", window)
-        description = desc_match.group(1) if desc_match else None
+        # ------------------------------------------------------------
+        # 🔥 REAL FIX: extract long_description properly
+        # ------------------------------------------------------------
+        long_desc = None
+
+        # try structured field first (best case)
+        m1 = re.search(
+            r"\"long_description\"\s*:\s*\"(.*?)\"",
+            window,
+            re.DOTALL
+        )
+        if m1:
+            long_desc = m1.group(1)
+
+        # fallback: extract readable German paragraph
+        if not long_desc:
+            m2 = re.search(
+                r"(Aufgrund.*?)(?=https|Alle Fahrplanänderungen|$)",
+                window,
+                re.DOTALL
+            )
+            if m2:
+                long_desc = m2.group(1)
+
+        if not long_desc:
+            long_desc = "Fahrplanabweichung im Streckennetz."
 
         events.append({
             "type": incident_type,
@@ -85,14 +108,13 @@ def extract_events(raw):
             "start": start,
             "end": end,
             "pdf": pdf,
-            "description": description or ""
+            "description": long_desc.strip()
         })
 
         log.info(f"Event: {line} | {incident_type}")
 
     log.info(f"Total events: {len(events)}")
     return events
-
 
 # ------------------------------------------------------------
 # GROUP BY LINE
