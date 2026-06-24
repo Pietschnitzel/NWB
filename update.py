@@ -63,69 +63,49 @@ def extract_pdf(text):
 def extract_events(raw):
     raw = preprocess(raw)
 
-    # split into tokens (this is key for flattened payloads)
-    tokens = re.split(r"[,\n]", raw)
+    log.info("Searching incident blocks...")
+
+    # match full incident segments by type
+    pattern = re.compile(
+        r"(interruption-[\w-]+).*?"
+        r"(RS\s?\d+|RB\s?\d+|RE\s?\d+).*?"
+        r"(https?://[^\s\"')]+\.pdf)",
+        re.DOTALL
+    )
+
+    matches = pattern.findall(raw)
+
+    log.info(f"Matched blocks: {len(matches)}")
 
     events = []
-    i = 0
 
-    while i < len(tokens):
+    for m in matches:
+        incident_type = m[0]
+        line = m[1].replace(" ", "").upper()
+        pdf = m[2]
 
-        token = tokens[i].strip()
+        # grab surrounding context for times + description
+        idx = raw.find(pdf)
+        window = raw[max(0, idx-1200): idx+1200]
 
-        # detect incident type
-        if token.startswith("interruption-"):
+        start, end = extract_times(window)
 
-            incident_type = token
+        if not start or not end:
+            continue
 
-            try:
-                window = tokens[i:i+80]
-                text_blob = " ".join(window)
+        events.append({
+            "type": incident_type,
+            "line": line,
+            "start": start,
+            "end": end,
+            "pdf": pdf
+        })
 
-                # core fields are position-based in your dataset
-                # we don't fully trust structure, but use offsets
-                title = window[3] if len(window) > 3 else ""
-                short_desc = window[4] if len(window) > 4 else ""
-                long_desc = window[5] if len(window) > 5 else ""
-
-                start, end = extract_times(text_blob)
-
-                if not start or not end:
-                    i += 1
-                    continue
-
-                line = extract_line(text_blob)
-                pdf = extract_pdf(text_blob)
-
-                if not pdf:
-                    i += 1
-                    continue
-
-                events.append({
-                    "type": incident_type,
-                    "line": line,
-                    "title": title,
-                    "description": long_desc,
-                    "start": start,
-                    "end": end,
-                    "pdf": pdf
-                })
-
-                log.info(f"Event parsed: {line} | {incident_type}")
-
-                i += 10
-                continue
-
-            except Exception as e:
-                log.warning(f"Parse error at {i}: {e}")
-                i += 1
-                continue
-
-        i += 1
+        log.info(f"Event: {line} | {incident_type}")
 
     log.info(f"Total events: {len(events)}")
-    return events
 
+    return events
 
 # ------------------------------------------------------------
 # GROUP BY LINE
