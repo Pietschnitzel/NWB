@@ -32,10 +32,10 @@ DTEND;TZID=Europe/Berlin:20260702T053000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506080/rs-
  1-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
 CATEGORIES:RS1
-DESCRIPTION:{"id":682\,"icon":667\,"category":668\,"title":8\,"short_descr
- iption":683\,"long_description":684\,"starts_at":685\,"starts_at_date_only
- ":24\,"ends_at":686\,"ends_at_date_only":24\,"expected_end":24\,"source":5
- 72\,"schedules":687\,"lines":692\,"sort_date":694}\,4239\,"RS 1: Fahrplana
+DESCRIPTION:{"id":608\,"icon":588\,"category":589\,"title":8\,"short_descr
+ iption":609\,"long_description":610\,"starts_at":611\,"starts_at_date_only
+ ":24\,"ends_at":612\,"ends_at_date_only":24\,"expected_end":24\,"source":5
+ 73\,"schedules":613\,"lines":618\,"sort_date":620}\,4239\,"RS 1: Fahrplana
  bweichung: Bremen-Farge ↔ Bremen Hbf ← Verden (Aller)"\,"Aufgrund von 
  Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Co
  ntainer) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen 
@@ -56,9 +56,9 @@ DTEND;TZID=Europe/Berlin:20260703T233000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506100/rs-
  1-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
 CATEGORIES:RS1
-DESCRIPTION:_at":698\,"starts_at_date_only":24\,"ends_at":699\,"ends_at_da
- te_only":24\,"expected_end":24\,"source":572\,"schedules":700\,"lines":705
- \,"sort_date":707}\,4260\,"Aufgrund von Instandhaltungsarbeiten an der Inf
+DESCRIPTION:_at":624\,"starts_at_date_only":24\,"ends_at":625\,"ends_at_da
+ te_only":24\,"expected_end":24\,"source":573\,"schedules":626\,"lines":631
+ \,"sort_date":633}\,4260\,"Aufgrund von Instandhaltungsarbeiten an der Inf
  rastruktur/Strecke (IH-Strecken- und IH-Knoten-Container) der Deutschen Ba
  hn (DB InfraGO AG) wird je Richtung eine Zugverbindung am Donnerstagabend\
  , 2. Juli\, zwischen Verden (Aller) und Bremen Hbf durch einen Ersatzverke
@@ -80,13 +80,13 @@ DTEND;TZID=Europe/Berlin:20260707T003000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506101/rs-
  1-ersatzfahrplan-am-06-07-2026.pdf
 CATEGORIES:RS1
-DESCRIPTION:02-07-bis-03-07-2026.pdf"\,[706]\,{"id":198\,"number":584\,"tr
- ansport_type":577\,"color":578\,"start_point":585\,"between_point":11\,"en
- d_point":586\,"route":587\,"show_map":539\,"url":588}\,1783021500\,{"id":7
- 09\,"icon":667\,"category":668\,"title":8\,"short_description":710\,"long_
- description":711\,"starts_at":712\,"starts_at_date_only":24\,"ends_at":713
- \,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"schedules":714
- \,"lines":719\,"sort_date":721}\,4261\,"RS 1: Fahrplanabweichung: Bremen-B
+DESCRIPTION:02-07-bis-03-07-2026.pdf"\,[632]\,{"id":198\,"number":601\,"tr
+ ansport_type":578\,"color":579\,"start_point":602\,"between_point":11\,"en
+ d_point":603\,"route":604\,"show_map":539\,"url":605}\,1783021500\,{"id":6
+ 35\,"icon":588\,"category":589\,"title":8\,"short_description":636\,"long_
+ description":637\,"starts_at":638\,"starts_at_date_only":24\,"ends_at":639
+ \,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"schedules":640
+ \,"lines":645\,"sort_date":647}\,4261\,"RS 1: Fahrplanabweichung: Bremen-B
  urg ↔ Bremen Hbf "\,"Aufgrund von Brücken- und Instandhaltungsarbeiten 
  an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraG
  O AG) werden vier Zugverbindungen in den späten Abend- bzw. Nachtstunden 
@@ -104,9 +104,9 @@ DTEND;TZID=Europe/Berlin:20260627T040000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506069/rs-
  2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf
 CATEGORIES:RS2
-DESCRIPTION:n":724\,"long_description":725\,"starts_at":726\,"starts_at_da
- te_only":24\,"ends_at":727\,"ends_at_date_only":24\,"expected_end":24\,"so
- urce":572\,"schedules":728\,"lines":733\,"sort_date":735}\,4221\,"RS 2: Fa
+DESCRIPTION:n":650\,"long_description":651\,"starts_at":652\,"starts_at_da
+ te_only":24\,"ends_at":653\,"ends_at_date_only":24\,"expected_end":24\,"so
+ urce":573\,"schedules":654\,"lines":659\,"sort_date":668}\,4221\,"RS 2: Fa
  hrplanabweichung: Twistringen ↔ Bremen Hbf"\,"Aufgrund von Brücken-\, O
  berleitungs- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-
  Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindunge
@@ -128,22 +128,22 @@ DTEND;TZID=Europe/Berlin:20260628T223000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506078/rs-
  2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
 CATEGORIES:RS2
-DESCRIPTION:06069/rs-2-ersatzfahrplan-vom-11-bis-27-06-2026.pdf"\,[734]\,{
- "id":596\,"number":597\,"transport_type":577\,"color":598\,"start_point":5
- 99\,"between_point":11\,"end_point":600\,"route":601\,"show_map":539\,"url
- ":602}\,1781205300\,{"id":737\,"icon":667\,"category":668\,"title":8\,"sho
- rt_description":738\,"long_description":739\,"starts_at":740\,"starts_at_d
- ate_only":24\,"ends_at":741\,"ends_at_date_only":24\,"expected_end":24\,"s
- ource":572\,"schedules":742\,"lines":747\,"sort_date":749}\,4237\,"RS 2: F
- ahrplanabweichung: Bremerhaven-Lehe → Twistringen"\,"Aufgrund von Oberle
- itungsarbeiten der Deutschen Bahn (DB InfraGO AG) fahren insgesamt sechs Z
- ugverbindungen in den späten Abendstunden von Dienstag\, 23. Juni\, bis S
- onntag\, 28. Juni\, von Bremerhaven bis Bremen Hbf bzw. Twistringen zu ver
- änderten Fahrzeiten. \n\nAlle Fahrplanänderungen sind in den digitalen A
- uskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](ht
- tps://www.fahrplaner.de/auskunft) abrufbar und können hier als\n\nErsatzf
- ahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15060
- 78/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
+DESCRIPTION:64\,"between_point":11\,"end_point":665\,"route":666\,"show_ma
+ p":539\,"url":667}\,14\,"RS 2"\,"#F09128"\,"Bremerhaven-Lehe"\,"Twistringe
+ n"\,"Bremerhaven-Lehe ↔ Twistringen"\,"/de/regio-s-bahn/unsere-linien/li
+ nie/rs-2"\,1781205300\,{"id":670\,"icon":588\,"category":589\,"title":8\,"
+ short_description":671\,"long_description":672\,"starts_at":673\,"starts_a
+ t_date_only":24\,"ends_at":674\,"ends_at_date_only":24\,"expected_end":24\
+ ,"source":573\,"schedules":675\,"lines":680\,"sort_date":682}\,4237\,"RS 2
+ : Fahrplanabweichung: Bremerhaven-Lehe → Twistringen"\,"Aufgrund von Obe
+ rleitungsarbeiten der Deutschen Bahn (DB InfraGO AG) fahren insgesamt sech
+ s Zugverbindungen in den späten Abendstunden von Dienstag\, 23. Juni\, bi
+ s Sonntag\, 28. Juni\, von Bremerhaven bis Bremen Hbf bzw. Twistringen zu 
+ veränderten Fahrzeiten. \n\nAlle Fahrplanänderungen sind in den digitale
+ n Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de]
+ (https://www.fahrplaner.de/auskunft) abrufbar und können hier als\n\nErsa
+ tzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15
+ 06078/rs-2-ersatzfahrplan-vom-23-bis-28-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RS2 – Baustelle
@@ -152,12 +152,12 @@ DTEND;TZID=Europe/Berlin:20260702T024500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506081/rs-
  2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
 CATEGORIES:RS2
-DESCRIPTION:t_type":577\,"color":598\,"start_point":599\,"between_point":1
- 1\,"end_point":600\,"route":601\,"show_map":539\,"url":602}\,1782239400\,{
- "id":751\,"icon":667\,"category":668\,"title":8\,"short_description":752\,
- "long_description":753\,"starts_at":754\,"starts_at_date_only":24\,"ends_a
- t":755\,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"schedule
- s":756\,"lines":761\,"sort_date":763}\,4240\,"RS 2: Fahrplanabweichung: Br
+DESCRIPTION:t_type":578\,"color":663\,"start_point":664\,"between_point":1
+ 1\,"end_point":665\,"route":666\,"show_map":539\,"url":667}\,1782239400\,{
+ "id":684\,"icon":588\,"category":589\,"title":8\,"short_description":685\,
+ "long_description":686\,"starts_at":687\,"starts_at_date_only":24\,"ends_a
+ t":688\,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"schedule
+ s":689\,"lines":694\,"sort_date":696}\,4240\,"RS 2: Fahrplanabweichung: Br
  emerhaven-Lehe ↔ Bremen Hbf"\,"Aufgrund von Brücken- und Instandhaltung
  sarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn 
  (DB InfraGO AG) werden zwölf Zugverbindungen in den späten Abend- und Na
@@ -176,13 +176,13 @@ DTEND;TZID=Europe/Berlin:20260713T051500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-
  2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
 CATEGORIES:RS2
-DESCRIPTION:07-2026.pdf"\,[762]\,{"id":596\,"number":597\,"transport_type"
- :577\,"color":598\,"start_point":599\,"between_point":11\,"end_point":600\
- ,"route":601\,"show_map":539\,"url":602}\,1782762300\,{"id":765\,"icon":66
- 7\,"category":668\,"title":8\,"short_description":752\,"long_description":
- 766\,"starts_at":767\,"starts_at_date_only":24\,"ends_at":768\,"ends_at_da
- te_only":24\,"expected_end":24\,"source":572\,"schedules":769\,"lines":774
- \,"sort_date":776}\,4264\,"Aufgrund von Brücken- und Bahnübergangsarbeit
+DESCRIPTION:07-2026.pdf"\,[695]\,{"id":661\,"number":662\,"transport_type"
+ :578\,"color":663\,"start_point":664\,"between_point":11\,"end_point":665\
+ ,"route":666\,"show_map":539\,"url":667}\,1782762300\,{"id":698\,"icon":58
+ 8\,"category":589\,"title":8\,"short_description":685\,"long_description":
+ 699\,"starts_at":700\,"starts_at_date_only":24\,"ends_at":701\,"ends_at_da
+ te_only":24\,"expected_end":24\,"source":573\,"schedules":702\,"lines":707
+ \,"sort_date":709}\,4264\,"Aufgrund von Brücken- und Bahnübergangsarbeit
  en der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Mi
  ttwoch\, 8. Juli\, bis Montag\, 13. Juli\, zwischen Bremerhaven-Lehe und B
  remen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr
@@ -200,7 +200,7 @@ DTEND;TZID=Europe/Berlin:20260713T011500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-
  2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
 CATEGORIES:RS2
-DESCRIPTION:chedules":783\,"lines":788\,"sort_date":790}\,4265\," RS 2: Fa
+DESCRIPTION:chedules":716\,"lines":721\,"sort_date":723}\,4265\," RS 2: Fa
  hrplanabweichung: Twistringen ↔ Bremen Hbf"\,"Aufgrund von Instandhaltun
  gsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container)\, Weichene
  rneuerungen und einer Oberleitungsvollinspektion der Deutschen Bahn (DB In
@@ -224,7 +224,7 @@ DTEND;TZID=Europe/Berlin:20260630T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-
  3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 CATEGORIES:RS3
-DESCRIPTION:urce":572\,"schedules":797\,"lines":810\,"sort_date":812}\,404
+DESCRIPTION:urce":573\,"schedules":730\,"lines":743\,"sort_date":752}\,404
  7\,"RS 3: Fahrplanabweichung: Haltausfall Bremen Neustadt "\,"**+++Stand: 
  02.04.2026: Verlängert bis Dienstag\, 30. Juni 2026+++** \n\nAufgrund von
   Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\
@@ -284,10 +284,10 @@ DTEND;TZID=Europe/Berlin:20260625T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-
  3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
 CATEGORIES:RS3
-DESCRIPTION:"id":814\,"icon":667\,"category":668\,"title":8\,"short_descri
- ption":815\,"long_description":816\,"starts_at":817\,"starts_at_date_only"
- :24\,"ends_at":818\,"ends_at_date_only":24\,"expected_end":24\,"source":57
- 2\,"schedules":819\,"lines":824\,"sort_date":827}\,4238\," RS 3 | RS 30: F
+DESCRIPTION:"id":754\,"icon":588\,"category":589\,"title":8\,"short_descri
+ ption":755\,"long_description":756\,"starts_at":757\,"starts_at_date_only"
+ :24\,"ends_at":758\,"ends_at_date_only":24\,"expected_end":24\,"source":57
+ 3\,"schedules":759\,"lines":764\,"sort_date":773}\,4238\," RS 3 | RS 30: F
  ahrplanabweichung: Bad Zwischenahn ↔ Oldenburg Hbf"\,"Aufgrund von Insta
  ndhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) de
  r Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späte
@@ -308,10 +308,10 @@ DTEND;TZID=Europe/Berlin:20260629T044500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-
  3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 CATEGORIES:RS3
-DESCRIPTION:82329280\,{"id":829\,"icon":667\,"category":668\,"title":8\,"s
- hort_description":830\,"long_description":831\,"starts_at":832\,"starts_at
- _date_only":24\,"ends_at":833\,"ends_at_date_only":24\,"expected_end":24\,
- "source":572\,"schedules":834\,"lines":839\,"sort_date":841}\,4253\,"RS 3:
+DESCRIPTION:82329280\,{"id":775\,"icon":588\,"category":589\,"title":8\,"s
+ hort_description":776\,"long_description":777\,"starts_at":778\,"starts_at
+ _date_only":24\,"ends_at":779\,"ends_at_date_only":24\,"expected_end":24\,
+ "source":573\,"schedules":780\,"lines":785\,"sort_date":787}\,4253\,"RS 3:
   Fahrplanabweichung: Hude ↔ Oldenburg Hbf"\,"Aufgrund von Brücken- und 
  Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Cont
  ainer) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in
@@ -332,9 +332,9 @@ DTEND;TZID=Europe/Berlin:20260705T010000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-
  3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 CATEGORIES:RS3
-DESCRIPTION:hort_description":844\,"long_description":845\,"starts_at":846
- \,"starts_at_date_only":24\,"ends_at":847\,"ends_at_date_only":24\,"expect
- ed_end":24\,"source":572\,"schedules":848\,"lines":853\,"sort_date":855}\,
+DESCRIPTION:hort_description":790\,"long_description":791\,"starts_at":792
+ \,"starts_at_date_only":24\,"ends_at":793\,"ends_at_date_only":24\,"expect
+ ed_end":24\,"source":573\,"schedules":794\,"lines":799\,"sort_date":801}\,
  4257\,"RS 3: Fahrplanabweichung: Bad Zwischenahn ↔ Bremen Hbf"\,"Aufgrun
  d von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- u
  nd IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zug
@@ -356,10 +356,10 @@ DTEND;TZID=Europe/Berlin:20260712T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-
  3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
 CATEGORIES:RS3
-DESCRIPTION:title":8\,"short_description":858\,"long_description":859\,"st
- arts_at":860\,"starts_at_date_only":24\,"ends_at":861\,"ends_at_date_only"
- :24\,"expected_end":24\,"source":572\,"schedules":862\,"lines":867\,"sort_
- date":869}\,4262\,"RS 3: Fahrplanabweichung: Bad Zwischenahn ↔ Bremen Hb
+DESCRIPTION:title":8\,"short_description":804\,"long_description":805\,"st
+ arts_at":806\,"starts_at_date_only":24\,"ends_at":807\,"ends_at_date_only"
+ :24\,"expected_end":24\,"source":573\,"schedules":808\,"lines":813\,"sort_
+ date":815}\,4262\,"RS 3: Fahrplanabweichung: Bad Zwischenahn ↔ Bremen Hb
  f "\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
  H-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Mit
  twoch\, 8. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:
@@ -380,9 +380,9 @@ DTEND;TZID=Europe/Berlin:20260710T213000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506096/rs-
  4-ersatzfahrplan-vom-30-06-bis-04-07-2026.pdf
 CATEGORIES:RS4
-DESCRIPTION:arts_at_date_only":24\,"ends_at":893\,"ends_at_date_only":24\,
- "expected_end":24\,"source":572\,"schedules":894\,"lines":899\,"sort_date"
- :855}\,4256\,"RS 4: Fahrplanabweichung: Hude/Delmenhorst ↔ Bremen Hbf "\
+DESCRIPTION:arts_at_date_only":24\,"ends_at":844\,"ends_at_date_only":24\,
+ "expected_end":24\,"source":573\,"schedules":845\,"lines":850\,"sort_date"
+ :801}\,4256\,"RS 4: Fahrplanabweichung: Hude/Delmenhorst ↔ Bremen Hbf "\
  ,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-St
  recken- und IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden
   einige Zugverbindungen der Linie RS 4 in den späten Abend-\, Nacht- und 
@@ -404,13 +404,13 @@ DTEND;TZID=Europe/Berlin:20260710T234500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506106/rs-
  4-ersatzfahrplan-am-10-07-2026.pdf
 CATEGORIES:RS4
-DESCRIPTION:096/rs-4-ersatzfahrplan-vom-30-06-bis-04-07-2026.pdf"\,[900]\,
- {"id":417\,"number":647\,"transport_type":577\,"color":605\,"start_point":
- 648\,"between_point":11\,"end_point":614\,"route":649\,"show_map":539\,"ur
- l":650}\,{"id":902\,"icon":667\,"category":668\,"title":8\,"short_descript
- ion":903\,"long_description":904\,"starts_at":905\,"starts_at_date_only":2
- 4\,"ends_at":906\,"ends_at_date_only":24\,"expected_end":24\,"source":572\
- ,"schedules":907\,"lines":912\,"sort_date":914}\,4266\,"RS 4: Fahrplanabwe
+DESCRIPTION:096/rs-4-ersatzfahrplan-vom-30-06-bis-04-07-2026.pdf"\,[851]\,
+ {"id":417\,"number":835\,"transport_type":578\,"color":836\,"start_point":
+ 837\,"between_point":11\,"end_point":749\,"route":838\,"show_map":539\,"ur
+ l":839}\,{"id":853\,"icon":588\,"category":589\,"title":8\,"short_descript
+ ion":854\,"long_description":855\,"starts_at":856\,"starts_at_date_only":2
+ 4\,"ends_at":857\,"ends_at_date_only":24\,"expected_end":24\,"source":573\
+ ,"schedules":858\,"lines":863\,"sort_date":865}\,4266\,"RS 4: Fahrplanabwe
  ichung: Hude ↔ Delmenhorst"\,"Aufgrund von Instandhaltungsarbeiten an de
  r Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB
   InfraGO AG) wird am Freitag\, 10. Juli\, in den späten Abendstunden je R
@@ -428,12 +428,12 @@ DTEND;TZID=Europe/Berlin:20260710T223000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505946/rs-
  6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
 CATEGORIES:RS6
-DESCRIPTION:"color":605\,"start_point":648\,"between_point":11\,"end_point
- ":614\,"route":649\,"show_map":539\,"url":650}\,1783711800\,{"id":916\,"ic
- on":667\,"category":668\,"title":8\,"short_description":917\,"long_descrip
- tion":918\,"starts_at":919\,"starts_at_date_only":24\,"ends_at":920\,"ends
- _at_date_only":24\,"expected_end":24\,"source":572\,"schedules":921\,"line
- s":926\,"sort_date":928}\,4093\,"RS 6: Fahrplanabweichung: Rotenburg (Wüm
+DESCRIPTION:"color":836\,"start_point":837\,"between_point":11\,"end_point
+ ":749\,"route":838\,"show_map":539\,"url":839}\,1783711800\,{"id":867\,"ic
+ on":588\,"category":589\,"title":8\,"short_description":868\,"long_descrip
+ tion":869\,"starts_at":870\,"starts_at_date_only":24\,"ends_at":871\,"ends
+ _at_date_only":24\,"expected_end":24\,"source":573\,"schedules":872\,"line
+ s":877\,"sort_date":884}\,4093\,"RS 6: Fahrplanabweichung: Rotenburg (Wüm
  me) ↔ Verden (Aller) ↔ Scheeßel"\,"Aufgrund von baubedingten Einschr
  änkungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen de
  r Linie RS 6 von Freitag\, 1. Mai\, bis Freitag\, 10. Juli\, durch einen E
@@ -452,10 +452,10 @@ DTEND;TZID=Europe/Berlin:20260626T073000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506063/re-
  18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:7604400\,{"id":930\,"icon":667\,"category":668\,"title":8\,"sh
- ort_description":931\,"long_description":932\,"starts_at":933\,"starts_at_
- date_only":24\,"ends_at":934\,"ends_at_date_only":24\,"expected_end":24\,"
- source":572\,"schedules":935\,"lines":940\,"sort_date":942}\,4215\,"RE 18:
+DESCRIPTION:7604400\,{"id":886\,"icon":588\,"category":589\,"title":8\,"sh
+ ort_description":887\,"long_description":888\,"starts_at":889\,"starts_at_
+ date_only":24\,"ends_at":890\,"ends_at_date_only":24\,"expected_end":24\,"
+ source":573\,"schedules":891\,"lines":896\,"sort_date":903}\,4215\,"RE 18:
   Fahrplanabweichung: Wilhelmshaven ↔ Osnabrück Hbf "\,"Aufgrund von Ins
  tandhaltungsarbeiten an der Infrastruktur/ Strecke der Deutschen Bahn (DB 
  InfraGO AG) werden vier Zugverbindungen der Linie RE 18 in den späten Abe
@@ -476,22 +476,22 @@ DTEND;TZID=Europe/Berlin:20260702T071500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-
  18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:77\,"color":578\,"start_point":471\,"between_point":579\,"end_
- point":580\,"route":581\,"show_map":539\,"url":582}\,1782326700\,{"id":944
- \,"icon":667\,"category":668\,"title":8\,"short_description":945\,"long_de
- scription":946\,"starts_at":947\,"starts_at_date_only":24\,"ends_at":948\,
- "ends_at_date_only":24\,"expected_end":24\,"source":572\,"schedules":949\,
- "lines":954\,"sort_date":956}\,4241\,"RE 18: Fahrplanabweichung: Wilhelmsh
- aven ↔ Oldenburg (Oldb) Hbf "\,"Aufgrund von Instandhaltungsarbeiten an 
- der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (DB 
- InfraGO AG) werden sechs Zugverbindungen in den späten Abend-\, Nacht- un
- d frühen Morgenstunden von Mittwoch\, 1. Juli\, bis Donnerstag\, 2. Juli\
- , zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzverkeh
- r mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen Au
- skunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](htt
- ps://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\n
- https://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-18-e
- rsatzfahrplan-vom-01-07-bis-02-07-2026.pdf
+DESCRIPTION:\,"Oldenburg"\,"Osnabrück"\,"Wilhelmshaven ↔ Oldenburg ↔ 
+ Osnabrück"\,"/de/weser-ems/unsere-linien/linie/re-18"\,1782326700\,{"id":
+ 905\,"icon":588\,"category":589\,"title":8\,"short_description":906\,"long
+ _description":907\,"starts_at":908\,"starts_at_date_only":24\,"ends_at":90
+ 9\,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"schedules":91
+ 0\,"lines":915\,"sort_date":917}\,4241\,"RE 18: Fahrplanabweichung: Wilhel
+ mshaven ↔ Oldenburg (Oldb) Hbf "\,"Aufgrund von Instandhaltungsarbeiten 
+ an der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (
+ DB InfraGO AG) werden sechs Zugverbindungen in den späten Abend-\, Nacht-
+  und frühen Morgenstunden von Mittwoch\, 1. Juli\, bis Donnerstag\, 2. Ju
+ li\, zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzver
+ kehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen
+  Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](
+ https://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan
+ :\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-1
+ 8-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -524,8 +524,8 @@ DTEND;TZID=Europe/Berlin:20260718T020000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506107/re-
  18-ersatzfahrplan-vom-14-07-bis-18-07-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:t_date_only":24\,"ends_at":976\,"ends_at_date_only":24\,"expec
- ted_end":24\,"source":572\,"schedules":977\,"lines":984\,"sort_date":986}\
+DESCRIPTION:t_date_only":24\,"ends_at":937\,"ends_at_date_only":24\,"expec
+ ted_end":24\,"source":573\,"schedules":938\,"lines":945\,"sort_date":947}\
  ,4267\,"RE 18: Fahrplanabweichung: Osnabrück Hbf ↔ Oldenburg (Oldb) Hbf
   "\,"Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) wer
  den die Zugverbindungen von Dienstag\, 14. Juli\, bis Freitag\, 17. Juli\,
@@ -547,9 +547,9 @@ DTEND;TZID=Europe/Berlin:20260727T020000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-
  18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:iption":973\,"long_description":989\,"starts_at":990\,"starts_
- at_date_only":24\,"ends_at":991\,"ends_at_date_only":24\,"expected_end":24
- \,"source":572\,"schedules":992\,"lines":998\,"sort_date":1000}\,4269\,"Au
+DESCRIPTION:ription":934\,"long_description":950\,"starts_at":951\,"starts
+ _at_date_only":24\,"ends_at":952\,"ends_at_date_only":24\,"expected_end":2
+ 4\,"source":573\,"schedules":953\,"lines":959\,"sort_date":961}\,4269\,"Au
  fgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruk
  tur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) wer
  den die Zugverbindungen ganztags von Samstag\, 18. Juli\, bis in die Nacht
@@ -571,22 +571,22 @@ DTEND;TZID=Europe/Berlin:20260813T020000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506110/re-
  18-ersatzfahrplan-vom-27-07-bis-13-08-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:n an der Infrastruktur/Strecke (IH-Strecken-Container) der Deu
- tschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montag\, 27. Ju
- li\, bis Mittwoch\, 12. August\, ganztags\, zwischen Huntlosen und Cloppen
- burg sowie in den späten Abend-\, Nacht- und frühen Morgenstunden zwisch
- en Osnabrück Hbf und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr mit B
- ussen beident. Von Mittwoch\, 29. Juli bis Donnerstag\, 30. Juli\, werden 
- fünf Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstu
- nden zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzver
- kehr mit Bussen bedient. Bei weiteren fünf Zugverbindungen kommt es von M
- ontagabend\, 3. August\, bis Dienstagmorgen\, 4. August zu einem Haltausfa
- ll in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmsha
- ven und Varel (Oldb) eingerichtet.\n\nAlle Fahrplanänderungen sind in den
-  digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrp
- laner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\nErsa
- tzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15
- 06110/re-18-ersatzfahrplan-vom-27-07-bis-13-08-2026.pdf
+DESCRIPTION:beiten an der Infrastruktur/Strecke (IH-Strecken-Container) de
+ r Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montag\, 2
+ 7. Juli\, bis Mittwoch\, 12. August\, ganztags\, zwischen Huntlosen und Cl
+ oppenburg sowie in den späten Abend-\, Nacht- und frühen Morgenstunden z
+ wischen Osnabrück Hbf und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr 
+ mit Bussen beident. Von Mittwoch\, 29. Juli bis Donnerstag\, 30. Juli\, we
+ rden fünf Zugverbindungen in den späten Abend-\, Nacht- und frühen Morg
+ enstunden zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersa
+ tzverkehr mit Bussen bedient. Bei weiteren fünf Zugverbindungen kommt es 
+ von Montagabend\, 3. August\, bis Dienstagmorgen\, 4. August zu einem Halt
+ ausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhe
+ lmshaven und Varel (Oldb) eingerichtet.\n\nAlle Fahrplanänderungen sind i
+ n den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [
+ fahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\
+ nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedu
+ le/1506110/re-18-ersatzfahrplan-vom-27-07-bis-13-08-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RE18 – Baustelle
@@ -595,22 +595,22 @@ DTEND;TZID=Europe/Berlin:20260818T083000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506111/re-
  18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
 CATEGORIES:RE18
-DESCRIPTION:"number":576\,"transport_type":577\,"color":578\,"start_point"
- :471\,"between_point":579\,"end_point":580\,"route":581\,"show_map":539\,"
- url":582}\,1785110400\,{"id":1014\,"icon":667\,"category":668\,"title":8\,
- "short_description":973\,"long_description":1015\,"starts_at":1016\,"start
- s_at_date_only":24\,"ends_at":1017\,"ends_at_date_only":24\,"expected_end"
- :24\,"source":572\,"schedules":1018\,"lines":1023\,"sort_date":1025}\,4271
- \,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-S
- trecken- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugve
- rbindungen von Donnerstag\, 13. August\, bis Dienstagmorgen\, 18. August\,
-  zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Strec
- kenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen er
- satzlos aus.\n\nAlle Fahrplanänderungen sind in den digitalen Auskunftsme
- dien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](https://www.
- fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps://d
- ownload.transdev.de/transdev/uploads/nwb/schedule/1506111/re-18-ersatzfahr
- plan-vom-13-08-bis-18-08-2026.pdf
+DESCRIPTION:2]\,{"id":205\,"number":898\,"transport_type":578\,"color":579
+ \,"start_point":471\,"between_point":899\,"end_point":900\,"route":901\,"s
+ how_map":539\,"url":902}\,1785110400\,{"id":975\,"icon":588\,"category":58
+ 9\,"title":8\,"short_description":934\,"long_description":976\,"starts_at"
+ :977\,"starts_at_date_only":24\,"ends_at":978\,"ends_at_date_only":24\,"ex
+ pected_end":24\,"source":573\,"schedules":979\,"lines":984\,"sort_date":98
+ 6}\,4271\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strec
+ ke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO AG) werden eini
+ ge Zugverbindungen von Donnerstag\, 13. August\, bis Dienstagmorgen\, 18. 
+ August\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzer
+ en Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. f
+ allen ersatzlos aus.\n\nAlle Fahrplanänderungen sind in den digitalen Aus
+ kunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](http
+ s://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nh
+ ttps://download.transdev.de/transdev/uploads/nwb/schedule/1506111/re-18-er
+ satzfahrplan-vom-13-08-bis-18-08-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
@@ -619,22 +619,22 @@ DTEND;TZID=Europe/Berlin:20260626T003000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-
  58-ersatzfahrplan-am-25-06-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:int":615\,"end_point":580\,"route":616\,"show_map":539\,"url":
- 617}\,1775512800\,{"id":1040\,"icon":667\,"category":668\,"title":8\,"shor
- t_description":1041\,"long_description":1042\,"starts_at":1043\,"starts_at
- _date_only":24\,"ends_at":1044\,"ends_at_date_only":24\,"expected_end":24\
- ,"source":572\,"schedules":1045\,"lines":1050\,"sort_date":1052}\,4216\,"R
- B 58: Fahrplanabweichung: Osnabrück Hbf ↔ Bramsche "\,"Aufgrund von Ins
- tandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB I
- nfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtst
- unden am Donnerstag\, 25. Juni\, zwischen Osnabrück Hbf und Bramsche durc
- h einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten Sie auch den 
- gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom
-  07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in den digitalen
-  Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](
- https://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan
- :\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-5
- 8-ersatzfahrplan-am-25-06-2026.pdf
+DESCRIPTION:Vechta ↔ Osnabrück"\,"/de/weser-ems/unsere-linien/linie/rb-
+ 58"\,1775512800\,{"id":1007\,"icon":588\,"category":589\,"title":8\,"short
+ _description":1008\,"long_description":1009\,"starts_at":1010\,"starts_at_
+ date_only":24\,"ends_at":1011\,"ends_at_date_only":24\,"expected_end":24\,
+ "source":573\,"schedules":1012\,"lines":1017\,"sort_date":1019}\,4216\,"RB
+  58: Fahrplanabweichung: Osnabrück Hbf ↔ Bramsche "\,"Aufgrund von Inst
+ andhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB In
+ fraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstu
+ nden am Donnerstag\, 25. Juni\, zwischen Osnabrück Hbf und Bramsche durch
+  einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten Sie auch den g
+ esonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 
+ 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in den digitalen 
+ Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](h
+ ttps://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:
+ \nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-58
+ -ersatzfahrplan-am-25-06-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB58 – Baustelle
@@ -643,11 +643,11 @@ DTEND;TZID=Europe/Berlin:20260701T001500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-
  58-ersatzfahrplan-am-30-06-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:d_point":580\,"route":616\,"show_map":539\,"url":617}\,1782411
- 300\,{"id":1054\,"icon":667\,"category":668\,"title":8\,"short_description
- ":1055\,"long_description":1056\,"starts_at":1057\,"starts_at_date_only":2
- 4\,"ends_at":1058\,"ends_at_date_only":24\,"expected_end":24\,"source":572
- \,"schedules":1059\,"lines":1064\,"sort_date":1066}\,4225\,"RB 58: Fahrpla
+DESCRIPTION:point":900\,"route":1003\,"show_map":539\,"url":1004}\,1782411
+ 300\,{"id":1021\,"icon":588\,"category":589\,"title":8\,"short_description
+ ":1022\,"long_description":1023\,"starts_at":1024\,"starts_at_date_only":2
+ 4\,"ends_at":1025\,"ends_at_date_only":24\,"expected_end":24\,"source":573
+ \,"schedules":1026\,"lines":1031\,"sort_date":1033}\,4225\,"RB 58: Fahrpla
  nabweichung: Bremen Hbf ↔ Delmenhorst "\,"Aufgrund von Instandhaltungsar
  beiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) wer
  den zwei Zugverbindungen der Linie RB 58 in den späten Abend- und Nachtst
@@ -667,13 +667,13 @@ DTEND;TZID=Europe/Berlin:20260703T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-
  58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:T/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf"\,[1
- 065]\,{"id":611\,"number":612\,"transport_type":577\,"color":613\,"start_p
- oint":614\,"between_point":615\,"end_point":580\,"route":616\,"show_map":5
- 39\,"url":617}\,1782846900\,{"id":1068\,"icon":667\,"category":668\,"title
- ":8\,"short_description":1055\,"long_description":1069\,"starts_at":1070\,
- "starts_at_date_only":24\,"ends_at":1071\,"ends_at_date_only":24\,"expecte
- d_end":24\,"source":572\,"schedules":1072\,"lines":1077\,"sort_date":1079}
+DESCRIPTION:edule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf"\,[1032]\
+ ,{"id":999\,"number":1000\,"transport_type":578\,"color":1001\,"start_poin
+ t":749\,"between_point":1002\,"end_point":900\,"route":1003\,"show_map":53
+ 9\,"url":1004}\,1782846900\,{"id":1035\,"icon":588\,"category":589\,"title
+ ":8\,"short_description":1022\,"long_description":1036\,"starts_at":1037\,
+ "starts_at_date_only":24\,"ends_at":1038\,"ends_at_date_only":24\,"expecte
+ d_end":24\,"source":573\,"schedules":1039\,"lines":1044\,"sort_date":1046}
  \,4243\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke
   (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zu
  gverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 2. Ju
@@ -691,9 +691,9 @@ DTEND;TZID=Europe/Berlin:20260706T014500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-
  58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:t_date_only":24\,"ends_at":1085\,"ends_at_date_only":24\,"expe
- cted_end":24\,"source":572\,"schedules":1086\,"lines":1091\,"sort_date":10
- 93}\,4258\,"RB 58: Fahrplanabweichung: Osnabrück Hbf ↔ Lohne (Oldb) | V
+DESCRIPTION:t_date_only":24\,"ends_at":1052\,"ends_at_date_only":24\,"expe
+ cted_end":24\,"source":573\,"schedules":1053\,"lines":1058\,"sort_date":10
+ 60}\,4258\,"RB 58: Fahrplanabweichung: Osnabrück Hbf ↔ Lohne (Oldb) | V
  echta"\,"Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG)
   werden einige Zugverbindungen in den späten Abend- und Nachtstunden von 
  Freitag\, 3. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Lo
@@ -715,13 +715,13 @@ DTEND;TZID=Europe/Berlin:20260714T014500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-
  58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:07-bis-05-07-2026.pdf"\,[1092]\,{"id":611\,"number":612\,"tran
- sport_type":577\,"color":613\,"start_point":614\,"between_point":615\,"end
- _point":580\,"route":616\,"show_map":539\,"url":617}\,1783106100\,{"id":10
- 95\,"icon":667\,"category":668\,"title":8\,"short_description":1082\,"long
- _description":1096\,"starts_at":1097\,"starts_at_date_only":24\,"ends_at":
- 1098\,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"schedules"
- :1099\,"lines":1104\,"sort_date":1106}\,4259\,"Aufgrund von Gleiserneuerun
+DESCRIPTION:s-05-07-2026.pdf"\,[1059]\,{"id":999\,"number":1000\,"transpor
+ t_type":578\,"color":1001\,"start_point":749\,"between_point":1002\,"end_p
+ oint":900\,"route":1003\,"show_map":539\,"url":1004}\,1783106100\,{"id":10
+ 62\,"icon":588\,"category":589\,"title":8\,"short_description":1049\,"long
+ _description":1063\,"starts_at":1064\,"starts_at_date_only":24\,"ends_at":
+ 1065\,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"schedules"
+ :1066\,"lines":1071\,"sort_date":1073}\,4259\,"Aufgrund von Gleiserneuerun
  gen und Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zug
  verbindungen von Montagmorgen\, 6. Juli\, bis Montag\, 13. Juli\, zwischen
   Osnabrück&nbsp\;Hbf und Lohne (Oldb) durch einen Ersatzverkehr mit Busse
@@ -739,9 +739,9 @@ DTEND;TZID=Europe/Berlin:20260727T014500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-
  58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
 CATEGORIES:RB58
-DESCRIPTION:9\,"long_description":1110\,"starts_at":1111\,"starts_at_date_
- only":24\,"ends_at":1112\,"ends_at_date_only":24\,"expected_end":24\,"sour
- ce":572\,"schedules":1113\,"lines":1118\,"sort_date":1120}\,4263\,"RB 58: 
+DESCRIPTION:6\,"long_description":1077\,"starts_at":1078\,"starts_at_date_
+ only":24\,"ends_at":1079\,"ends_at_date_only":24\,"expected_end":24\,"sour
+ ce":573\,"schedules":1080\,"lines":1085\,"sort_date":1087}\,4263\,"RB 58: 
  Fahrplanabweichung: Bremen Hbf ↔ Osnabrück Hbf "\,"Aufgrund von Gleiser
  neuerungen und von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
  H-Streckencontainer) der Deutschen Bahn (DB InfraGO AG) können die Züge 
@@ -763,22 +763,22 @@ DTEND;TZID=Europe/Berlin:20260706T231500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-
  59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
 CATEGORIES:RB59
-DESCRIPTION:12\,"transport_type":577\,"color":613\,"start_point":614\,"bet
- ween_point":615\,"end_point":580\,"route":616\,"show_map":539\,"url":617}\
- ,1783995300\,{"id":1122\,"icon":667\,"category":668\,"title":8\,"short_des
- cription":1123\,"long_description":1124\,"starts_at":1125\,"starts_at_date
- _only":24\,"ends_at":1126\,"ends_at_date_only":24\,"expected_end":24\,"sou
- rce":572\,"schedules":1127\,"lines":1132\,"sort_date":1134}\,4242\,"RB 59:
-  Fahrplanabweichung: Wilhelmshaven ↔ Esens (Ostfriesl) "\,"Aufgrund von 
- Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Containe
- r) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2  Zugverbindungen in
-  den späten Abendstunden am Mittwoch\, 1. Juli\, und Montag\, 6. Juli\, z
- wischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit 
- Bussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen Auskunft
- smedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](https://w
- ww.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps:
- //download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-59-ersatzf
- ahrplan-am-01-07-und-06-07-2026.pdf
+DESCRIPTION:transport_type":578\,"color":1001\,"start_point":749\,"between
+ _point":1002\,"end_point":900\,"route":1003\,"show_map":539\,"url":1004}\,
+ 1783995300\,{"id":1089\,"icon":588\,"category":589\,"title":8\,"short_desc
+ ription":1090\,"long_description":1091\,"starts_at":1092\,"starts_at_date_
+ only":24\,"ends_at":1093\,"ends_at_date_only":24\,"expected_end":24\,"sour
+ ce":573\,"schedules":1094\,"lines":1099\,"sort_date":1107}\,4242\,"RB 59: 
+ Fahrplanabweichung: Wilhelmshaven ↔ Esens (Ostfriesl) "\,"Aufgrund von I
+ nstandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container
+ ) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2  Zugverbindungen in 
+ den späten Abendstunden am Mittwoch\, 1. Juli\, und Montag\, 6. Juli\, zw
+ ischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit B
+ ussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen Auskunfts
+ medien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](https://ww
+ w.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps:/
+ /download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-59-ersatzfa
+ hrplan-am-01-07-und-06-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB59 – Baustelle
@@ -787,22 +787,22 @@ DTEND;TZID=Europe/Berlin:20260721T070000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-
  59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
 CATEGORIES:RB59
-DESCRIPTION:netary-networks.de/transdev/uploads/TENANT/schedule/1506083/rb
- -59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf"\,[1133]\,{"id":639\,"numbe
- r":640\,"transport_type":577\,"color":641\,"start_point":642\,"between_poi
- nt":643\,"end_point":471\,"route":644\,"show_map":539\,"url":645}\,1782936
- 000\,{"id":1136\,"icon":667\,"category":668\,"title":8\,"short_description
- ":1123\,"long_description":1137\,"starts_at":1138\,"starts_at_date_only":2
- 4\,"ends_at":1139\,"ends_at_date_only":24\,"expected_end":24\,"source":572
- \,"schedules":1140\,"lines":1145\,"sort_date":1147}\,4268\,"Aufgrund von B
- ahnübergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zugver
- bindungen von Freitagabend\, 17. Juli\, bis Dienstagmorgen\, 21. Juli\, zw
- ischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit B
- ussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen Auskunfts
- medien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](https://ww
- w.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps:/
- /download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfa
- hrplan-vom-17-07-bis-21-07-2026.pdf
+DESCRIPTION:f"\,[1100]\,{"id":1101\,"number":1102\,"transport_type":578\,"
+ color":880\,"start_point":1103\,"between_point":1104\,"end_point":471\,"ro
+ ute":1105\,"show_map":539\,"url":1106}\,20\,"RB 59"\,"Esens"\,"Sande"\,"Es
+ ens ↔ Sande ↔ Wilhelmshaven"\,"/de/weser-ems/unsere-linien/linie/rb-59
+ "\,1782936000\,{"id":1109\,"icon":588\,"category":589\,"title":8\,"short_d
+ escription":1090\,"long_description":1110\,"starts_at":1111\,"starts_at_da
+ te_only":24\,"ends_at":1112\,"ends_at_date_only":24\,"expected_end":24\,"s
+ ource":573\,"schedules":1113\,"lines":1118\,"sort_date":1120}\,4268\,"Aufg
+ rund von Bahnübergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden 
+ die Zugverbindungen von Freitagabend\, 17. Juli\, bis Dienstagmorgen\, 21.
+  Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzver
+ kehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den digitalen
+  Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.de](
+ https://www.fahrplaner.de) abrufbar und können hier als\n\nErsatzfahrplan
+ :\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-5
+ 9-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB74 – Baustelle
@@ -811,9 +811,9 @@ DTEND;TZID=Europe/Berlin:20260704T021500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506086/rb-
  74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
 CATEGORIES:RB74
-DESCRIPTION:escription":1151\,"starts_at":1152\,"starts_at_date_only":24\,
- "ends_at":1153\,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"
- schedules":1154\,"lines":1159\,"sort_date":1161}\,4245\,"RB 74: Fahrplanab
+DESCRIPTION:escription":1124\,"starts_at":1125\,"starts_at_date_only":24\,
+ "ends_at":1126\,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"
+ schedules":1127\,"lines":1132\,"sort_date":1134}\,4245\,"RB 74: Fahrplanab
  weichung: Bielefeld Hbf ↔ Paderborn Hbf "\,"Aufgrund von Instandhaltungs
  arbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutsche
  n Bahn (DB InfraGO AG) fallen vier Zugverbindungen in den späten Abend- u
@@ -835,11 +835,11 @@ DTEND;TZID=Europe/Berlin:20260801T021500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506093/rb-
  74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
 CATEGORIES:RB74
-DESCRIPTION:nt":11\,"end_point":592\,"route":593\,"show_map":539\,"url":59
- 4}\,1783098000\,{"id":1163\,"icon":667\,"category":668\,"title":8\,"short_
- description":1150\,"long_description":1164\,"starts_at":1165\,"starts_at_d
- ate_only":24\,"ends_at":1166\,"ends_at_date_only":24\,"expected_end":24\,"
- source":572\,"schedules":1167\,"lines":1172\,"sort_date":1174}\,4252\,"Auf
+DESCRIPTION:nt":11\,"end_point":581\,"route":582\,"show_map":539\,"url":58
+ 3}\,1783098000\,{"id":1136\,"icon":588\,"category":589\,"title":8\,"short_
+ description":1123\,"long_description":1137\,"starts_at":1138\,"starts_at_d
+ ate_only":24\,"ends_at":1139\,"ends_at_date_only":24\,"expected_end":24\,"
+ source":573\,"schedules":1140\,"lines":1145\,"sort_date":1147}\,4252\,"Auf
  grund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecke
  n-Container) der Deutschen Bahn (DB InfraGO AG) fallen vier Zugverbindunge
  n in den späten Abend- und Nachtstunden von Freitag\, 31. Juli\, bis Sams
@@ -859,12 +859,12 @@ DTEND;TZID=Europe/Berlin:20260625T060000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506075/rb-
  75-ersatzfahrplan-vom-24-06-bis-25-06-2026.pdf
 CATEGORIES:RB75
-DESCRIPTION::105\,"number":590\,"transport_type":577\,"color":578\,"start_
- point":591\,"between_point":11\,"end_point":592\,"route":593\,"show_map":5
- 39\,"url":594}\,1785517200\,{"id":1176\,"icon":667\,"category":668\,"title
- ":8\,"short_description":1177\,"long_description":1178\,"starts_at":1179\,
- "starts_at_date_only":24\,"ends_at":1180\,"ends_at_date_only":24\,"expecte
- d_end":24\,"source":572\,"schedules":1181\,"lines":1186\,"sort_date":1188}
+DESCRIPTION::105\,"number":577\,"transport_type":578\,"color":579\,"start_
+ point":580\,"between_point":11\,"end_point":581\,"route":582\,"show_map":5
+ 39\,"url":583}\,1785517200\,{"id":1149\,"icon":588\,"category":589\,"title
+ ":8\,"short_description":1150\,"long_description":1151\,"starts_at":1152\,
+ "starts_at_date_only":24\,"ends_at":1153\,"ends_at_date_only":24\,"expecte
+ d_end":24\,"source":573\,"schedules":1154\,"lines":1159\,"sort_date":1166}
  \,4234\,"RB 75: Fahrplanabweichung: Osnabrück Hbf ↔ Wellendorf "\,"Aufg
  rund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke der Deutsch
  en Bahn (DB InfraGO AG) werden sechs Zugverbindungen von Mittwochabend\, 2
@@ -883,22 +883,22 @@ DTEND;TZID=Europe/Berlin:20260705T023000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506085/rb-
  75-ersatzfahrplan-vom-02-07-bis-05-07-2026.pdf
 CATEGORIES:RB75
-DESCRIPTION:rt_point":606\,"between_point":607\,"end_point":591\,"route":6
- 08\,"show_map":539\,"url":609}\,1782327600\,{"id":1190\,"icon":667\,"categ
- ory":668\,"title":8\,"short_description":1191\,"long_description":1192\,"s
- tarts_at":1193\,"starts_at_date_only":24\,"ends_at":1194\,"ends_at_date_on
- ly":24\,"expected_end":24\,"source":572\,"schedules":1195\,"lines":1200\,"
- sort_date":1202}\,4244\,"RB 75: Fahrplanabweichung: Osnabrück Hbf ↔ Bie
- lefeld Hbf "\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/S
- trecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden e
- inige Zugverbindungen in den späten Abend- und Nachtstunden von Donnersta
- g\, 2. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Bielefel
- d Hbf durch einen Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänder
- ungen sind in den digitalen Auskunftsmedien unter [bahn.de](https://www.ba
- hn.de)\, [fahrplaner.de](https://www.fahrplaner.de) und [mobil.nrw](https:
- //www.mobil.nrw) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps:/
- /download.transdev.de/transdev/uploads/nwb/schedule/1506085/rb-75-ersatzfa
- hrplan-vom-02-07-bis-05-07-2026.pdf
+DESCRIPTION:. OWL-Arena ↔ Bielefeld Hbf"\,"/de/ostwestfalen/unsere-linie
+ n/linie/rb-75-haller-willem"\,1782327600\,{"id":1168\,"icon":588\,"categor
+ y":589\,"title":8\,"short_description":1169\,"long_description":1170\,"sta
+ rts_at":1171\,"starts_at_date_only":24\,"ends_at":1172\,"ends_at_date_only
+ ":24\,"expected_end":24\,"source":573\,"schedules":1173\,"lines":1178\,"so
+ rt_date":1180}\,4244\,"RB 75: Fahrplanabweichung: Osnabrück Hbf ↔ Biele
+ feld Hbf "\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Str
+ ecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden ein
+ ige Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\
+ , 2. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Bielefeld 
+ Hbf durch einen Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderun
+ gen sind in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn
+ .de)\, [fahrplaner.de](https://www.fahrplaner.de) und [mobil.nrw](https://
+ www.mobil.nrw) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps://d
+ ownload.transdev.de/transdev/uploads/nwb/schedule/1506085/rb-75-ersatzfahr
+ plan-vom-02-07-bis-05-07-2026.pdf
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RB75 – Baustelle
@@ -907,12 +907,12 @@ DTEND;TZID=Europe/Berlin:20260723T060000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-
  75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
 CATEGORIES:RB75
-DESCRIPTION:er":604\,"transport_type":577\,"color":605\,"start_point":606\
- ,"between_point":607\,"end_point":591\,"route":608\,"show_map":539\,"url":
- 609}\,1783020600\,{"id":1204\,"icon":667\,"category":668\,"title":8\,"shor
- t_description":1177\,"long_description":1205\,"starts_at":1206\,"starts_at
- _date_only":24\,"ends_at":1207\,"ends_at_date_only":24\,"expected_end":24\
- ,"source":572\,"schedules":1208\,"lines":1213\,"sort_date":1215}\,4248\,"A
+DESCRIPTION:161\,"transport_type":578\,"color":836\,"start_point":1162\,"b
+ etween_point":1163\,"end_point":580\,"route":1164\,"show_map":539\,"url":1
+ 165}\,1783020600\,{"id":1182\,"icon":588\,"category":589\,"title":8\,"shor
+ t_description":1150\,"long_description":1183\,"starts_at":1184\,"starts_at
+ _date_only":24\,"ends_at":1185\,"ends_at_date_only":24\,"expected_end":24\
+ ,"source":573\,"schedules":1186\,"lines":1191\,"sort_date":1193}\,4248\,"A
  ufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strec
  ken-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindu
  ngen in den späten Abend-\, Nacht- und frühen Morgenstunden von Mittwoch
@@ -931,13 +931,13 @@ DTEND;TZID=Europe/Berlin:20260802T023000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506092/rb-
  75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
 CATEGORIES:RB75
-DESCRIPTION:d":140\,"number":604\,"transport_type":577\,"color":605\,"star
- t_point":606\,"between_point":607\,"end_point":591\,"route":608\,"show_map
- ":539\,"url":609}\,1784746800\,{"id":1217\,"icon":667\,"category":668\,"ti
- tle":8\,"short_description":1191\,"long_description":1218\,"starts_at":121
- 9\,"starts_at_date_only":24\,"ends_at":1220\,"ends_at_date_only":24\,"expe
- cted_end":24\,"source":572\,"schedules":1221\,"lines":1226\,"sort_date":12
- 28}\,4251\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Stre
+DESCRIPTION:0\,"number":1161\,"transport_type":578\,"color":836\,"start_po
+ int":1162\,"between_point":1163\,"end_point":580\,"route":1164\,"show_map"
+ :539\,"url":1165}\,1784746800\,{"id":1195\,"icon":588\,"category":589\,"ti
+ tle":8\,"short_description":1169\,"long_description":1196\,"starts_at":119
+ 7\,"starts_at_date_only":24\,"ends_at":1198\,"ends_at_date_only":24\,"expe
+ cted_end":24\,"source":573\,"schedules":1199\,"lines":1204\,"sort_date":12
+ 06}\,4251\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Stre
  cke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden eini
  ge Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\,
   30. Juli\, bis Sonntag\, 2. August\, zwischen Osnabrück Hbf und Bielefel
@@ -955,12 +955,12 @@ DTEND;TZID=Europe/Berlin:20260628T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506053/rb-
  84-ersatzfahrplan-vom-25-06-bis-27-06-2026.pdf
 CATEGORIES:RB84
-DESCRIPTION:":606\,"between_point":607\,"end_point":591\,"route":608\,"sho
- w_map":539\,"url":609}\,1785439800\,{"id":1230\,"icon":667\,"category":668
- \,"title":8\,"short_description":1231\,"long_description":1232\,"starts_at
- ":1233\,"starts_at_date_only":24\,"ends_at":1234\,"ends_at_date_only":24\,
- "expected_end":24\,"source":572\,"schedules":1235\,"lines":1240\,"sort_dat
- e":1242}\,4204\,"RB 84: Fahrplanabweichung: Paderborn Hbf ↔ Holzminden "
+DESCRIPTION:62\,"between_point":1163\,"end_point":580\,"route":1164\,"show
+ _map":539\,"url":1165}\,1785439800\,{"id":1208\,"icon":588\,"category":589
+ \,"title":8\,"short_description":1209\,"long_description":1210\,"starts_at
+ ":1211\,"starts_at_date_only":24\,"ends_at":1212\,"ends_at_date_only":24\,
+ "expected_end":24\,"source":573\,"schedules":1213\,"lines":1218\,"sort_dat
+ e":1225}\,4204\,"RB 84: Fahrplanabweichung: Paderborn Hbf ↔ Holzminden "
  \,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-
  Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindunge
  n in den späten Abend- und Nachtstunden von Dienstag\, 25. Juni\, bis Sam
@@ -979,12 +979,12 @@ DTEND;TZID=Europe/Berlin:20260709T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506087/rb-
  84-ersatzfahrplan-vom-06-07-bis-08-07-2026.pdf
 CATEGORIES:RB84
-DESCRIPTION:or":613\,"start_point":592\,"between_point":627\,"end_point":6
- 28\,"route":629\,"show_map":539\,"url":630}\,1782414000\,{"id":1244\,"icon
- ":667\,"category":668\,"title":8\,"short_description":1231\,"long_descript
- ion":1245\,"starts_at":1246\,"starts_at_date_only":24\,"ends_at":1247\,"en
- ds_at_date_only":24\,"expected_end":24\,"source":572\,"schedules":1248\,"l
- ines":1254\,"sort_date":1256}\,4246\,"Aufgrund von Instandhaltungsarbeiten
+DESCRIPTION:en"\,"Paderborn Hbf ↔ Holzminden ↔ Kreiensen"\,"/de/ostwes
+ tfalen/unsere-linien/linie/rb-84-egge-bahn"\,1782414000\,{"id":1227\,"icon
+ ":588\,"category":589\,"title":8\,"short_description":1209\,"long_descript
+ ion":1228\,"starts_at":1229\,"starts_at_date_only":24\,"ends_at":1230\,"en
+ ds_at_date_only":24\,"expected_end":24\,"source":573\,"schedules":1231\,"l
+ ines":1237\,"sort_date":1239}\,4246\,"Aufgrund von Instandhaltungsarbeiten
   an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (
  DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nac
  htstunden von Montag\, 6. Juli\, bis Mittwoch\, 8. Juli\, zwischen Paderbo
@@ -1002,12 +1002,12 @@ DTEND;TZID=Europe/Berlin:20260725T004500
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506090/rb-
  84-ersatzfahrplan-am-23-07-und-24-07-2026.pdf
 CATEGORIES:RB84
-DESCRIPTION:r":626\,"transport_type":577\,"color":613\,"start_point":592\,
- "between_point":627\,"end_point":628\,"route":629\,"show_map":539\,"url":6
- 30}\,1783364400\,{"id":1258\,"icon":667\,"category":668\,"title":8\,"short
- _description":1231\,"long_description":1259\,"starts_at":1260\,"starts_at_
- date_only":24\,"ends_at":1261\,"ends_at_date_only":24\,"expected_end":24\,
- "source":572\,"schedules":1262\,"lines":1267\,"sort_date":1269}\,4249\,"Au
+DESCRIPTION:0\,"transport_type":578\,"color":1001\,"start_point":581\,"bet
+ ween_point":1221\,"end_point":1222\,"route":1223\,"show_map":539\,"url":12
+ 24}\,1783364400\,{"id":1241\,"icon":588\,"category":589\,"title":8\,"short
+ _description":1209\,"long_description":1242\,"starts_at":1243\,"starts_at_
+ date_only":24\,"ends_at":1244\,"ends_at_date_only":24\,"expected_end":24\,
+ "source":573\,"schedules":1245\,"lines":1250\,"sort_date":1252}\,4249\,"Au
  fgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Streck
  en-Container) der Deutschen Bahn (DB InfraGO AG) werden acht Zugverbindung
  en in den späten Abend- und Nachtstunden am Donnerstag\, 23. Juli\, und F
@@ -1026,11 +1026,11 @@ DTEND;TZID=Europe/Berlin:20260715T233000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506088/rb-
  85-ersatzfahrplan-am-15-07-2026.pdf
 CATEGORIES:RB85
-DESCRIPTION:627\,"end_point":628\,"route":629\,"show_map":539\,"url":630}\
- ,1784833200\,{"id":1271\,"icon":667\,"category":668\,"title":8\,"short_des
- cription":1272\,"long_description":1273\,"starts_at":1274\,"starts_at_date
- _only":24\,"ends_at":1275\,"ends_at_date_only":24\,"expected_end":24\,"sou
- rce":572\,"schedules":1276\,"lines":1281\,"sort_date":1283}\,4247\,"RB 85:
+DESCRIPTION:\,"end_point":1222\,"route":1223\,"show_map":539\,"url":1224}\
+ ,1784833200\,{"id":1254\,"icon":588\,"category":589\,"title":8\,"short_des
+ cription":1255\,"long_description":1256\,"starts_at":1257\,"starts_at_date
+ _only":24\,"ends_at":1258\,"ends_at_date_only":24\,"expected_end":24\,"sou
+ rce":573\,"schedules":1259\,"lines":1264\,"sort_date":1272}\,4247\,"RB 85:
   Fahrplanabweichung: Göttingen ↔ Höxter-Ottbergen "\,"Aufgrund von Ins
  tandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) 
  der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den spä
@@ -1050,21 +1050,21 @@ DTEND;TZID=Europe/Berlin:20260723T233000
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506091/rb-
  85-ersatzfahrplan-am-23-07-2026.pdf
 CATEGORIES:RB85
-DESCRIPTION:_type":577\,"color":621\,"start_point":633\,"between_point":63
- 4\,"end_point":635\,"route":636\,"show_map":539\,"url":637}\,1784140200\,{
- "id":1285\,"icon":667\,"category":668\,"title":8\,"short_description":1272
- \,"long_description":1286\,"starts_at":1287\,"starts_at_date_only":24\,"en
- ds_at":1288\,"ends_at_date_only":24\,"expected_end":24\,"source":572\,"sch
- edules":1289\,"lines":1294\,"sort_date":1296}\,4250\,"Aufgrund von Instand
- haltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der 
- Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten 
- Abend- und Nachtstunden am Donnerstag\, 23. Juli\, zwischen Göttingen und
-  Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es z
- u Fahrtzeitänderungen von Bodenfelde nach Höxter-Ottbergen.\n\nAlle Fahr
- planänderungen sind in den digitalen Auskunftsmedien unter [bahn.de](http
- s://www.bahn.de)\, [fahrplaner.de](https://www.fahrplaner.de) und [mobil.n
- rw](https://www.mobil.nrw) abrufbar und können hier als\n\nErsatzfahrplan
- :\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506091/rb-8
- 5-ersatzfahrplan-am-23-07-2026.pdf
+DESCRIPTION:Göttingen"\,"Höxter-Ottbergen ↔ Bodenfelde ↔ Göttingen"
+ \,"/de/ostwestfalen/unsere-linien/linie/rb-85-oberweser-bahn"\,1784140200\
+ ,{"id":1274\,"icon":588\,"category":589\,"title":8\,"short_description":12
+ 55\,"long_description":1275\,"starts_at":1276\,"starts_at_date_only":24\,"
+ ends_at":1277\,"ends_at_date_only":24\,"expected_end":24\,"source":573\,"s
+ chedules":1278\,"lines":1283\,"sort_date":1285}\,4250\,"Aufgrund von Insta
+ ndhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) de
+ r Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späte
+ n Abend- und Nachtstunden am Donnerstag\, 23. Juli\, zwischen Göttingen u
+ nd Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es
+  zu Fahrtzeitänderungen von Bodenfelde nach Höxter-Ottbergen.\n\nAlle Fa
+ hrplanänderungen sind in den digitalen Auskunftsmedien unter [bahn.de](ht
+ tps://www.bahn.de)\, [fahrplaner.de](https://www.fahrplaner.de) und [mobil
+ .nrw](https://www.mobil.nrw) abrufbar und können hier als\n\nErsatzfahrpl
+ an:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506091/rb
+ -85-ersatzfahrplan-am-23-07-2026.pdf
 END:VEVENT
 END:VCALENDAR
