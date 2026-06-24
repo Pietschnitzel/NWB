@@ -86,49 +86,42 @@ def extract_description(block):
 def extract_events(raw):
     raw = preprocess(raw)
 
-    log.info("Searching incident blocks...")
+    log.info("Searching ALL incidents (no type dependency)...")
 
-    # STEP 1: split into incident chunks (IMPORTANT FIX)
-    blocks = re.split(r"(interruption-[\w-]+)", raw)
+    # STEP 1: find ALL PDFs first (anchor points)
+    pdfs = list(re.finditer(r"https?://[^\s\"')]+\.pdf", raw))
+
+    log.info(f"PDF anchors found: {len(pdfs)}")
 
     events = []
-    current_type = None
 
-    for part in blocks:
+    for p in pdfs:
+        pdf = normalize_pdf_url(p.group(0))
 
-        if part.startswith("interruption-"):
-            current_type = part
-            continue
+        idx = p.start()
+        window = raw[max(0, idx - 2500): idx + 2500]
 
-        if not current_type:
-            continue
-
-        block = part
-
-        # STEP 2: extract line (independent)
-        line_match = re.search(r"\b(RS|RB|RE)\s?\d+", block)
+        # STEP 2: line extraction (independent)
+        line_match = re.search(r"\b(RS|RB|RE)\s?\d+", window)
         line = line_match.group(0).replace(" ", "").upper() if line_match else "UNKNOWN"
 
-        # STEP 3: extract PDF
-        pdf_match = re.search(r"https?://[^\s\"')]+\.pdf", block)
-        if not pdf_match:
-            continue
-
-        pdf = normalize_pdf_url(pdf_match.group(0))
-
-        # STEP 4: extract time
-        start, end = extract_times(block)
+        # STEP 3: time extraction
+        start, end = extract_times(window)
         if not start:
-            log.warning(f"Skipping {line}: no timestamp")
+            log.warning(f"Skipping {line}: no time found")
             continue
         if not end:
             end = start
 
-        # STEP 5: description
-        desc = extract_description(block)
+        # STEP 4: description
+        desc = extract_description(window)
+
+        # STEP 5: optional incident type (non-blocking)
+        type_match = re.search(r"interruption-[\w-]+", window)
+        incident_type = type_match.group(0) if type_match else "unknown"
 
         events.append({
-            "type": current_type,
+            "type": incident_type,
             "line": line,
             "start": start,
             "end": end,
@@ -136,9 +129,7 @@ def extract_events(raw):
             "description": desc
         })
 
-        log.info(f"Event: {line} | {current_type}")
-
-        current_type = None
+        log.info(f"Event: {line} | {incident_type}")
 
     log.info(f"Total events: {len(events)}")
     return events
