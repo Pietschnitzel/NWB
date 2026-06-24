@@ -129,6 +129,18 @@ def group_by_line(events):
 # ------------------------------------------------------------
 # ICS BUILD (FIXED)
 # ------------------------------------------------------------
+def ics_escape(text: str) -> str:
+    if not text:
+        return ""
+
+    return (
+        text.replace("\\", "\\\\")
+            .replace(";", r"\;")
+            .replace(",", r"\,")
+            .replace("\n", r"\n")
+            .replace("\r", "")
+    )
+    
 def to_ics(dt):
     return dt.replace(":", "").replace("-", "").split("+")[0]
 
@@ -147,25 +159,22 @@ def build_ics(grouped):
         ]
 
         for e in events:
-
-            # 🔥 SAFE DESCRIPTION (FIX APPLIED HERE)
             desc = e.get("description", "")
-            if not desc:
-                desc = "Fahrplanabweichung"
-
-            description = f"{desc}\n\nErsatzfahrplan:\n{e['pdf']}"
-
+            
+            pdf = e["pdf"]
+            
+            description = f"{desc}\n\nErsatzfahrplan:\n{pdf}"
+            
             ics.extend([
                 "BEGIN:VEVENT",
                 f"UID:{e['pdf']}",
                 f"SUMMARY:{line} – Baustelle",
                 f"DTSTART:{to_ics(e['start'])}",
                 f"DTEND:{to_ics(e['end'])}",
-                f"DESCRIPTION:{description}",
+                f"DESCRIPTION:{ics_escape(description)}",
                 f"CATEGORIES:{line}",
                 "END:VEVENT"
             ])
-
         ics.append("END:VCALENDAR")
 
         output[line.lower()] = "\n".join(ics)
