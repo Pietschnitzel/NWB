@@ -1,177 +1,235 @@
-from pathlib import Path
-from datetime import datetime
-import logging
 import re
 import requests
-from icalendar import Calendar, Event
-from zoneinfo import ZoneInfo
+import urllib.parse
 from collections import defaultdict
+from datetime import datetime
+import logging
 
 URL = "https://www.nordwestbahn.de/de/service/deine-reiseplanung/meldungen"
-OUT_DIR = Path("feeds")
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s"
-)
-log = logging.getLogger("scraper")
+logging.basicConfig(level=logging.INFO)
 
 
-# ---------------- URL NORMALIZATION ----------------
+# ------------------------------------------------------------
+# 1. FETCH
+# ------------------------------------------------------------
+def fetch(url: str) -> str:
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.text
+
+
+# ------------------------------------------------------------
+# 2. PDF URL NORMALIZATION
+# ------------------------------------------------------------
 def normalize_pdf_url(url: str) -> str:
     if not url:
-        return ""
+        return None
 
-    url = url.replace("\\u002F", "/").replace("\\/", "/")
-    url = requests.utils.unquote(url)
+    url = url.replace("\\u002F", "/")
+    url = urllib.parse.unquote(url)
 
-    m = re.search(r"schedule/\d+/.+\.pdf", url)
+    # Fix escaped slashes
+    url = url.replace("\\/", "/")
+
+    # Extract only PDF portion
+    match = re.search(r"https?://[^\\s\"'<>]+?\\.pdf", url)
+    if not match:
+        return None
+
+    url = match.group(0)
+
+    # canonical fix: s3 -> download.transdev mapping
+    if "s3.storage.planetary-networks.de" in url:
+        path = re.sub(
+            r"https?://s3\\.storage\\.planetary-networks\\.de/transdev/uploads/",
+            "",
+            url
+        )
+
+        # remove duplicate segments
+        path = re.sub(r"(nwb/)+", "nwb/", path)
+
+        url = "https://download.transdev.de/transdev/uploads/nwb/" + path
+
+    # final cleanup: remove duplicate slashes
+    url = re.sub(r"(?<!:)//+", "/", url)
+    url = url.replace("https:/", "https://")
+
+    return url
+
+
+# ------------------------------------------------------------
+# 3. LINE EXTRACTION
+# ------------------------------------------------------------
+LINE_REGEX = re.compile(r"\b(RS\s?\d+|RB\s?\d+|RE\s?\d+)\b", re.IGNORECASE)
+
+def extract_line(text: str) -> str:
+    m = LINE_REGEX.search(text)
     if not m:
-        return url
+        return "UNKNOWN"
+    return m.group(1).replace(" ", "").upper()
 
-    return f"https://download.transdev.de/transdev/uploads/nwb/{m.group(0)}"
 
-
-# ---------------- TIME EXTRACTION ----------------
-ISO_RE = re.compile(
-    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+-]\d{2}:\d{2}"
+# ------------------------------------------------------------
+# 4. TIME EXTRACTION
+# ------------------------------------------------------------
+TIME_REGEX = re.compile(
+    r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+\-]\d{2}:\d{2}"
 )
 
 def extract_times(text: str):
-    if not text:
-        return None, None
-
-    matches = ISO_RE.findall(text)
+    matches = TIME_REGEX.findall(text)
     if len(matches) < 2:
         return None, None
-
-    try:
-        return (
-            datetime.fromisoformat(matches[0]),
-            datetime.fromisoformat(matches[1])
-        )
-    except Exception:
-        return None, None
+    return matches[0], matches[1]
 
 
-# ---------------- LINE EXTRACTION ----------------
-def extract_line(text: str):
-    if not text:
-        return "UNKNOWN"
+# ------------------------------------------------------------
+# 5. DESCRIPTION EXTRACTION
+# ------------------------------------------------------------
+def extract_description(window: str) -> str:
+    # focus on German sentence blocks
+    start_markers = ["Aufgrund", "Betroffen"]
+    stop_markers = ["Alle Fahrplanänderungen", ".pdf", "[bahn.de"]
 
-    t = text.upper()
-    t = re.sub(r"https?://\S+", " ", t)
+    lines = window.splitlines()
+    collected = []
+    capture = False
 
-    match = re.search(r"\b(RS|RB|RE)\s?-?\s?\d+\b", t)
-    if not match:
-        return "UNKNOWN"
+    for line in lines:
+        if any(m in line for m in start_markers):
+            capture = True
 
-    return match.group(0).replace(" ", "").replace("-", "")
+        if capture:
+            if any(m in line for m in stop_markers):
+                break
 
+            # strip URLs
+            line = re.sub(r"https?://\\S+", "", line)
+            line = re.sub(r"\\s+", " ", line).strip()
 
-# ---------------- DESCRIPTION CLEANING ----------------
-def extract_description(text: str):
-    if not text:
-        return ""
+            if line:
+                collected.append(line)
 
-    cut_markers = ["PDF-DOKUMENT", "DOWNLOAD", "HERUNTERLADEN"]
-
-    for m in cut_markers:
-        idx = text.upper().find(m)
-        if idx != -1:
-            text = text[:idx]
-
-    return text.strip()
+    return " ".join(collected).strip()
 
 
-# =========================================================
-# STEP 1–4 FIXED FETCH PIPELINE
-# =========================================================
+# ------------------------------------------------------------
+# 6. CONTEXT WINDOW EXTRACTION
+# ------------------------------------------------------------
+def get_context(text: str, match_start: int, match_end: int, size: int = 1000):
+    start = max(0, match_start - size)
+    end = min(len(text), match_end + size)
+    return text[start:end]
 
-def fetch():
-    log.info(f"Requesting {URL}")
 
-    raw = requests.get(URL, timeout=30).text
-    raw = raw.replace("\\u002F", "/").replace("\\r\\n", "\n")
-
-    pattern = re.compile(r"https://[^\"'\s]+?\.pdf")
-
-    seen = set()
+# ------------------------------------------------------------
+# 7. PARSE ITEMS
+# ------------------------------------------------------------
+def parse_items(raw: str):
     items = []
 
-    for m in pattern.finditer(raw):
-        pdf = normalize_pdf_url(m.group(0))
+    pdf_pattern = re.compile(r"https?\\\\?:?\\\\?/[^\\s\"']+?\\.pdf")
 
-        if pdf in seen:
+    for m in pdf_pattern.finditer(raw):
+        pdf_raw = m.group(0)
+        pdf_url = normalize_pdf_url(pdf_raw)
+
+        if not pdf_url:
             continue
-        seen.add(pdf)
 
-        items.append({
-            "pdf": pdf,
-            "anchor": m.start()
-        })
+        context = get_context(raw, m.start(), m.end())
 
-    log.info(f"PDF matches: {len(items)}")
-    return items, raw
-    
-def extract_context(raw, anchor, window=1200):
-    start = max(0, anchor - window)
-    end = min(len(raw), anchor + window)
-    return raw[start:end]
-
-# =========================================================
-# STEP 4: BUILD CALENDAR (single raw source)
-# =========================================================
-
-def build_calendar(items, raw):
-    cal = Calendar()
-    cal.add("prodid", "-//NWB Baustellen//")
-    cal.add("version", "2.0")
-
-    for item in items:
-        pdf = item["pdf"]
-        ctx = extract_context(raw, item["anchor"])
-
-        start, end = extract_times(ctx)
+        start, end = extract_times(context)
         if not start or not end:
             continue
 
-        line = extract_line(ctx)
-        desc = extract_description(ctx)
+        line = extract_line(context)
+        description = extract_description(context)
 
-        event = Event()
-        event.add("summary", f"{line} – Baustelle")
-        event.add("dtstart", start.astimezone(ZoneInfo("Europe/Berlin")))
-        event.add("dtend", end.astimezone(ZoneInfo("Europe/Berlin")))
-        event.add("uid", pdf)
+        items.append({
+            "line": line,
+            "start": start,
+            "end": end,
+            "pdf": pdf_url,
+            "description": description
+        })
 
-        event.add(
-            "description",
-            f"{desc}\n\nErsatzfahrplan:\n{pdf}"
-        )
+    # dedupe by PDF
+    deduped = {}
+    for i in items:
+        deduped[i["pdf"]] = i
 
-        event.add("categories", [line])
-
-        cal.add_component(event)
-
-    return cal
+    return list(deduped.values())
 
 
-# ---------------- SAVE ----------------
-def save_calendar(cal):
-    OUT_DIR.mkdir(exist_ok=True)
-    path = OUT_DIR / "baustellen.ics"
-
-    path.write_bytes(cal.to_ical())
-    log.info(f"Wrote {path}")
+# ------------------------------------------------------------
+# 8. ICS BUILDING
+# ------------------------------------------------------------
+def to_ics_datetime(dt: str) -> str:
+    return dt.replace(":", "").replace("-", "").split("+")[0]
 
 
-# ---------------- MAIN ----------------
+def build_calendars(items):
+    grouped = defaultdict(list)
+
+    for item in items:
+        grouped[item["line"]].append(item)
+
+    calendars = {}
+
+    for line, events in grouped.items():
+        ics = [
+            "BEGIN:VCALENDAR",
+            "VERSION:2.0",
+            "PRODID:-//Nordwestbahn Parser//DE"
+        ]
+
+        for e in events:
+            uid = e["pdf"]
+
+            desc = f"{e['description']}\n\nErsatzfahrplan:\n{e['pdf']}"
+
+            ics.extend([
+                "BEGIN:VEVENT",
+                f"UID:{uid}",
+                f"SUMMARY:{line} – Baustelle",
+                f"DTSTART:{to_ics_datetime(e['start'])}",
+                f"DTEND:{to_ics_datetime(e['end'])}",
+                f"DESCRIPTION:{desc}",
+                f"CATEGORIES:{line}",
+                "END:VEVENT"
+            ])
+
+        ics.append("END:VCALENDAR")
+        calendars[line.lower().replace(" ", "")] = "\n".join(ics)
+
+    return calendars
+
+
+# ------------------------------------------------------------
+# 9. SAVE OUTPUT
+# ------------------------------------------------------------
+def save_calendars(calendars: dict):
+    import os
+    os.makedirs("feeds", exist_ok=True)
+
+    for line, ics in calendars.items():
+        path = f"feeds/{line}.ics"
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(ics)
+        logging.info(f"Saved: {path}")
+
+
+# ------------------------------------------------------------
+# MAIN PIPELINE
+# ------------------------------------------------------------
 def main():
-    items, raw = fetch()
-    cal = build_calendar(items, raw)
-    save_calendar(cal)
-    log.info("Done")
+    raw = fetch(URL)
+    items = parse_items(raw)
+    calendars = build_calendars(items)
+    save_calendars(calendars)
 
 
 if __name__ == "__main__":
