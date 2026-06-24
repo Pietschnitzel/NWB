@@ -67,13 +67,18 @@ def extract_times(text):
 # DESCRIPTION EXTRACTION (ROBUST)
 # ------------------------------------------------------------
 def extract_description(block):
-    # 1. structured field
+    # 1. structured field (best case)
     m = re.search(r'"long_description"\s*:\s*"(.*?)"', block, re.DOTALL)
     if m:
         return m.group(1)
 
-    # 2. German fallback
-    m = re.search(r"(Aufgrund.*?)(?=\n\n|https|Alle Fahrplanänderungen|$)", block, re.DOTALL)
+    # 2. fallback: German text only, stop BEFORE JSON / arrays / metadata
+    m = re.search(
+        r"(Aufgrund.*?)(?=(\\r\\n|\\n|\"\,\s*\"\d{4}-|\{\s*\"id\"|\[\d+]|CATEGORIES:|https://|$))",
+        block,
+        re.DOTALL
+    )
+
     if m:
         return m.group(1).strip()
 
@@ -134,7 +139,16 @@ def extract_events(raw):
     log.info(f"Total events: {len(events)}")
     return events
 
+def sanitize_text(text: str) -> str:
+    # remove JSON fragments that still sneak in
+    text = re.sub(r'\{.*?\}', '', text)
+    text = re.sub(r'\[\d+\]', '', text)
+    text = re.sub(r'"\s*,\s*"', '', text)
 
+    # collapse whitespace
+    text = re.sub(r'\s+', ' ', text)
+
+    return text.strip()
 # ------------------------------------------------------------
 # GROUP
 # ------------------------------------------------------------
@@ -190,7 +204,9 @@ def build_ics(grouped):
 
         for e in events:
 
-            description = f"{e['description']}\n\nErsatzfahrplan:\n{e['pdf']}"
+            description = sanitize_text(
+                f"{e['description']}\n\nErsatzfahrplan:\n{e['pdf']}"
+            )
 
             ics.extend([
                 "BEGIN:VEVENT",
