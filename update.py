@@ -23,27 +23,16 @@ def fetch(url):
     return r.text
 
 
-# ------------------------------------------------------------
-# CLEAN ESCAPES
-# ------------------------------------------------------------
 def preprocess(raw):
-    raw = raw.replace("\\u002F", "/").replace("\\/", "/")
-    return raw
+    return raw.replace("\\u002F", "/").replace("\\/", "/")
 
 
 # ------------------------------------------------------------
-# LINE + TIME + PDF DETECTION
+# TIME EXTRACTION
 # ------------------------------------------------------------
-LINE_RE = re.compile(r"\b(RS\s?\d+|RB\s?\d+|RE\s?\d+)\b", re.IGNORECASE)
 TIME_RE = re.compile(
     r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+\-]\d{2}:\d{2}"
 )
-
-
-def extract_line(text):
-    m = LINE_RE.search(text)
-    return m.group(1).replace(" ", "").upper() if m else "UNKNOWN"
-
 
 def extract_times(text):
     t = TIME_RE.findall(text)
@@ -52,20 +41,14 @@ def extract_times(text):
     return t[0], t[1]
 
 
-def extract_pdf(text):
-    m = re.search(r"https?://[^\s\"')]+\.pdf", text)
-    return m.group(0) if m else None
-
-
 # ------------------------------------------------------------
-# CORE PARSER (YOUR REAL DATA MODEL)
+# MAIN EXTRACTION (WORKING VERSION)
 # ------------------------------------------------------------
 def extract_events(raw):
     raw = preprocess(raw)
 
     log.info("Searching incident blocks...")
 
-    # match full incident segments by type
     pattern = re.compile(
         r"(interruption-[\w-]+).*?"
         r"(RS\s?\d+|RB\s?\d+|RE\s?\d+).*?"
@@ -84,28 +67,32 @@ def extract_events(raw):
         line = m[1].replace(" ", "").upper()
         pdf = m[2]
 
-        # grab surrounding context for times + description
         idx = raw.find(pdf)
-        window = raw[max(0, idx-1200): idx+1200]
+        window = raw[max(0, idx - 1200): idx + 1200]
 
         start, end = extract_times(window)
 
         if not start or not end:
             continue
 
+        # SAFE description fallback (important fix)
+        desc_match = re.search(r"\"long_description\"\s*:\s*\"(.*?)\"", window)
+        description = desc_match.group(1) if desc_match else None
+
         events.append({
             "type": incident_type,
             "line": line,
             "start": start,
             "end": end,
-            "pdf": pdf
+            "pdf": pdf,
+            "description": description or ""
         })
 
         log.info(f"Event: {line} | {incident_type}")
 
     log.info(f"Total events: {len(events)}")
-
     return events
+
 
 # ------------------------------------------------------------
 # GROUP BY LINE
@@ -118,7 +105,7 @@ def group_by_line(events):
 
 
 # ------------------------------------------------------------
-# ICS HELPERS
+# ICS BUILD (FIXED)
 # ------------------------------------------------------------
 def to_ics(dt):
     return dt.replace(":", "").replace("-", "").split("+")[0]
@@ -138,26 +125,34 @@ def build_ics(grouped):
         ]
 
         for e in events:
+
+            # 🔥 SAFE DESCRIPTION (FIX APPLIED HERE)
+            desc = e.get("description", "")
+            if not desc:
+                desc = "Fahrplanabweichung"
+
+            description = f"{desc}\n\nErsatzfahrplan:\n{e['pdf']}"
+
             ics.extend([
                 "BEGIN:VEVENT",
                 f"UID:{e['pdf']}",
                 f"SUMMARY:{line} – Baustelle",
                 f"DTSTART:{to_ics(e['start'])}",
                 f"DTEND:{to_ics(e['end'])}",
-                f"DESCRIPTION:{e['description']}\n\nErsatzfahrplan:\n{e['pdf']}",
+                f"DESCRIPTION:{description}",
                 f"CATEGORIES:{line}",
                 "END:VEVENT"
             ])
 
         ics.append("END:VCALENDAR")
 
-        output[line.lower().replace(" ", "")] = "\n".join(ics)
+        output[line.lower()] = "\n".join(ics)
 
     return output
 
 
 # ------------------------------------------------------------
-# SAVE FILES
+# SAVE
 # ------------------------------------------------------------
 def save(files):
     import os
@@ -181,7 +176,7 @@ def main():
     events = extract_events(raw)
 
     if not events:
-        log.error("No events found — structure changed or parsing failed")
+        log.error("No events found")
         return
 
     grouped = group_by_line(events)
