@@ -26,29 +26,27 @@ def fetch(url):
 def preprocess(raw):
     return raw.replace("\\u002F", "/").replace("\\/", "/")
 
+
+# ------------------------------------------------------------
+# PDF NORMALIZATION
+# ------------------------------------------------------------
 def normalize_pdf_url(url: str) -> str:
     if not url:
         return url
 
     url = url.replace("\\u002F", "/").replace("\\/", "/")
 
-    # already correct
     if "download.transdev.de" in url:
         return url
 
-    # convert internal S3-style to public endpoint
     if "s3.storage.planetary-networks.de" in url:
-        # extract schedule path
-        m = re.search(r"/transdev/uploads/nwb/schedule/.*", url)
-        if m:
-            return "https://download.transdev.de" + m.group(0)
-
-        # fallback (your known structure)
         m = re.search(r"/schedule/\d+/.*\.pdf", url)
         if m:
             return "https://download.transdev.de/transdev/uploads/nwb" + m.group(0)
 
     return url
+
+
 # ------------------------------------------------------------
 # TIME EXTRACTION
 # ------------------------------------------------------------
@@ -58,88 +56,96 @@ TIME_RE = re.compile(
 
 def extract_times(text):
     t = TIME_RE.findall(text)
-    if len(t) < 2:
-        return None, None
-    return t[0], t[1]
+    if len(t) >= 2:
+        return t[0], t[1]
+    if len(t) == 1:
+        return t[0], t[0]
+    return None, None
 
 
 # ------------------------------------------------------------
-# MAIN EXTRACTION (WORKING VERSION)
+# DESCRIPTION EXTRACTION (ROBUST)
+# ------------------------------------------------------------
+def extract_description(block):
+    # 1. structured field
+    m = re.search(r'"long_description"\s*:\s*"(.*?)"', block, re.DOTALL)
+    if m:
+        return m.group(1)
+
+    # 2. German fallback
+    m = re.search(r"(Aufgrund.*?)(?=\n\n|https|Alle Fahrplanänderungen|$)", block, re.DOTALL)
+    if m:
+        return m.group(1).strip()
+
+    return "Fahrplanabweichung im Streckennetz."
+
+
+# ------------------------------------------------------------
+# MAIN EXTRACTION (FIXED CORE LOGIC)
 # ------------------------------------------------------------
 def extract_events(raw):
     raw = preprocess(raw)
 
     log.info("Searching incident blocks...")
 
-    pattern = re.compile(
-        r"(interruption-[\w-]+).*?"
-        r"(RS\s?\d+|RB\s?\d+|RE\s?\d+).*?"
-        r"(https?://[^\s\"')]+\.pdf)",
-        re.DOTALL
-    )
-
-    matches = pattern.findall(raw)
-
-    log.info(f"Matched blocks: {len(matches)}")
+    # STEP 1: split into incident chunks (IMPORTANT FIX)
+    blocks = re.split(r"(interruption-[\w-]+)", raw)
 
     events = []
+    current_type = None
 
-    for m in matches:
-        incident_type = m[0]
-        line = m[1].replace(" ", "").upper()
-        pdf = normalize_pdf_url(m[2])
+    for part in blocks:
 
-        idx = raw.find(pdf)
-        window = raw[max(0, idx - 2000): idx + 2000]
-
-        start, end = extract_times(window)
-
-        if not start or not end:
+        if part.startswith("interruption-"):
+            current_type = part
             continue
 
-        # ------------------------------------------------------------
-        # 🔥 REAL FIX: extract long_description properly
-        # ------------------------------------------------------------
-        long_desc = None
+        if not current_type:
+            continue
 
-        # try structured field first (best case)
-        m1 = re.search(
-            r"\"long_description\"\s*:\s*\"(.*?)\"",
-            window,
-            re.DOTALL
-        )
-        if m1:
-            long_desc = m1.group(1)
+        block = part
 
-        # fallback: extract readable German paragraph
-        if not long_desc:
-            m2 = re.search(
-                r"(Aufgrund.*?)(?=https|Alle Fahrplanänderungen|$)",
-                window,
-                re.DOTALL
-            )
-            if m2:
-                long_desc = m2.group(1)
+        # STEP 2: extract line (independent)
+        line_match = re.search(r"\b(RS|RB|RE)\s?\d+", block)
+        line = line_match.group(0).replace(" ", "").upper() if line_match else "UNKNOWN"
 
-        if not long_desc:
-            long_desc = "Fahrplanabweichung im Streckennetz."
+        # STEP 3: extract PDF
+        pdf_match = re.search(r"https?://[^\s\"')]+\.pdf", block)
+        if not pdf_match:
+            continue
+
+        pdf = normalize_pdf_url(pdf_match.group(0))
+
+        # STEP 4: extract time
+        start, end = extract_times(block)
+        if not start:
+            log.warning(f"Skipping {line}: no timestamp")
+            continue
+        if not end:
+            end = start
+
+        # STEP 5: description
+        desc = extract_description(block)
 
         events.append({
-            "type": incident_type,
+            "type": current_type,
             "line": line,
             "start": start,
             "end": end,
             "pdf": pdf,
-            "description": long_desc.strip()
+            "description": desc
         })
 
-        log.info(f"Event: {line} | {incident_type}")
+        log.info(f"Event: {line} | {current_type}")
+
+        current_type = None
 
     log.info(f"Total events: {len(events)}")
     return events
 
+
 # ------------------------------------------------------------
-# GROUP BY LINE
+# GROUP
 # ------------------------------------------------------------
 def group_by_line(events):
     grouped = defaultdict(list)
@@ -149,12 +155,11 @@ def group_by_line(events):
 
 
 # ------------------------------------------------------------
-# ICS BUILD (FIXED)
+# ICS HELPERS
 # ------------------------------------------------------------
 def ics_escape(text: str) -> str:
     if not text:
         return ""
-
     return (
         text.replace("\\", "\\\\")
             .replace(";", r"\;")
@@ -162,16 +167,19 @@ def ics_escape(text: str) -> str:
             .replace("\n", r"\n")
             .replace("\r", "")
     )
-    
+
+
 def to_ics(dt):
     return dt.replace(":", "").replace("-", "").split("+")[0]
 
 
+# ------------------------------------------------------------
+# BUILD ICS (FIXED)
+# ------------------------------------------------------------
 def build_ics(grouped):
     output = {}
 
     for line, events in grouped.items():
-
         log.info(f"Building ICS for {line}: {len(events)} events")
 
         ics = [
@@ -181,12 +189,9 @@ def build_ics(grouped):
         ]
 
         for e in events:
-            desc = e.get("description", "")
-            
-            pdf = e["pdf"]
-            
-            description = f"{desc}\n\nErsatzfahrplan:\n{pdf}"
-            
+
+            description = f"{e['description']}\n\nErsatzfahrplan:\n{e['pdf']}"
+
             ics.extend([
                 "BEGIN:VEVENT",
                 f"UID:{e['pdf']}",
@@ -197,6 +202,7 @@ def build_ics(grouped):
                 f"CATEGORIES:{line}",
                 "END:VEVENT"
             ])
+
         ics.append("END:VCALENDAR")
 
         output[line.lower()] = "\n".join(ics)
