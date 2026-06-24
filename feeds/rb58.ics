@@ -1,106 +1,60 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NWB RB58//
+PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-58-ersatzfahrplan-am-25-06-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260625T201500
-DTEND;TZID="UTC+02:00":20260626T003000
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-
- 58-ersatzfahrplan-am-25-06-2026.pdf
-DESCRIPTION:on Instandhaltungsarbeiten an der Infrastruktur/Strecke der De
- utschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten 
- Abend- und Nachtstunden am Donnerstag\, 25. Juni\, zwischen Osnabrück Hbf
-  und Bramsche durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beac
- hten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neusta
- dt im Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sin
- d in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) un
- d [fahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als
- \n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sch
- edule/1506064/rb-58-ersatzfahrplan-am-25-06-2026.pdf
+DTSTART:20260407T000000.000
+DTEND:20260625T201500.000
+DESCRIPTION:Aufgrund von Bahnsteigarbeiten in Bremen Neustadt der Deutschen Bahn (DB InfraGO AG) entfallen von Freitag\, 6. Februar\, bis voraussichtlich Dienstag\, 30. Juni\, bei allen Zugverbindungen der Linie RB 58 der Halt in Bremen Neustadt. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen.\\r\\n\\r\\n_Bitte beachten Sie\, dass in diesem Ersatzfahrplan nur der Haltausfall Bremen Neustadt dargestellt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen kommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._"\,"2026-04-07T00:00:00.000+02:00"\,[993]\,{"id":994\,"title":995\,"starts_at":8\,"ends_at":8\,"download":996}\,1506019\,"RB 58: Ersatzfahrplan vom 07.04. bis 30.06.2026"\,"\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506064/rb-58-ersatzfahrplan-am-25-06-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260630T211500
-DTEND;TZID="UTC+02:00":20260701T001500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-
- 58-ersatzfahrplan-am-30-06-2026.pdf
-DESCRIPTION:ltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn
-  (DB InfraGO AG) werden zwei Zugverbindungen der Linie RB 58 in den späte
- n Abend- und Nachtstunden am Dienstag\, 30. Juni\, zwischen Bremen Hbf und
-  Delmenhorst durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beach
- ten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustad
- t im Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind
-  in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und
-  [fahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als\
- n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sche
- dule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
+DTSTART:20260625T201500.000
+DTEND:20260626T003000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 25. Juni\, zwischen Osnabrück Hbf und Bramsche durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260702T201500
-DTEND;TZID="UTC+02:00":20260703T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-
- 58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
-DESCRIPTION:\,"expected_end":24\,"source":572\,"schedules":1072\,"lines":1
- 077\,"sort_date":1079}\,4243\,"Aufgrund von Instandhaltungsarbeiten an der
-  Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB Infr
- aGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden
-  am Donnerstag\, 2. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen
-  Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den
-  digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrp
- laner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\nErsa
- tzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/15
- 06084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
+DTSTART:20260630T211500.000
+DTEND:20260701T001500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen der Linie RB 58 in den späten Abend- und Nachtstunden am Dienstag\, 30. Juni\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260703T211500
-DTEND;TZID="UTC+02:00":20260706T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-
- 58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
-DESCRIPTION:ck Hbf und Lohne (Oldb) durch einen Ersatzverkehr mit Bussen b
- edient. Zudem können von Samstag\, 4. Juli\, bis Sonntag\, 5. Juli\, die 
- Züge nicht in Hesepe halten. Hierfür ist ein Ersatzverkehr mit Bussen zw
- ischen Rieste und Bramsche eingerichtet. \n\nWeitere ganztägige Baumaßna
- hmen\n- 06.07. bis 13.07.2026 \n  Lohne (Oldb) \\u003C > Osnabrück\n- 14.
- 07. bis 26.07.2026 \n  Haltausfall Hesepe\n\nAlle Fahrplanänderungen sind
-  in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und
-  [fahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als\
- n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sche
- dule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
+DTSTART:20260702T201500.000
+DTEND:20260703T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 2. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260706T061500
-DTEND;TZID="UTC+02:00":20260714T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-
- 58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
-DESCRIPTION:edules":1099\,"lines":1104\,"sort_date":1106}\,4259\,"Aufgrund
-  von Gleiserneuerungen und Brückenarbeiten der Deutschen Bahn (DB InfraGO
-  AG) werden die Zugverbindungen von Montagmorgen\, 6. Juli\, bis Montag\, 
- 13. Juli\, zwischen Osnabrück&nbsp\;Hbf und Lohne (Oldb) durch einen Ersa
- tzverkehr mit Bussen bedient.\n\nWeitere ganztägige Baumaßnahmen\n- 14.0
- 7. bis 26.07.2026 \n   Haltausfall Hesepe\n\nAlle Fahrplanänderungen sind
-  in den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und
-  [fahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als\
- n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/sche
- dule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+DTSTART:20260703T211500.000
+DTEND:20260706T014500.000
+DESCRIPTION:Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Freitag\, 3. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Lohne (Oldb) durch einen Ersatzverkehr mit Bussen bedient. Zudem können von Samstag\, 4. Juli\, bis Sonntag\, 5. Juli\, die Züge nicht in Hesepe halten. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Rieste und Bramsche eingerichtet. \\r\\n\\r\\nWeitere ganztägige Baumaßnahmen\\r\\n- 06.07. bis 13.07.2026 \\r\\n  Lohne (Oldb) \\u003C > Osnabrück\\r\\n- 14.07. bis 26.07.2026 \\r\\n  Haltausfall Hesepe\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
 SUMMARY:RB58 – Baustelle
-DTSTART;TZID="UTC+02:00":20260714T041500
-DTEND;TZID="UTC+02:00":20260727T014500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-
- 58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
-DESCRIPTION:nnen die Züge von Dienstag\, 14. Juli\, bis Sonntag\, 26. Jul
- i\, nicht in Hesepe halten. Hierfür ist ein Ersatzverkehr mit Bussen zwis
- chen Rieste und Bramsche eingerichtet. Zudem werden einige Zugverbindungen
-  in den späten Abend- und Nachtstunden zwischen Bremen Hbf und Delmenhors
- t bzw. Wildeshausen sowie zwischen Vechta und Osnabrück Hbf durch einen E
- rsatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den d
- igitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrpla
- ner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\nErsatz
- fahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506
- 103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
+DTSTART:20260706T061500.000
+DTEND:20260714T014500.000
+DESCRIPTION:Aufgrund von Gleiserneuerungen und Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montagmorgen\, 6. Juli\, bis Montag\, 13. Juli\, zwischen Osnabrück&nbsp\;Hbf und Lohne (Oldb) durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\nWeitere ganztägige Baumaßnahmen\\r\\n- 14.07. bis 26.07.2026 \\r\\n   Haltausfall Hesepe\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
+CATEGORIES:RB58
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
+SUMMARY:RB58 – Baustelle
+DTSTART:20260714T041500.000
+DTEND:20260727T014500.000
+DESCRIPTION:Aufgrund von Gleiserneuerungen und von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Streckencontainer) der Deutschen Bahn (DB InfraGO AG) können die Züge von Dienstag\, 14. Juli\, bis Sonntag\, 26. Juli\, nicht in Hesepe halten. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Rieste und Bramsche eingerichtet. Zudem werden einige Zugverbindungen in den späten Abend- und Nachtstunden zwischen Bremen Hbf und Delmenhorst bzw. Wildeshausen sowie zwischen Vechta und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
+CATEGORIES:RB58
 END:VEVENT
 END:VCALENDAR

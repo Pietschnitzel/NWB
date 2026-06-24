@@ -1,112 +1,60 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NWB RS3//
+PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+01:00":20260206T000000
-DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-
- 3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
-DESCRIPTION:en Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 
- 63 der Bremer Straßenbahn AG (BSAG) nutzen.\n\n_Bitte beachten Sie\, dass
-  in diesen Ersatzfahrplänen nur der Haltausfall Bremen Neustadt dargestel
- lt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen k
- ommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._
- \n\nAlle Fahrplanänderungen sind in den digitalen Auskunftsmedien unter [
- bahn.de](https://www.bahn.de) und [fahrplaner.de](https://www.fahrplaner.d
- e/auskunft) abrufbar und können hier als\n\nErsatzfahrplan:\nhttps://down
- load.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan
- -vom-06-02-bis-16-03-2026.pdf
+DTSTART:20260206T000000.000
+DTEND:20260630T234500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden von Mittwoch\, 24. Juni\, auf Donnerstag\, 25. Juni\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+01:00":20260206T000000
-DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-
- 3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
-DESCRIPTION:rund von Baumaßnahmen kommen kann. Diese sind dann in gesonde
- rten Ersatzfahrplänen dargestellt._\n\nAlle Fahrplanänderungen sind in d
- en digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fah
- rplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier 
- als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/
- schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
+DTSTART:20260624T212800.000
+DTEND:20260625T004500.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Freitag\, 26. Juni\, bis Montag\, 29. Juni\, zwischen Hude und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+01:00":20260206T000000
-DTEND;TZID="UTC+02:00":20260630T234500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-
- 3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
-DESCRIPTION:brufbar und können hier als\n\nErsatzfahrplan:\nhttps://downl
- oad.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-3-ersatzfahrplan-
- vom-07-04-bis-30-06-2026.pdf
+DTSTART:20260626T231500.000
+DTEND:20260629T044500.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Freitag\, 26. Juni\, bis Montag\, 29. Juni\, zwischen Hude und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+02:00":20260624T212800
-DTEND;TZID="UTC+02:00":20260625T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-
- 3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
-DESCRIPTION:Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugv
- erbindungen in den späten Abend- und Nachtstunden von Mittwoch\, 24. Juni
- \, auf Donnerstag\, 25. Juni\, zwischen Bad Zwischenahn und Oldenburg Hbf 
- durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten Sie auch 
- den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum
-  vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in den digit
- alen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrplaner.
- de](https://www.fahrplaner.de/auskunft) abrufbar und können hier als\n\nE
- rsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule
- /1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
+DTSTART:20260630T213000.000
+DTEND:20260705T010000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- und IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RS 3 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 30. Juni\, bis Mittwoch\, 1. Juli\, und Samstag\, 4. Juli\, auf unterschiedlichen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n_Bitte beachten Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im Zeitraum vom 07.04. bis 30.06.2026._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505902/rs-4-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+02:00":20260626T231500
-DTEND;TZID="UTC+02:00":20260629T044500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-
- 3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
-DESCRIPTION:tions-Container) der Deutschen Bahn (DB InfraGO AG) werden ein
- ige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstund
- en von Freitag\, 26. Juni\, bis Montag\, 29. Juni\, zwischen Hude und Olde
- nburg Hbf durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten
-  Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt i
- m Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in
-  den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [f
- ahrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hie
- r als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nw
- b/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
+DTSTART:20260708T213000.000
+DTEND:20260712T004500.000
+DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis  voraussichtlich Dienstag \, 30. Juni\, die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen.\\r\\n\\r\\n_Bitte beachten Sie\, dass in diesen Ersatzfahrplänen nur der Haltausfall Bremen Neustadt dargestellt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen kommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1505902/rs-4-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505959/rs-4-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+02:00":20260630T213000
-DTEND;TZID="UTC+02:00":20260705T010000
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-
- 3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
-DESCRIPTION:) werden zehn Zugverbindungen der Linie RS 3 in den späten Ab
- end-\, Nacht- und frühen Morgenstunden von Dienstag\, 30. Juni\, bis Mitt
- woch\, 1. Juli\, und Samstag\, 4. Juli\, auf unterschiedlichen Streckenabs
- chnitten durch einen Ersatzverkehr mit Bussen bedient.\n\n_Bitte beachten 
- Sie auch den gesonderten Ersatzfahrplan zum Haltausfall Bremen Neustadt im
-  Zeitraum vom 07.04. bis 30.06.2026._\n\nAlle Fahrplanänderungen sind in 
- den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
- hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
-  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
- /schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+DTSTART:20260708T213000.000
+DTEND:20260712T004500.000
+DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis  voraussichtlich Dienstag \, 30. Juni\, die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen.\\r\\n\\r\\n_Bitte beachten Sie\, dass in diesen Ersatzfahrplänen nur der Haltausfall Bremen Neustadt dargestellt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen kommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1505959/rs-4-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506021/rs-4-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART;TZID="UTC+02:00":20260708T213000
-DTEND;TZID="UTC+02:00":20260712T004500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-
- 3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
-DESCRIPTION:) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der reg
- ulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu fr
- üheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der r
- egulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und 
- in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15
-  Uhr ab Bremen Hbf bis Oldenburg Hbf.\n\nAlle Fahrplanänderungen sind in 
- den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fa
- hrplaner.de](https://www.fahrplaner.de/auskunft) abrufbar und können hier
-  als\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb
- /schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
+DTSTART:20260708T213000.000
+DTEND:20260712T004500.000
+DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis  voraussichtlich Dienstag \, 30. Juni\, die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen.\\r\\n\\r\\n_Bitte beachten Sie\, dass in diesen Ersatzfahrplänen nur der Haltausfall Bremen Neustadt dargestellt ist und es zu weiteren Fahrplanänderungen aufgrund von Baumaßnahmen kommen kann. Diese sind dann in gesonderten Ersatzfahrplänen dargestellt._\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506021/rs-4-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
+CATEGORIES:RS3
 END:VEVENT
 END:VCALENDAR

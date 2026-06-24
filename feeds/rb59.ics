@@ -1,38 +1,20 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NWB RB59//
+PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
 SUMMARY:RB59 – Baustelle
-DTSTART;TZID="UTC+02:00":20260701T220000
-DTEND;TZID="UTC+02:00":20260706T231500
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506083/rb-
- 59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
-DESCRIPTION:RB 59: Fahrplanabweichung: Wilhelmshaven ↔ Esens (Ostfriesl)
-  "\,"Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH
- -Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2  
- Zugverbindungen in den späten Abendstunden am Mittwoch\, 1. Juli\, und Mo
- ntag\, 6. Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen 
- Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in den 
- digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [fahrpl
- aner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\nErsat
- zfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/150
- 6083/rb-59-ersatzfahrplan-am-01-07-und-06-07-2026.pdf
+DTSTART:20260701T220000.000
+DTEND:20260706T231500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2  Zugverbindungen in den späten Abendstunden am Mittwoch\, 1. Juli\, und Montag\, 6. Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
+CATEGORIES:RB59
 END:VEVENT
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506086/rb-74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
 SUMMARY:RB59 – Baustelle
-DTSTART;TZID="UTC+02:00":20260717T220000
-DTEND;TZID="UTC+02:00":20260721T070000
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-
- 59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
-DESCRIPTION:date_only":24\,"ends_at":1139\,"ends_at_date_only":24\,"expect
- ed_end":24\,"source":572\,"schedules":1140\,"lines":1145\,"sort_date":1147
- }\,4268\,"Aufgrund von Bahnübergangsarbeiten der Deutschen Bahn (DB Infra
- GO AG) werden die Zugverbindungen von Freitagabend\, 17. Juli\, bis Dienst
- agmorgen\, 21. Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch e
- inen Ersatzverkehr mit Bussen bedient.\n\nAlle Fahrplanänderungen sind in
-  den digitalen Auskunftsmedien unter [bahn.de](https://www.bahn.de) und [f
- ahrplaner.de](https://www.fahrplaner.de) abrufbar und können hier als\n\n
- Ersatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedul
- e/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
+DTSTART:20260717T220000.000
+DTEND:20260721T070000.000
+DESCRIPTION:Aufgrund von Bahnübergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Freitagabend\, 17. Juli\, bis Dienstagmorgen\, 21. Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Bussen bedient.\\r\\n\\r\\n\n\nErsatzfahrplan:\nhttps://download.transdev.de/transdev/uploads/nwb/schedule/1506086/rb-74-ersatzfahrplan-vom-03-07-bis-04-07-2026.pdf
+CATEGORIES:RB59
 END:VEVENT
 END:VCALENDAR
