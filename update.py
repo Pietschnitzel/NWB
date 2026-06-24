@@ -26,7 +26,29 @@ def fetch(url):
 def preprocess(raw):
     return raw.replace("\\u002F", "/").replace("\\/", "/")
 
+def normalize_pdf_url(url: str) -> str:
+    if not url:
+        return url
 
+    url = url.replace("\\u002F", "/").replace("\\/", "/")
+
+    # already correct
+    if "download.transdev.de" in url:
+        return url
+
+    # convert internal S3-style to public endpoint
+    if "s3.storage.planetary-networks.de" in url:
+        # extract schedule path
+        m = re.search(r"/transdev/uploads/nwb/schedule/.*", url)
+        if m:
+            return "https://download.transdev.de" + m.group(0)
+
+        # fallback (your known structure)
+        m = re.search(r"/schedule/\d+/.*\.pdf", url)
+        if m:
+            return "https://download.transdev.de/transdev/uploads/nwb" + m.group(0)
+
+    return url
 # ------------------------------------------------------------
 # TIME EXTRACTION
 # ------------------------------------------------------------
@@ -65,7 +87,7 @@ def extract_events(raw):
     for m in matches:
         incident_type = m[0]
         line = m[1].replace(" ", "").upper()
-        pdf = m[2]
+        pdf = normalize_pdf_url(m[2])
 
         idx = raw.find(pdf)
         window = raw[max(0, idx - 2000): idx + 2000]
