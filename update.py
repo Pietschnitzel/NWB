@@ -1,6 +1,5 @@
 import re
 import requests
-import urllib.parse
 import logging
 from collections import defaultdict
 
@@ -16,8 +15,8 @@ log = logging.getLogger("nwb")
 # ------------------------------------------------------------
 # FETCH
 # ------------------------------------------------------------
-def fetch(url: str) -> str:
-    log.info(f"Fetching: {url}")
+def fetch(url):
+    log.info(f"Fetching {url}")
     r = requests.get(url, timeout=30)
     log.info(f"HTTP {r.status_code} | size={len(r.text)}")
     r.raise_for_status()
@@ -25,173 +24,137 @@ def fetch(url: str) -> str:
 
 
 # ------------------------------------------------------------
-# PREPROCESS (CRITICAL FIX)
+# CLEAN ESCAPES
 # ------------------------------------------------------------
-def preprocess(raw: str) -> str:
-    raw = raw.replace("\\u002F", "/")
-    raw = raw.replace("\\/", "/")
-    raw = raw.replace("\r", "\n")
-
-    # decode unicode escapes safely
-    try:
-        raw = raw.encode("utf-8").decode("unicode_escape")
-    except Exception:
-        pass
-
+def preprocess(raw):
+    raw = raw.replace("\\u002F", "/").replace("\\/", "/")
     return raw
 
 
 # ------------------------------------------------------------
-# PDF NORMALIZATION
+# LINE + TIME + PDF DETECTION
 # ------------------------------------------------------------
-def normalize_pdf_url(url: str) -> str:
-    if not url:
-        return None
-
-    url = urllib.parse.unquote(url)
-
-    if ".pdf" not in url:
-        return None
-
-    # canonical mapping rule
-    if "s3.storage.planetary-networks.de" in url:
-        path = re.sub(
-            r"https?://s3\.storage\.planetary-networks\.de/transdev/uploads/",
-            "",
-            url
-        )
-        path = re.sub(r"(nwb/)+", "nwb/", path)
-        url = "https://download.transdev.de/transdev/uploads/nwb/" + path
-
-    return url
-
-
-# ------------------------------------------------------------
-# LINE EXTRACTION
-# ------------------------------------------------------------
-LINE_REGEX = re.compile(r"\b(RS\s?\d+|RB\s?\d+|RE\s?\d+)\b", re.IGNORECASE)
-
-def extract_line(text: str) -> str:
-    m = LINE_REGEX.search(text)
-    return m.group(1).replace(" ", "").upper() if m else "UNKNOWN"
-
-
-# ------------------------------------------------------------
-# TIME EXTRACTION
-# ------------------------------------------------------------
-TIME_REGEX = re.compile(
+LINE_RE = re.compile(r"\b(RS\s?\d+|RB\s?\d+|RE\s?\d+)\b", re.IGNORECASE)
+TIME_RE = re.compile(
     r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}[+\-]\d{2}:\d{2}"
 )
 
-def extract_times(text: str):
-    matches = TIME_REGEX.findall(text)
-    if len(matches) < 2:
+
+def extract_line(text):
+    m = LINE_RE.search(text)
+    return m.group(1).replace(" ", "").upper() if m else "UNKNOWN"
+
+
+def extract_times(text):
+    t = TIME_RE.findall(text)
+    if len(t) < 2:
         return None, None
-    return matches[0], matches[1]
+    return t[0], t[1]
+
+
+def extract_pdf(text):
+    m = re.search(r"https?://[^\s\"')]+\.pdf", text)
+    return m.group(0) if m else None
 
 
 # ------------------------------------------------------------
-# DESCRIPTION EXTRACTION
+# CORE PARSER (YOUR REAL DATA MODEL)
 # ------------------------------------------------------------
-def extract_description(text: str) -> str:
-    start_markers = ["Aufgrund", "Betroffen"]
-    stop_markers = ["download", ".pdf", "Alle Fahrplanänderungen"]
-
-    lines = text.splitlines()
-    capture = False
-    out = []
-
-    for line in lines:
-        if any(s in line for s in start_markers):
-            capture = True
-
-        if capture:
-            if any(s in line for s in stop_markers):
-                break
-
-            line = re.sub(r"https?://\S+", "", line).strip()
-            if line:
-                out.append(line)
-
-    return " ".join(out).strip()
-
-
-# ------------------------------------------------------------
-# STRUCTURED EVENT EXTRACTION (MAIN FIX)
-# ------------------------------------------------------------
-def extract_events(raw: str):
+def extract_events(raw):
     raw = preprocess(raw)
 
-    log.info("Scanning structured 'download' blocks...")
-
-    # Each event block contains "download": "<pdf>"
-    pattern = re.compile(r'"download"\s*:\s*"([^"]+)"')
+    # split into tokens (this is key for flattened payloads)
+    tokens = re.split(r"[,\n]", raw)
 
     events = []
+    i = 0
 
-    for i, m in enumerate(pattern.finditer(raw)):
-        pdf_raw = m.group(1)
+    while i < len(tokens):
 
-        pdf_url = normalize_pdf_url(pdf_raw)
-        if not pdf_url:
-            log.warning(f"[{i}] invalid pdf skipped")
-            continue
+        token = tokens[i].strip()
 
-        # take local context window around match
-        start = max(0, m.start() - 1200)
-        end = min(len(raw), m.end() + 1200)
-        context = raw[start:end]
+        # detect incident type
+        if token.startswith("interruption-"):
 
-        start_time, end_time = extract_times(context)
-        if not start_time or not end_time:
-            log.warning(f"[{i}] skipped (missing timestamps)")
-            continue
+            incident_type = token
 
-        line = extract_line(context)
-        description = extract_description(context)
+            try:
+                window = tokens[i:i+80]
+                text_blob = " ".join(window)
 
-        log.info(f"[{i}] OK → {line} | {start_time}")
+                # core fields are position-based in your dataset
+                # we don't fully trust structure, but use offsets
+                title = window[3] if len(window) > 3 else ""
+                short_desc = window[4] if len(window) > 4 else ""
+                long_desc = window[5] if len(window) > 5 else ""
 
-        events.append({
-            "line": line,
-            "start": start_time,
-            "end": end_time,
-            "pdf": pdf_url,
-            "description": description
-        })
+                start, end = extract_times(text_blob)
 
-    # dedupe
-    deduped = {e["pdf"]: e for e in events}
+                if not start or not end:
+                    i += 1
+                    continue
 
-    log.info(f"Events extracted: {len(events)} | deduped: {len(deduped)}")
+                line = extract_line(text_blob)
+                pdf = extract_pdf(text_blob)
 
-    return list(deduped.values())
+                if not pdf:
+                    i += 1
+                    continue
+
+                events.append({
+                    "type": incident_type,
+                    "line": line,
+                    "title": title,
+                    "description": long_desc,
+                    "start": start,
+                    "end": end,
+                    "pdf": pdf
+                })
+
+                log.info(f"Event parsed: {line} | {incident_type}")
+
+                i += 10
+                continue
+
+            except Exception as e:
+                log.warning(f"Parse error at {i}: {e}")
+                i += 1
+                continue
+
+        i += 1
+
+    log.info(f"Total events: {len(events)}")
+    return events
+
+
+# ------------------------------------------------------------
+# GROUP BY LINE
+# ------------------------------------------------------------
+def group_by_line(events):
+    grouped = defaultdict(list)
+    for e in events:
+        grouped[e["line"]].append(e)
+    return grouped
 
 
 # ------------------------------------------------------------
 # ICS HELPERS
 # ------------------------------------------------------------
-def to_ics(dt: str) -> str:
+def to_ics(dt):
     return dt.replace(":", "").replace("-", "").split("+")[0]
 
 
-def build_calendars(items):
-    grouped = defaultdict(list)
-
-    for i in items:
-        grouped[i["line"]].append(i)
-
-    log.info(f"Building calendars for {len(grouped)} lines")
-
-    out = {}
+def build_ics(grouped):
+    output = {}
 
     for line, events in grouped.items():
-        log.info(f"{line}: {len(events)} events")
+
+        log.info(f"Building ICS for {line}: {len(events)} events")
 
         ics = [
             "BEGIN:VCALENDAR",
             "VERSION:2.0",
-            "PRODID:-//NWB Parser//DE"
+            "PRODID:-//NWB//Disruptions//DE"
         ]
 
         for e in events:
@@ -208,22 +171,22 @@ def build_calendars(items):
 
         ics.append("END:VCALENDAR")
 
-        out[line.lower().replace(" ", "")] = "\n".join(ics)
+        output[line.lower().replace(" ", "")] = "\n".join(ics)
 
-    return out
+    return output
 
 
 # ------------------------------------------------------------
-# SAVE
+# SAVE FILES
 # ------------------------------------------------------------
-def save_calendars(calendars):
+def save(files):
     import os
     os.makedirs("feeds", exist_ok=True)
 
-    for name, data in calendars.items():
+    for name, content in files.items():
         path = f"feeds/{name}.ics"
         with open(path, "w", encoding="utf-8") as f:
-            f.write(data)
+            f.write(content)
         log.info(f"Saved {path}")
 
 
@@ -238,12 +201,14 @@ def main():
     events = extract_events(raw)
 
     if not events:
-        log.error("No events extracted → check structure or encoding")
+        log.error("No events found — structure changed or parsing failed")
         return
 
-    calendars = build_calendars(events)
+    grouped = group_by_line(events)
 
-    save_calendars(calendars)
+    ics_files = build_ics(grouped)
+
+    save(ics_files)
 
     log.info("=== DONE ===")
 
