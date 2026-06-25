@@ -2,18 +2,10 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20260206T000000.000
 DTEND:20260630T234500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden von Mittwoch\, 24. Juni\, auf Donnerstag\, 25. Juni\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506079/rs-3-rs-30-ersatzfahrplan-vom-24-bis-25-06-2026.pdf
-CATEGORIES:RS3
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
-SUMMARY:RS3 – Baustelle
-DTSTART:20260624T212800.000
-DTEND:20260625T004500.000
 DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Freitag\, 26. Juni\, bis Montag\, 29. Juni\, zwischen Hude und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506094/rs-3-ersatzfahrplan-vom-26-bis-29-06-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
