@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 SUMMARY:RS6 – Baustelle
 DTSTART:20260501T050000.000
 DTEND:20260710T223000.000
-DESCRIPTION:Aufgrund von baubedingten Einschränkungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen der Linie RS 6 von Freitag\, 1. Mai\, bis Freitag\, 10. Juli\, durch einen Ersatzverkehr mit Bussen bedient. Zudem fahren einige Ersatzbusse weiter bis Scheeßel\, damit ein Anschluss zu den Zügen der Linie RB 41 in/aus Richtung Hamburg besteht. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506063/re-18-ersatzfahrplan-vom-24-06-bis-26-06-2026.pdf
+DESCRIPTION:Aufgrund von baubedingten Einschränkungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen der Linie RS 6 von Freitag\, 1. Mai\, bis Freitag\, 10. Juli\, durch einen Ersatzverkehr mit Bussen bedient. Zudem fahren einige Ersatzbusse weiter bis Scheeßel\, damit ein Anschluss zu den Zügen der Linie RB 41 in/aus Richtung Hamburg besteht. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506082/re-18-ersatzfahrplan-vom-01-07-bis-02-07-2026.pdf
 CATEGORIES:RS6
 END:VEVENT
 END:VCALENDAR
