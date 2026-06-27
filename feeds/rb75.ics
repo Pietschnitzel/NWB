@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505944/rs-1-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
-SUMMARY:RB75 – Baustelle
-DTSTART:20260626T093000.000
-DTEND:20260501T040000.000
-DESCRIPTION:Aufgrund von baubedingten Einschränkungen der Deutschen Bahn (DB InfraGO AG) entfallen von Freitag\, 1. Mai\, bis Freitag\, 10. Juli\, einige Züge der Linie RS 1 zwischen Bremen Hbf und Verden (Aller). Betroffen sind der Großteil der Fahrten von montags bis freitags zur Minute 27 ab Bremen Hbf in Richtung Verden (Aller) zwischen 5:27 Uhr und 18:27 Uhr und in Gegenrichtung die Fahrten zur Minute 2 ab Verden (Aller) in Richtung Bremen Hbf zwischen 6:02 Uhr und 19:02 Uhr. Reisende nutzen bitte in der Zeit die verbleibenden Züge der Linie RS 1. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505944/rs-1-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
-CATEGORIES:RB75
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
 SUMMARY:RB75 – Baustelle
 DTSTART:20260702T213000.000

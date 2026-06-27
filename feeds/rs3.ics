@@ -26,27 +26,27 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505902/rs-4-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20260708T213000.000
 DTEND:20260712T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu früheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15 Uhr ab Bremen Hbf bis Oldenburg Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505902/rs-4-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20260713T214500.000
+DTEND:20260716T004500.000
 DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag \, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505902/rs-4-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505959/rs-4-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20260708T213000.000
-DTEND:20260712T004500.000
+DTSTART:20260713T214500.000
+DTEND:20260716T004500.000
 DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag \, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505959/rs-4-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
-CATEGORIES:RS3
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506021/rs-4-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
-SUMMARY:RS3 – Baustelle
-DTSTART:20260708T213000.000
-DTEND:20260712T004500.000
-DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag \, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 4 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506021/rs-4-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 END:VCALENDAR
