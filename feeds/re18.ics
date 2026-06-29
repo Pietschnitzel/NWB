@@ -4,8 +4,8 @@ PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
 SUMMARY:RE18 – Baustelle
-DTSTART:20260701T200000.000
-DTEND:20260702T071500.000
+DTSTART:20260703T213000.000
+DTEND:20260714T003000.000
 DESCRIPTION:Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Freitagabend\, 3. Juli\, bis Montag\, 13. Juli\, ganztags\, zwischen Essen (Oldb) und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) bei fünf Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 6. Juli\, bis Dienstag\, 7. Juli\, zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Am Montagabend\, 13. Juli\, werden zudem zwei Zugverbindungen zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einem Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
 CATEGORIES:RE18
 END:VEVENT

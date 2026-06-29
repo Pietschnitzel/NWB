@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260623T203000.000
-DTEND:20260628T223000.000
-DESCRIPTION:Aufgrund von Oberleitungsarbeiten der Deutschen Bahn (DB InfraGO AG) fahren insgesamt sechs Zugverbindungen in den späten Abendstunden von Dienstag\, 23. Juni\, bis Sonntag\, 28. Juni\, von Bremerhaven bis Bremen Hbf bzw. Twistringen zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506081/rs-2-ersatzfahrplan-vom-29-06-bis-02-07-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260629T214500.000
