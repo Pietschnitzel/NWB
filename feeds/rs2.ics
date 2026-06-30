@@ -18,26 +18,34 @@ DESCRIPTION:Aufgrund von Brücken- und Bahnübergangsarbeiten der Deutschen Bahn
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506119/rs-2-ersatzfahrplan-vom-18-07-bis-25-07-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260709T210000.000
 DTEND:20260713T011500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) verkehrt Sonntagnacht\, 19. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 0:11 Uhr ab Bremen Hbf in Richtung Twistringen bereits um 23:57 Uhr (Samstag\, 18. Juli) und es werden zwei Zugverbindungen je Richtung zwischen Bremen Hbf und Bremen-Hemelingen durch einen Ersatzverkehr mit Bussen bedient. Von Montag\, 20. Juli\, bis Samstag\, 25. Juli\, werden einige Zugverbindungen in den späten Abend- und Nachtstunden zwischen Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Außerdem hält am Montag\, 20. Juli\, und Freitag\, 24. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506119/rs-2-ersatzfahrplan-vom-18-07-bis-25-07-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20260718T234500.000
+DTEND:20260725T040000.000
 DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag\, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 3 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505901/rs-3-ersatzfahrplan-vom-06-02-bis-16-03-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260709T210000.000
-DTEND:20260713T011500.000
+DTSTART:20260718T234500.000
+DTEND:20260725T040000.000
 DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag\, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 3 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505958/rs-3-ersatzfahrplan-vom-16-03-bis-07-04-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260709T210000.000
-DTEND:20260713T011500.000
+DTSTART:20260718T234500.000
+DTEND:20260725T040000.000
 DESCRIPTION:Aufgrund von Bahnsteigarbeiten der Deutschen Bahn (DB InfraGO AG) können von Freitag\, 6. Februar\, bis Dienstag\, 30. Juni\, Betriebsschluss (01.07.2026 um 3 Uhr) die Züge der Linie RS 3 nicht in Bremen Neustadt halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506020/rs-3-ersatzfahrplan-vom-07-04-bis-30-06-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
