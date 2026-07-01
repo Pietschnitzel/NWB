@@ -2,22 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260407T000000.000
-DTEND:20260630T234500.000
-DESCRIPTION:Aufgrund von Bahnsteigarbeiten in Bremen Neustadt der Deutschen Bahn (DB InfraGO AG) entfallen von Freitag\, 6. Februar\, bis voraussichtlich Dienstag\, 30. Juni\, bei allen Zugverbindungen der Linie RB 58 der Halt in Bremen Neustadt. Alternativ können Reisende zwischen Bremen Hbf und Bremen Neustadt die Busse der Linien 24 und 63 der Bremer Straßenbahn AG (BSAG) nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506073/rb-58-ersatzfahrplan-am-30-06-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260630T211500.000
-DTEND:20260701T001500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen der Linie RB 58 in den späten Abend- und Nachtstunden am Dienstag\, 30. Juni\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506084/rb-58-ersatzfahrplan-vom-02-07-bis-03-07-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506098/rb-58-ersatzfahrplan-vom-03-07-bis-05-07-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20260702T201500.000

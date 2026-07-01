@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506096/rs-4-ersatzfahrplan-vom-30-06-bis-04-07-2026.pdf
-SUMMARY:RS4 – Baustelle
-DTSTART:20260704T014500.000
-DTEND:20260710T213000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- und IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 4 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 30. Juni\, bis Samstag\, 4. Juli\, zwischen Bremen Hbf und Delmenhorst bzw. Hude durch einen Ersatzverkehr mit Bussen bedient. Zudem verkehren einige Züge von Delmenhorst bzw. Hude zu veränderten Fahrtzeiten\, damit ein Anschluss besteht. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506096/rs-4-ersatzfahrplan-vom-30-06-bis-04-07-2026.pdf
-CATEGORIES:RS4
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506106/rs-4-ersatzfahrplan-am-10-07-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260704T014500.000
