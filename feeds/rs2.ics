@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260629T214500.000
-DTEND:20260702T024500.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden zwölf Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 29. Juni\, bis Donnerstag\, 2. Juli\, zwischen Bremen Hbf und Oldenbüttel bzw. Bremerhaven-Lehe durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260708T173000.000
 DTEND:20260713T051500.000
-DESCRIPTION:Aufgrund von Brücken- und Bahnübergangsarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Mittwoch\, 8. Juli\, bis Montag\, 13. Juli\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Zudem entfällt bei einigen Zugverbindungen der Halt in Bremerhaven Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container)\, Weichenerneuerungen und einer Oberleitungsvollinspektion der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\, 9. Juli\, bis Freitag\, 10. Juli\, zwischen Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem hält am Donnerstag\, 9. Juli\, die Zugverbindung mit der Abfahrtszeit um 21:33 Uhr ab Bremen Hbf nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Und am Montag\, 13. Juli\, fährt die Zugverbindung mit der regulären Abfahrtszeit um 0:11 Uhr ab Bremen Hbf bis Twistringen zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
@@ -26,11 +18,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506124/rs-2-ersatzfahrplan-vom-28-07-bis-02-08-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260718T234500.000
 DTEND:20260725T040000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- und IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RS 3 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 30. Juni\, bis Mittwoch\, 1. Juli\, und Samstag\, 4. Juli\, auf unterschiedlichen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 28. Juli\, bis Sonntag\, 2. August\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. Bremerhaven-Wulsdorf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506124/rs-2-ersatzfahrplan-vom-28-07-bis-02-08-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20260728T214500.000
+DTEND:20260802T033000.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 28. Juli\, bis Sonntag\, 2. August\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. Bremerhaven-Wulsdorf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506097/rs-3-ersatzfahrplan-vom-30-06-bis-05-07-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 END:VCALENDAR
