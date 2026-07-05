@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
-SUMMARY:RS3 – Baustelle
-DTSTART:20260630T213000.000
-DTEND:20260705T010000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu früheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15 Uhr ab Bremen Hbf bis Oldenburg Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506102/rs-3-ersatzfahrplan-am-08-07-und-11-07-2026.pdf
-CATEGORIES:RS3
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20260708T213000.000
 DTEND:20260712T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu früheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15 Uhr ab Bremen Hbf bis Oldenburg Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken- und IH-Knoten- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 13. Juli\, bis Mittwoch\, 15. Juli\, zwischen Bremen Hbf und Bad Zwischenahn bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient oder verkehren zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT

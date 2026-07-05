@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
-SUMMARY:RB75 – Baustelle
-DTSTART:20260702T213000.000
-DTEND:20260705T023000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\, 2. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Bielefeld Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506089/rb-75-ersatzfahrplan-vom-22-07-bis-23-07-2026.pdf
-CATEGORIES:RB75
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506092/rb-75-ersatzfahrplan-vom-30-07-bis-02-08-2026.pdf
 SUMMARY:RB75 – Baustelle
 DTSTART:20260722T210000.000
