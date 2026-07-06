@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260703T211500.000
-DTEND:20260706T014500.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Freitag\, 3. Juli\, bis Sonntag\, 5. Juli\, zwischen Osnabrück Hbf und Lohne (Oldb) durch einen Ersatzverkehr mit Bussen bedient. Zudem können von Samstag\, 4. Juli\, bis Sonntag\, 5. Juli\, die Züge nicht in Hesepe halten. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Rieste und Bramsche eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506103/rb-58-ersatzfahrplan-vom-14-07-bis-27-07-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20260706T061500.000
