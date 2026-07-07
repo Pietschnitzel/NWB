@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
-SUMMARY:RB59 – Baustelle
-DTSTART:20260701T220000.000
-DTEND:20260706T231500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2 Zugverbindungen in den späten Abendstunden am Mittwoch\, 1. Juli\, und Montag\, 6. Juli\, zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506108/rb-59-ersatzfahrplan-vom-17-07-bis-21-07-2026.pdf
-CATEGORIES:RB59
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506093/rb-74-ersatzfahrplan-vom-31-07-bis-01-08-2026.pdf
 SUMMARY:RB59 – Baustelle
 DTSTART:20260717T220000.000
