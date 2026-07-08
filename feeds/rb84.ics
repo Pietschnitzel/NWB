@@ -10,11 +10,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506127/rb-84-ersatzfahrplan-vom-03-08-bis-05-08-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20260723T210000.000
 DTEND:20260725T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden acht Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 23. Juli\, und Freitag\, 24. Juli\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden acht Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 23. Juli\, und Freitag\, 24. Juli\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506127/rb-84-ersatzfahrplan-vom-03-08-bis-05-08-2026.pdf
+CATEGORIES:RB84
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
+SUMMARY:RB84 – Baustelle
+DTSTART:20260803T210000.000
+DTEND:20260805T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 3. August\, bis Mittwoch\, 5. August\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506088/rb-85-ersatzfahrplan-am-15-07-2026.pdf
 CATEGORIES:RB84
 END:VEVENT
 END:VCALENDAR

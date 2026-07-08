@@ -26,11 +26,19 @@ DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) wer
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506125/rs-1-ersatzfahrplan-vom-30-07-bis-31-07-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20260727T213000.000
 DTEND:20260730T053000.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 27. Juli\, bis Donnerstag\, 30. Juli\, zwischen Bremen Hbf und Bremen-Burg durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 27. Juli\, bis Donnerstag\, 30. Juli\, zwischen Bremen Hbf und Bremen-Burg durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506125/rs-1-ersatzfahrplan-vom-30-07-bis-31-07-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20260730T224000.000
+DTEND:20260731T233000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) verkehrt je eine Zugverbindung ab Verden (Aller) um 22.42 Uhr am Donnerstagabend\, 30. Juli und Freitagabend\, 31. Juli\, zwischen Langwedel bis Bremen Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 END:VCALENDAR

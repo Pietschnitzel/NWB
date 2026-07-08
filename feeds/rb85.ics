@@ -10,19 +10,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RB85
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506126/rb-85-ersatzfahrplan-am-01-08-2026.pdf
 SUMMARY:RB85 – Baustelle
 DTSTART:20260723T203000.000
 DTEND:20260723T233000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden verschiedene Zugverbindungen in den Morgenstunden sowie den Abend- und Nachtstunden Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 23. Juli\, zwischen Göttingen und Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es zu Fahrtzeitänderungen von Bodenfelde nach Höxter-Ottbergen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506126/rb-85-ersatzfahrplan-am-01-08-2026.pdf
 CATEGORIES:RB85
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506128/rb-85-ersatzfahrplan-am-12-08-2026.pdf
 SUMMARY:RB85 – Baustelle
-DTSTART:20260723T203000.000
-DTEND:20260723T233000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden verschiedene Zugverbindungen in den Morgenstunden sowie den Abend- und Nachtstunden Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
+DTSTART:20260801T203000.000
+DTEND:20260801T233000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Samstag\, 1. August\, zwischen Göttingen und Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es zu Fahrtzeitänderungen von Bodenfelde nach Höxter-Ottbergen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506128/rb-85-ersatzfahrplan-am-12-08-2026.pdf
 CATEGORIES:RB85
 END:VEVENT
 END:VCALENDAR
