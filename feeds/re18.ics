@@ -34,11 +34,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506133/re-18-ersatzfahrplan-vom-19-08-bis-21-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260813T020000.000
 DTEND:20260818T083000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Donnerstag\, 13. August\, bis Dienstag\, 18. August\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen ersatzlos aus. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Donnerstag\, 13. August\, bis Dienstag\, 18. August\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen ersatzlos aus. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506133/re-18-ersatzfahrplan-vom-19-08-bis-21-08-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20260819T204500.000
+DTEND:20260821T073000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen der Linie RE 18 in den späten Abend- und Nachtstunden am Mittwoch\, 19. August\, zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie sechs Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 20. August\, bis Freitag\, 21. August\, zwischen Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506099/rb-58-ersatzfahrplan-vom-06-07-bis-14-07-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR
