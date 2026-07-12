@@ -2,22 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505944/rs-1-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
-SUMMARY:RS4 – Baustelle
-DTSTART:20260501T040000.000
-DTEND:20260710T210000.000
-DESCRIPTION:Aufgrund von baubedingten Einschränkungen der Deutschen Bahn (DB InfraGO AG) entfallen von Freitag\, 1. Mai\, bis Freitag\, 10. Juli\, einige Züge der Linie RS 1 zwischen Bremen Hbf und Verden (Aller). Betroffen sind der Großteil der Fahrten von montags bis freitags zur Minute 27 ab Bremen Hbf in Richtung Verden (Aller) zwischen 5:27 Uhr und 18:27 Uhr und in Gegenrichtung die Fahrten zur Minute 2 ab Verden (Aller) in Richtung Bremen Hbf zwischen 6:02 Uhr und 19:02 Uhr. Reisende nutzen bitte in der Zeit die verbleibenden Züge der Linie RS 1. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505944/rs-1-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
-CATEGORIES:RS4
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506115/rs-4-ersatzfahrplan-vom-14-07-bis-16-07-2026.pdf
-SUMMARY:RS4 – Baustelle
-DTSTART:20260710T213000.000
-DTEND:20260710T234500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) wird am Freitag\, 10. Juli\, in den späten Abendstunden je Richtung eine Zugverbindung zwischen Hude und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506115/rs-4-ersatzfahrplan-vom-14-07-bis-16-07-2026.pdf
-CATEGORIES:RS4
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506120/rs-3-ersatzfahrplan-am-22-07-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260714T213000.000
@@ -34,11 +18,11 @@ DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) wer
 CATEGORIES:RS4
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1505946/rs-6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260728T213000.000
 DTEND:20260729T063000.000
-DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RS 4 in den Abend- und Nachtstunden sowie frühen Morgenstunden von Dienstag\, 28. Juli\, bis Mittwoch\, 29. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1505946/rs-6-ersatzfahrplan-vom-01-05-bis-10-07-2026.pdf
+DESCRIPTION:Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Freitagabend\, 3. Juli\, bis Montag\, 13. Juli\, ganztags\, zwischen Essen (Oldb) und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) bei fünf Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 6. Juli\, bis Dienstag\, 7. Juli\, zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Am Montagabend\, 13. Juli\, werden zudem zwei Zugverbindungen zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einem Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506095/re-18-ersatzfahrplan-vom-03-07-bis-14-07-2026.pdf
 CATEGORIES:RS4
 END:VEVENT
 END:VCALENDAR

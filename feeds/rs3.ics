@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506112/rs-1-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20260708T213000.000
-DTEND:20260712T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Präventions-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 8. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:45 Uhr ab Bad Zwischenahn bis Bremen Hbf zu früheren Fahrzeiten und am Samstag\, 11. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 23:45 Uhr ab Bad Zwischenahn bis Bremen Hbf und in Gegenrichtung die Zugverbindung mit der regulären Abfahrtszeit um 2:15 Uhr ab Bremen Hbf bis Oldenburg Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506114/rs-3-rs-30-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
+DTSTART:20260718T030000.000
+DTEND:20260720T030000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden je Richtung zwei Zugverbindungen in den späten Abendstunden am Dienstag\, 14. Juli\, und Mittwoch\, 15. Juli\, zwischen Bremen Hbf und Verden (Aller) bzw. auf kürzeren Streckenschnitten durch einen Ersatzverkehr mit Bussen bedient. Am Montag\, 13. Juli\, fährt die Zugverbindung ab Verden (Aller) um 22:42 Uhr bis Bremen Hbf zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506112/rs-1-ersatzfahrplan-vom-13-07-bis-15-07-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
@@ -15,6 +15,14 @@ SUMMARY:RS3 – Baustelle
 DTSTART:20260713T214500.000
 DTEND:20260716T004500.000
 DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken- und IH-Knoten- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 13. Juli\, bis Mittwoch\, 15. Juli\, zwischen Bremen Hbf und Bad Zwischenahn bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient oder verkehren zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506117/rs-3-ersatzfahrplan-vom-18-07-bis-19-07-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506115/rs-4-ersatzfahrplan-vom-14-07-bis-16-07-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20260719T030000.000
+DTEND:20260714T213000.000
+DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden fünf Zugverbindungen der Linie RS 3 in den Nachtstunden von Samstag\, 18. Juli\, auf Sonntag\, 19. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506115/rs-4-ersatzfahrplan-vom-14-07-bis-16-07-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
