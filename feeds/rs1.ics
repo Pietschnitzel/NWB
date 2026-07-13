@@ -26,11 +26,19 @@ DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruk
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20260730T224000.000
 DTEND:20260731T233000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) verkehrt je eine Zugverbindung ab Verden (Aller) um 22.42 Uhr am Donnerstagabend\, 30. Juli und Freitagabend\, 31. Juli\, zwischen Langwedel bis Bremen Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506104/rs-2-ersatzfahrplan-vom-08-07-bis-13-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) verkehrt je eine Zugverbindung ab Verden (Aller) um 22.42 Uhr am Donnerstagabend\, 30. Juli und Freitagabend\, 31. Juli\, zwischen Langwedel bis Bremen Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20260730T224000.000
+DTEND:20260731T233000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden verschiedene Zugverbindungen in den Morgenstunden sowie den Abend- und Nachtstunden Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 END:VCALENDAR

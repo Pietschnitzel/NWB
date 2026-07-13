@@ -2,34 +2,10 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260708T173000.000
-DTEND:20260713T051500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container)\, Weichenerneuerungen und einer Oberleitungsvollinspektion der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\, 9. Juli\, bis Freitag\, 10. Juli\, zwischen Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem hält am Donnerstag\, 9. Juli\, die Zugverbindung mit der Abfahrtszeit um 21:33 Uhr ab Bremen Hbf nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Und am Montag\, 13. Juli\, fährt die Zugverbindung mit der regulären Abfahrtszeit um 0:11 Uhr ab Bremen Hbf bis Twistringen zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506105/rs-2-ersatzfahrplan-vom-09-07-bis-13-07-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260709T210000.000
-DTEND:20260713T011500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden verschiedene Zugverbindungen in den Morgenstunden sowie den Abend- und Nachtstunden Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506121/rs-2-ersatzfahrplan-vom-14-07-bis-20-07-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260709T210000.000
-DTEND:20260713T011500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden verschiedene Zugverbindungen in den Morgenstunden sowie den Abend- und Nachtstunden Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506122/rs-2-ersatzfahrplan-vom-23-07-bis-27-07-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506119/rs-2-ersatzfahrplan-vom-18-07-bis-25-07-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260714T231200.000
-DTEND:20260727T054500.000
+DTSTART:20260714T230000.000
+DTEND:20260720T203000.000
 DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) verkehrt Sonntagnacht\, 19. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 0:11 Uhr ab Bremen Hbf in Richtung Twistringen bereits um 23:57 Uhr (Samstag\, 18. Juli) und es werden zwei Zugverbindungen je Richtung zwischen Bremen Hbf und Bremen-Hemelingen durch einen Ersatzverkehr mit Bussen bedient. Von Montag\, 20. Juli\, bis Samstag\, 25. Juli\, werden einige Zugverbindungen in den späten Abend- und Nachtstunden zwischen Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Außerdem hält am Montag\, 20. Juli\, und Freitag\, 24. Juli\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506119/rs-2-ersatzfahrplan-vom-18-07-bis-25-07-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
