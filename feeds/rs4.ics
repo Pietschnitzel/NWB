@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506118/rs-4-ersatzfahrplan-vom-18-07-bis-19-07-2026.pdf
-SUMMARY:RS4 – Baustelle
-DTSTART:20260714T213000.000
-DTEND:20260716T013000.000
-DESCRIPTION:Aufgrund von Brückenarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden zwölf Zugverbindungen der Linie RS 4 in den späten Abend- und Nachtstunden von Dienstag\, 14. Juli\, bis Donnerstag\, 16. Juli\, zwischen Hude und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren vier Züge von Hude bis Nordenham zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506118/rs-4-ersatzfahrplan-vom-18-07-bis-19-07-2026.pdf
-CATEGORIES:RS4
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506136/rs-4-ersatzfahrplan-vom-28-07-bis-29-07-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260718T223000.000
