@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506116/rs-1-ersatzfahrplan-vom-16-07-bis-19-07-2026.pdf
 SUMMARY:RE18 – Baustelle
-DTSTART:20260714T020000.000
-DTEND:20260718T020000.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen ganztags von Samstag\, 18. Juli\, bis in die Nacht zu Montag\, 27. Juli\, zwischen Bramsche und Huntlosen sowie in den späten Abend-\, Nacht- und frühen Morgenstunden auf verschiedenen Streckenabschnitten zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
+DTSTART:20260728T030000.000
+DTEND:20260716T213000.000
+DESCRIPTION:Aufgrund dessen muss ein Teilstück der Ladestraße gesperrt werden und unsere Ersatzbusse können von **Montag\, 20. Juli\, Betriebsstart (3 Uhr)\, bis Montag\, 27. Juli\, Betriebsschluss (Dienstag\, 28. Juli\, 3 Uhr)**\, die Bushaltestelle am Bahnhof nicht anfahren. Stattdessen halten die Busse an der dafür eingerichteten **Ersatzhaltestelle an der Ecke Bahnhofstraße/Breuelstraße (ca. in Höhe der Bahnhofstraße 8)**. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506116/rs-1-ersatzfahrplan-vom-16-07-bis-19-07-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
