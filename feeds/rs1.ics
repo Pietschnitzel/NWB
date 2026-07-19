@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
-SUMMARY:RS1 – Baustelle
-DTSTART:20260716T213000.000
-DTEND:20260719T063000.000
-DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 16. Juli\, bis Sonntag\, 19. Juli\, auf unterschiedlichen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
-CATEGORIES:RS1
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506125/rs-1-ersatzfahrplan-vom-30-07-bis-31-07-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20260727T213000.000

@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506120/rs-3-ersatzfahrplan-am-22-07-2026.pdf
-SUMMARY:RS3 – Baustelle
-DTSTART:20260719T030000.000
-DTEND:20260722T221500.000
-DESCRIPTION:Aufgrund diverser Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden fünf Zugverbindungen der Linie RS 3 in den Nachtstunden von Samstag\, 18. Juli\, auf Sonntag\, 19. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506120/rs-3-ersatzfahrplan-am-22-07-2026.pdf
-CATEGORIES:RS3
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506134/rs-3-ersatzfahrplan-am-28-07-und-29-07-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20260722T221500.000
@@ -26,11 +18,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506118/rs-4-ersatzfahrplan-vom-18-07-bis-19-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506136/rs-4-ersatzfahrplan-vom-28-07-bis-29-07-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20260801T214500.000
 DTEND:20260802T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) wird am Samstag\, 1. August\, die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bad Zwischenahn um 21:45 Uhr von Oldenburg Hbf bis Hude durch einen Ersatzverkehr mit Bussen bedient und in Gegenrichtung die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bremen Hbf um 22:15 Uhr von Hude bis Oldenburg Hbf. Ebenso wird die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bremen Hbf um 23:15 Uhr von Bremen Hbf bis Oldenburg Hbf durch eine Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506118/rs-4-ersatzfahrplan-vom-18-07-bis-19-07-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) wird am Samstag\, 1. August\, die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bad Zwischenahn um 21:45 Uhr von Oldenburg Hbf bis Hude durch einen Ersatzverkehr mit Bussen bedient und in Gegenrichtung die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bremen Hbf um 22:15 Uhr von Hude bis Oldenburg Hbf. Ebenso wird die Zugverbindung der Linie RS 3 mit der regulären Abfahrtszeit ab Bremen Hbf um 23:15 Uhr von Bremen Hbf bis Oldenburg Hbf durch eine Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506136/rs-4-ersatzfahrplan-vom-28-07-bis-29-07-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 END:VCALENDAR
