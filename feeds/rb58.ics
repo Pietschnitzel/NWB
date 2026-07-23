@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260722T092000.000
-DTEND:20260731T200000.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 27. Juli\, bis Donnerstag\, 30. Juli\, zwischen Bremen Hbf und Bremen-Burg durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506130/rb-58-ersatzfahrplan-am-28-07-und-30-07-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20260714T041500.000
