@@ -18,11 +18,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS4
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506110/re-18-ersatzfahrplan-vom-27-07-bis-13-08-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260811T213000.000
 DTEND:20260813T014500.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen ganztags von Samstag\, 18. Juli\, bis in die Nacht zu Montag\, 27. Juli\, zwischen Bramsche und Huntlosen durch einen Ersatzverkehr mit Bussen bedient und zusätzlich an einigen Tagen in den späten Abend-\, Nacht- und frühen Morgenstunden auf verschiedenen Streckenabschnitten zwischen Osnabrück Hbf und Wilhelmshaven. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506109/re-18-ersatzfahrplan-vom-18-07-bis-27-07-2026.pdf
+DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden von Montag\, 27. Juli\, bis Mittwoch\, 12. August\, die Zugverbindungen ganztags zwischen Huntlosen und Cloppenburg durch einen Ersatzverkehr mit Bussen bedient und in den späten Abend-\, Nacht- und frühen Morgenstunden zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf. Von Mittwoch\, 29. Juli\, bis Donnerstag\, 30. Juli\, werden fünf Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506110/re-18-ersatzfahrplan-vom-27-07-bis-13-08-2026.pdf
 CATEGORIES:RS4
 END:VEVENT
 END:VCALENDAR
