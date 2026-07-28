@@ -34,10 +34,18 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506134/rs-3-ersatzfahrplan-am-28-07-und-29-07-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506147/rs-2-ersatzfahrplan-vom-23-bis-25-08-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260817T211500.000
 DTEND:20260822T040000.000
+DESCRIPTION:Aufgrund von Straßenbauarbeiten in Syke können bis voraussichtlich Mittwoch\, 23. Dezember 2026\, die regulären Ersatzhaltestellen nicht angefahren werden. Alternativ halten die Ersatzbusse auf der Westseite an der Straße \\"Am Ristedter Weg\\"._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506147/rs-2-ersatzfahrplan-vom-23-bis-25-08-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506134/rs-3-ersatzfahrplan-am-28-07-und-29-07-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20260823T213000.000
+DTEND:20260825T013000.000
 DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden je Richtung drei Zugverbindungen der Linie RS 3 von Dienstagabend\, 28. Juli\, bis Mittwochmorgen\, 29. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren einige Züge zwischen Delmenhorst und Oldenburg Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506134/rs-3-ersatzfahrplan-am-28-07-und-29-07-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
