@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506139/rs-4-ersatzfahrplan-vom-30-07-bis-09-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
 SUMMARY:RS4 – Baustelle
-DTSTART:20260728T213000.000
-DTEND:20260729T063000.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen\, Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 4 von Donnerstag\, 30. Juli\, bis Sonntag\, 9. August\, auf unterschiedlichen Streckenabschnitten zwischen Nordenham und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. verkehren zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506139/rs-4-ersatzfahrplan-vom-30-07-bis-09-08-2026.pdf
+DTSTART:20260728T080000.000
+DTEND:20260801T200000.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/ Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 27. Juli\, bis Donnerstag\, 30. Juli\, zwischen Bremen Hbf und Bremen-Burg durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506123/rs-1-ersatzfahrplan-vom-27-07-bis-30-07-2026.pdf
 CATEGORIES:RS4
 END:VEVENT
 BEGIN:VEVENT
