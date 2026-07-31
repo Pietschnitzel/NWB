@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260728T211500.000
-DTEND:20260731T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils vier Zugverbindungen in den späten Abend- und Nachtstunden am Dienstag\, 28. Juli und Donnerstag\, 30. Juli\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506135/rb-58-ersatzfahrplan-vom-20-08-bis-21-08-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20260811T201500.000
@@ -31,6 +23,14 @@ SUMMARY:RB58 – Baustelle
 DTSTART:20260825T211500.000
 DTEND:20260828T004500.000
 DESCRIPTION:Aufgrund der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden am Dienstagabend\, 25. August\, je Richtung eine Zugverbindung der Linie RB 58 zwischen Delmenhorst und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient und am Donnerstagabend\, 27. August\, je Richtung zwei Zugverbindungen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506131/rb-59-ersatzfahrplan-am-29-07-und-04-08-2026.pdf
+CATEGORIES:RB58
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506131/rb-59-ersatzfahrplan-am-29-07-und-04-08-2026.pdf
+SUMMARY:RB58 – Baustelle
+DTSTART:20260825T211500.000
+DTEND:20260828T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils 2 Zugverbindungen in den späten Abendstunden am Mittwoch\, 29. Juli\, und am Montag\, den 03. August\, sowie eine Zugverbindung am Dienstag\, den 04. August zwischen Esens (Ostfriesl) und Wilhelmshaven durch einen Ersatzverkehr mit Bussen bedient. Zudem wird eine Zugverbindung in den Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506131/rb-59-ersatzfahrplan-am-29-07-und-04-08-2026.pdf
 CATEGORIES:RB58
 END:VEVENT
 END:VCALENDAR
