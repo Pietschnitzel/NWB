@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506144/rs-3-rs-30-ersatzfahrplan-vom-10-08-bis-13-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506148/rs-1-ersatzfahrplan-vom-24-08-bis-27-08-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20260801T214500.000
-DTEND:20260802T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 3 und RS 30 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montagabend\, 10. August\, bis Donnerstagnacht\, 13. August\, auf unterschiedlichen Streckenabschnitten zwischen Bad Zwischenahn und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient. Zudem fahren vier Zugverbindungen von Bad Zwischenahn bis Bremen Hbf bzw. auf kürzeren Streckenabschnitten zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506144/rs-3-rs-30-ersatzfahrplan-vom-10-08-bis-13-08-2026.pdf
+DTSTART:20260722T144300.000
+DTEND:20261231T000000.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 24. August\, bis Donnerstag\, 27. August\, zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506148/rs-1-ersatzfahrplan-vom-24-08-bis-27-08-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
