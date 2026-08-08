@@ -34,11 +34,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260831T200000.000
 DTEND:20260901T070000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei fünf Zugverbindungen von Montagabend\, 31. August\, bis Dienstagmorgen\, 1. September zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei fünf Zugverbindungen von Montagabend\, 31. August\, bis Dienstagmorgen\, 1. September zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20260829T210000.000
+DTEND:20260830T000000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abendstunden am Samstag\, 29. August\, zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einen Ersatzverkehr mit Bussen bedient. Zudem verkehren zwei Zugverbindungen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf mit einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR
