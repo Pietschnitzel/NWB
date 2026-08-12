@@ -26,19 +26,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/ Strecke d
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-01-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-03-09-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260826T200000.000
 DTEND:20260827T071500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RB 18 von Mittwochabend\, 26. August\, bis Donnerstagmorgen\, 27. August\, zwischen Wilhelmshaven und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-01-09-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RB 18 von Mittwochabend\, 26. August\, bis Donnerstagmorgen\, 27. August\, zwischen Wilhelmshaven und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-03-09-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260831T200000.000
-DTEND:20260901T070000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei fünf Zugverbindungen von Montagabend\, 31. August\, bis Dienstagmorgen\, 1. September zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
+DTEND:20260903T010000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei fünf Zugverbindungen von Montagabend\, 31. August\, bis Dienstagmorgen\, 1. September\, sowie bei einer Zugverbindung am Mittwochabend\, 2. September\, zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
