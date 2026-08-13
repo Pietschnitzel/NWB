@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20260727T020000.000
-DTEND:20260813T021500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Donnerstag\, 13. August\, bis Dienstag\, 18. August\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen ersatzlos aus. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506111/re-18-ersatzfahrplan-vom-13-08-bis-18-08-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506133/re-18-ersatzfahrplan-vom-19-08-bis-21-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260813T020000.000
@@ -42,11 +34,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506135/rb-58-ersatzfahrplan-vom-20-08-bis-21-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260829T210000.000
 DTEND:20260830T000000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abendstunden am Samstag\, 29. August\, zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einen Ersatzverkehr mit Bussen bedient. Zudem verkehren zwei Zugverbindungen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf mit einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506132/rb-58-ersatzfahrplan-vom-11-08-bis-13-08-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abendstunden am Samstag\, 29. August\, zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einen Ersatzverkehr mit Bussen bedient. Zudem verkehren zwei Zugverbindungen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf mit einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506135/rb-58-ersatzfahrplan-vom-20-08-bis-21-08-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR
