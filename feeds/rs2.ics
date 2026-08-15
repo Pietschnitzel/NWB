@@ -34,11 +34,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506151/rs-3-ersatzfahrplan-am-15-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506153/rs-3-rs-30-ersatzfahrplan-am-19-08-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260914T203000.000
 DTEND:20260921T003000.000
-DESCRIPTION:Aufgrund von Straßenbauarbeiten in **Syke** können bis voraussichtlich Mittwoch\, 23. Dezember 2026\, die regulären Ersatzhaltestellen nicht angefahren werden. Alternativ halten die Ersatzbusse auf der Westseite an der Straße \\"Am Ristedter Weg\\"._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506151/rs-3-ersatzfahrplan-am-15-08-2026.pdf
+DESCRIPTION:Aufgrund von Straßenbauarbeiten in **Syke** können bis voraussichtlich Mittwoch\, 23. Dezember 2026\, die regulären Ersatzhaltestellen nicht angefahren werden. Alternativ halten die Ersatzbusse auf der Westseite an der Straße \\"Am Ristedter Weg\\"._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506153/rs-3-rs-30-ersatzfahrplan-am-19-08-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 END:VCALENDAR

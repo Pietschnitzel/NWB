@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506163/rs-4-ersatzfahrplan-vom-25-08-bis-31-08-2026.pdf
-SUMMARY:RS4 – Baustelle
-DTSTART:20260814T233000.000
-DTEND:20260815T014500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden von Dienstagabend\, 25. August\, bis Mittwochnacht\, 26. August\, fünf Zugverbindungen der Linie RS 4 zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient und Mittwochmorgen\, 26. August\, die Zugverbindung mit der regulären Abfahrtszeit um 5:01 Uhr von Bremen Hbf bis Bremen Neustadt. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506163/rs-4-ersatzfahrplan-vom-25-08-bis-31-08-2026.pdf
-CATEGORIES:RS4
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506154/rs-4-ersatzfahrplan-vom-27-08-bis-29-08-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20260825T213000.000
