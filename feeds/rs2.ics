@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506146/rs-2-ersatzfahrplan-vom-17-08-bis-22-08-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260813T213000.000
-DTEND:20260817T070000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 von Montagabend\, 17. August\, bis Samstagnacht\, 22. August\, in den späten Abend- und Nachtstunden zwischen Bremen Hbf und Twistringen durch einen Ersatzverkehr mit Bussen bedient. Außerdem hält am Montag\, 17. August\, und Freitag\, 21. August\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506146/rs-2-ersatzfahrplan-vom-17-08-bis-22-08-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506147/rs-2-ersatzfahrplan-vom-23-bis-25-08-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260817T211500.000
