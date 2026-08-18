@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506133/re-18-ersatzfahrplan-vom-19-08-bis-21-08-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20260813T020000.000
-DTEND:20260818T083000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken- Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Donnerstag\, 13. August\, bis Dienstag\, 18. August\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient bzw. fallen ersatzlos aus. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506133/re-18-ersatzfahrplan-vom-19-08-bis-21-08-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506150/re-18-ersatzfahrplan-vom-26-08-bis-27-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260819T204500.000
