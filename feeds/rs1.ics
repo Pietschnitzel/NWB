@@ -34,11 +34,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506147/rs-2-ersatzfahrplan-vom-23-bis-25-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506169/rs-2-ersatzfahrplan-vom-03-09-bis-04-09-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20260924T223000.000
 DTEND:20260925T233000.000
-DESCRIPTION:Aufgrund von Weichenarbeiten der Deutschen Bahn (DB InfraGO AG) verkehrt am Donnerstag\, 24. September\, und Freitag\, 25. September\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) von Langwedel bis Bremen Hbf zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506147/rs-2-ersatzfahrplan-vom-23-bis-25-08-2026.pdf
+DESCRIPTION:Aufgrund von Weichenarbeiten der Deutschen Bahn (DB InfraGO AG) verkehrt am Donnerstag\, 24. September\, und Freitag\, 25. September\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) von Langwedel bis Bremen Hbf zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506169/rs-2-ersatzfahrplan-vom-03-09-bis-04-09-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 END:VCALENDAR

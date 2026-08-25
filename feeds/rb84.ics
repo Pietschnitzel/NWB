@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506160/rb-85-ersatzfahrplan-am-29-08-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506184/rb-84-ersatzfahrplan-vom-17-09-bis-20-09-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20260831T210000.000
 DTEND:20260903T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 31. August\, bis Mittwoch\, 2. September\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506160/rb-85-ersatzfahrplan-am-29-08-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 31. August\, bis Mittwoch\, 2. September\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506184/rb-84-ersatzfahrplan-vom-17-09-bis-20-09-2026.pdf
+CATEGORIES:RB84
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506188/rb-84-ersatzfahrplan-vom-28-09-bis-01-10-2026.pdf
+SUMMARY:RB84 – Baustelle
+DTSTART:20260917T210000.000
+DTEND:20260920T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwölf Zugverbindungen in den späten Abend- und Nachtstunden von Donnerstag\, 17. September\, bis Samstag\, 19. September\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506188/rb-84-ersatzfahrplan-vom-28-09-bis-01-10-2026.pdf
+CATEGORIES:RB84
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506160/rb-85-ersatzfahrplan-am-29-08-2026.pdf
+SUMMARY:RB84 – Baustelle
+DTSTART:20260928T210000.000
+DTEND:20260829T203000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 28. September\, bis Mittwoch\, 30. September\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506160/rb-85-ersatzfahrplan-am-29-08-2026.pdf
 CATEGORIES:RB84
 END:VEVENT
 END:VCALENDAR
