@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506148/rs-1-ersatzfahrplan-vom-24-08-bis-27-08-2026.pdf
-SUMMARY:RS1 – Baustelle
-DTSTART:20260824T213000.000
-DTEND:20260827T053000.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 24. August\, bis Donnerstag\, 27. August\, zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506148/rs-1-ersatzfahrplan-vom-24-08-bis-27-08-2026.pdf
-CATEGORIES:RS1
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506167/rs-1-ersatzfahrplan-vom-27-08-bis-28-08-2026.pdf
 SUMMARY:RS1 – Baustelle
-DTSTART:20260824T213000.000
-DTEND:20260827T053000.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 24. August\, bis Donnerstag\, 27. August\, zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506167/rs-1-ersatzfahrplan-vom-27-08-bis-28-08-2026.pdf
+DTSTART:20260827T223000.000
+DTEND:20260828T233000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) verkehrt am Donnerstag\, 27. August\, und Freitag\, 28. August\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) von Langwedel bis Bremen Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506167/rs-1-ersatzfahrplan-vom-27-08-bis-28-08-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
@@ -26,11 +18,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506173/rs-1-ersatzfahrplan-vom-24-09-bis-25-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506189/rs-1-ersatzfahrplan-vom-10-09-bis-11-09-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20260907T223000.000
 DTEND:20260909T231500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindung der Linie RS 1 in den späten Abend-stunden am Dienstag\, 8. September\, und Mittwoch\, 9. September\, zwischen Verden (Aller) und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Zudem fährt am Dienstag\, 7. September\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) bis Bremen Hbf zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506173/rs-1-ersatzfahrplan-vom-24-09-bis-25-09-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 10. September\, bis Freitag\, 11. September\, zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506189/rs-1-ersatzfahrplan-vom-10-09-bis-11-09-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506173/rs-1-ersatzfahrplan-vom-24-09-bis-25-09-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20260910T213000.000
+DTEND:20260911T051500.000
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 1 in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 10. September\, bis Freitag\, 11. September\, zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Damit ein Anschluss besteht fahren zudem einige Züge zwischen Bremen-Burg und Bremen-Farge zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506173/rs-1-ersatzfahrplan-vom-24-09-bis-25-09-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT

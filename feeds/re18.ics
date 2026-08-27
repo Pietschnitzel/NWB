@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-03-09-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20260826T200000.000
-DTEND:20260827T071500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RB 18 von Mittwochabend\, 26. August\, bis Donnerstagmorgen\, 27. August\, zwischen Wilhelmshaven und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506161/re-18-ersatzfahrplan-vom-31-08-bis-03-09-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506162/re-18-ersatzfahrplan-am-29-08-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260831T200000.000
