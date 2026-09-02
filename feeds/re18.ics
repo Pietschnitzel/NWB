@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506170/rs-1-ersatzfahrplan-vom-07-09-bis-09-09-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20260907T223000.000
-DTEND:20260909T231500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindung der Linie RS 1 in den späten Abend-stunden am Dienstag\, 8. September\, und Mittwoch\, 9. September\, zwischen Verden (Aller) und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Zudem fährt am Dienstag\, 7. September\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) bis Bremen Hbf zu späteren Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506170/rs-1-ersatzfahrplan-vom-07-09-bis-09-09-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506174/re-18-ersatzfahrplan-vom-16-09-bis-21-09-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20260831T200000.000
