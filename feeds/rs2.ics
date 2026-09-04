@@ -2,19 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506180/rs-3-ersatzfahrplan-vom-04-09-bis-18-09-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260903T211500.000
-DTEND:20260904T020000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend- und Nachtstunden von Montag\, 14. September\, bis Sonntag\, 20. September\, zwischen Bremerhaven-Lehe bzw. Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
+DTSTART:20260904T040000.000
+DTEND:20260918T020000.000
+DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 4. September\, bis Freitagnacht\, 18. September\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient – der Großteil der Züge zwischen Hude und Bremen Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506180/rs-3-ersatzfahrplan-vom-04-09-bis-18-09-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506180/rs-3-ersatzfahrplan-vom-04-09-bis-18-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260914T203000.000
-DTEND:20260921T003000.000
-DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 4. September\, bis Freitagnacht\, 18. September\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient – der Großteil der Züge zwischen Hude und Bremen Hbf. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506180/rs-3-ersatzfahrplan-vom-04-09-bis-18-09-2026.pdf
+DTSTART:20260921T203000.000
+DTEND:20260928T030000.000
+DESCRIPTION:Aufgrund von Oberleitung- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 21. September\, bis Montagmorgen\, 28. September\, sowie am Samstag\, 26. September und Sonntag\, 27. September\, auch tagsüber zwischen Bremerhaven-Lehe und Twistringen auf verschiedenen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20260908T213000.000
+DTEND:20260914T013000.000
+DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 18. September\, bis Freitagmorgen\, 2. Oktober\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatz-verkehr mit Bussen bedient – der Großteil der Züge zwischen Bremen Hbf und Hude. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 END:VCALENDAR
