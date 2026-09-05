@@ -12,17 +12,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20260921T203000.000
-DTEND:20260928T030000.000
-DESCRIPTION:Aufgrund von Oberleitung- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 21. September\, bis Montagmorgen\, 28. September\, sowie am Samstag\, 26. September und Sonntag\, 27. September\, auch tagsüber zwischen Bremerhaven-Lehe und Twistringen auf verschiedenen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
+DTSTART:20260928T214500.000
+DTEND:20261006T013000.000
+DESCRIPTION:Aufgrund von verschiedenen Bauarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 28. September\, bis Montag\, 2. Oktober\, zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es bei zwei Zugverbindungen zu einem Haltausfall in Oldenbüttel. Alternativ nutzen die Fahrgäste hier bitte den Ersatzverkehr zwischen Lübberstedt und Oldenbüttel. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506191/rs-2-ersatzfahrplan-vom-21-09-bis-28-09-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20260908T213000.000
 DTEND:20260914T013000.000
-DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 18. September\, bis Freitagmorgen\, 2. Oktober\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatz-verkehr mit Bussen bedient – der Großteil der Züge zwischen Bremen Hbf und Hude. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Dienstag\, 8. September\, bis Sonntag\, 13. September\, zwischen Bremerhaven-Lehe und Stubben bzw. Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506191/rs-2-ersatzfahrplan-vom-21-09-bis-28-09-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506192/rs-1-ersatzfahrplan-vom-21-09-bis-24-09-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20260921T203000.000
+DTEND:20260928T030000.000
+DESCRIPTION:Aufgrund von Oberleitung- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 21. September\, bis Montagmorgen\, 28. September\, sowie am Samstag\, 26. September und Sonntag\, 27. September\, auch tagsüber zwischen Bremerhaven-Lehe und Twistringen auf verschiedenen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506192/rs-1-ersatzfahrplan-vom-21-09-bis-24-09-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 END:VCALENDAR
