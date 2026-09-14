@@ -26,11 +26,11 @@ DESCRIPTION:Aufgrund von Weichenarbeiten der Deutschen Bahn (DB InfraGO AG) verk
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20261004T223000.000
 DTEND:20261012T060000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Farge-Vegesacker Eisenbahn GmbH (FVE) werden die Zugverbindungen der Linie RS 1 ganztags von Sonntagabend\, 4. Oktober\, bis Montagmorgen\, 12. Oktober\, zwischen Bremen-Farge und Bremen-Vegesack durch einen Ersatzverkehr mit Bussen bedient. Zudem werden aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) zusätzlich zwei Zugverbindungen in den späten Abend- und Nachtstunden am Donnerstag\, 8 Oktober\, zwischen Bremen-Burg und Bremen Hbf durch einem Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506190/rs-2-ersatzfahrplan-vom-08-09-bis-14-09-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend- und Nachtstunden von Montag\, 14. September\, bis Sonntag\, 20. September\, zwischen Bremerhaven-Lehe bzw. Twistringen und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 END:VCALENDAR
