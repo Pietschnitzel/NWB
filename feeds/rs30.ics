@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506206/rs-3-rs-30-ersatzfahrplan-vom-05-10-bis-08-10-2026.pdf
 SUMMARY:RS30 – Baustelle
 DTSTART:20260918T054500.000
 DTEND:20261001T223000.000
-DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 18. September\, bis Freitagmorgen\, 2. Oktober\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatz-verkehr mit Bussen bedient – der Großteil der Züge zwischen Bremen Hbf und Hude. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+DESCRIPTION:Aufgrund von Weichen- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 3 und RS 30 in den späten Abend- und Nachtstunden von Montag\, 5. Oktober\, bis Mittwoch\, 7. Oktober\, zwischen Delmenhorst | Hude | Oldenburg Hbf und Bad Zwischenahn durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es von Oldenburg Hbf bzw. Delmenhorst bis Bremen Hbf zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506206/rs-3-rs-30-ersatzfahrplan-vom-05-10-bis-08-10-2026.pdf
 CATEGORIES:RS30
 END:VEVENT
 END:VCALENDAR
