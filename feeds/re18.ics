@@ -18,11 +18,27 @@ DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der In
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506175/rb-58-ersatzfahrplan-vom-17-09-bis-18-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506212/re-18-ersatzfahrplan-vom-25-10-bis-27-10-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261012T040000.000
 DTEND:20261024T003000.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montagmorgen\, 12. Oktober\, bis Freitagnachmittag\, 23. Oktober\, zwischen Wilhelmshaven und Sande auch in den späten Abend-\, Nacht- und frühen Morgenstunden an einzelnen Tagen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie zwischen Quakenbrück bzw. Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506175/rb-58-ersatzfahrplan-vom-17-09-bis-18-09-2026.pdf
+DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montagmorgen\, 12. Oktober\, bis Freitagnachmittag\, 23. Oktober\, zwischen Wilhelmshaven und Sande auch in den späten Abend-\, Nacht- und frühen Morgenstunden an einzelnen Tagen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie zwischen Quakenbrück bzw. Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506212/re-18-ersatzfahrplan-vom-25-10-bis-27-10-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506219/re-18-ersatzfahrplan-vom-29-10-bis-30-10-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261025T213000.000
+DTEND:20261027T070000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Sonntag\, 25. Oktober\, zwischen Quakenbrück und Bramsche durch einen Ersatzverkehr mit Bussen bedient. Zudem entfällt bei fünf Zugverbindungen von Montagabend\, 26. Oktober\, bis Dienstagmorgen\, 27. Oktober\, der Halt in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506219/re-18-ersatzfahrplan-vom-29-10-bis-30-10-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506176/rb-58-ersatzfahrplan-vom-20-09-bis-21-09-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261029T213000.000
+DTEND:20261030T053000.000
+DESCRIPTION:Aufgrund von Gleisarbeiten der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 29. Oktober\, bis Freitag\, 30. Oktober\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506176/rb-58-ersatzfahrplan-vom-20-09-bis-21-09-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR
