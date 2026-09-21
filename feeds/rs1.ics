@@ -34,11 +34,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506191/rs-2-ersatzfahrplan-vom-21-09-bis-28-09-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20261005T223000.000
 DTEND:20261007T231500.000
-DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Ersatzbusse in Baden (Kr Verden) bis voraussicht-lich Sommer 2027 an den Haltestellen \\"Baden\, Ortsmitte\\". Diese befinden sich ca. 1800 m vom Bahnhof entfernt._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506172/rs-2-ersatzfahrplan-vom-14-09-bis-20-09-2026.pdf
+DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Ersatzbusse in Baden (Kr Verden) bis voraussicht-lich Sommer 2027 an den Haltestellen \\"Baden\, Ortsmitte\\". Diese befinden sich ca. 1800 m vom Bahnhof entfernt._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506191/rs-2-ersatzfahrplan-vom-21-09-bis-28-09-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 END:VCALENDAR

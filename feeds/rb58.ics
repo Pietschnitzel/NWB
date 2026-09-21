@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506177/rb-58-ersatzfahrplan-vom-22-09-bis-01-10-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20260920T211500.000
-DTEND:20260922T211500.000
-DESCRIPTION:Aufgrund von Weichen- und Gleisarbeiten der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Sonntag\, 20. September\, zwischen Osnabrück Hbf und Neuenkirchen (Oldb) durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506177/rb-58-ersatzfahrplan-vom-22-09-bis-01-10-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506214/rb-58-ersatzfahrplan-vom-06-10-bis-08-10-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20260922T211500.000
