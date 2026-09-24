@@ -9,4 +9,20 @@ DTEND:20261002T051500.000
 DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 30 von Freitag\, 18. September\, bis Donnerstag\, 1. Oktober\, nicht nach dem regulären Fahrplan verkehren. Von Bad Zwischenahn aus kommen die Züge in Bremen Hbf sowie in der Gegenrichtung von Bremen Hbf aus in Bad Zwischenahn zu späteren Zeiten an. Zudem werden sechs Zugverbindungen am Mittwoch\, 30. September\, in den Abendstunden zwischen Delmenhorst und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506194/rs-30-ersatzfahrplan-vom-18-09-bis-01-10-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506220/rs-3-ersatzfahrplan-vom-12-10-bis-23-10-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261005T211500.000
+DTEND:20261008T010000.000
+DESCRIPTION:Aufgrund der anderweitigen Nutzung des Bahnhofsvorplatzes durch die Gemeinde Hu-de halten die Ersatzbusse in Hude bis auf Weiteres an der \\"Hohe Straße\\" Ausgang Hude-Süd._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506220/rs-3-ersatzfahrplan-vom-12-10-bis-23-10-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506221/rs-3-rs-30-ersatzfahrplan-vom-14-10-bis-15-10-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261012T063000.000
+DTEND:20261023T143000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden drei Zugverbindungen der Linie RS 3 und eine Zugverbindung der Linie RS 30 in den späten Abend- bzw. Nachtstunden am Mittwoch\, 14. Oktober\, zwischen Oldenburg Hbf und Bad Zwischenahn durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506221/rs-3-rs-30-ersatzfahrplan-vom-14-10-bis-15-10-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
 END:VCALENDAR

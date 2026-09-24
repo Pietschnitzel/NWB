@@ -10,11 +10,19 @@ DESCRIPTION:Aufgrund von Weichenarbeiten und Instandhaltungsarbeiten an der Infr
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506187/rb-85-ersatzfahrplan-am-26-09-3036.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506223/rb-84-ersatzfahrplan-vom-30-10-bis-15-11-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261026T210000.000
 DTEND:20261029T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 26. Oktober\, bis Mittwoch\, 28. Oktober\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506187/rb-85-ersatzfahrplan-am-26-09-3036.pdf
+DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen ganztags von Freitagabend\, 30. Oktober\, bis Donnerstag\, 12. November\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. in den späten Abend-\, Nacht- und frühen Morgenstunden zwischen Paderborn Hbf und Holzminden durch einen Ersatzverkehr mit Bussen bedient. Zusätzlich werden in den späten Abend- und Nachtstunden am Freitag\, 13. November\, und Samstag\, 14. November\, weitere acht Zugverbindungen zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506223/rb-84-ersatzfahrplan-vom-30-10-bis-15-11-2026.pdf
+CATEGORIES:RB84
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506187/rb-85-ersatzfahrplan-am-26-09-3036.pdf
+SUMMARY:RB84 – Baustelle
+DTSTART:20261030T050000.000
+DTEND:20261115T004500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Samstag\, 26. September\, zwischen Göttingen und Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Zudem kann es bei der Zugverbindung von Bodenfelde nach Höxter-Ottbergen zu einer Verspätung von bis zu 3 Minuten kommen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506187/rb-85-ersatzfahrplan-am-26-09-3036.pdf
 CATEGORIES:RB84
 END:VEVENT
 END:VCALENDAR

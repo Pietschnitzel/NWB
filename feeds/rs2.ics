@@ -34,10 +34,18 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506222/rs-2-ersatzfahrplan-vom-23-10-bis-01-11-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20261109T204500.000
 DTEND:20261114T034500.000
+DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 ganztags von Samstag\, 24. Oktober\, bis Montag\, 26. Oktober\, und von Samstag\, 31. Oktober\, bis Sonntag\, 1. November\, zwischen Bremerhaven-Lehe und Bremerhaven Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem werden aufgrund von Arbeiten an Bahnübergängen in den späten Abend- und Nachtstunden von Freitag\, 23. Oktober\, bis Sonntag\, 25. Oktober\, zehn Zugverbindungen zwischen Bremerhaven-Lehe und Osterholz-Scharmbeck bzw. Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506222/rs-2-ersatzfahrplan-vom-23-10-bis-01-11-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20261023T223000.000
+DTEND:20261101T230000.000
 DESCRIPTION:Aufgrund verschiedener Bauarbeiten an der Infrastruktur der Deutschen Bahn (DB InfraGO AG) können die Züge der Linie RS 3 von Freitag\, 18. September\, bis Freitagmorgen\, 2. Oktober\, nicht nach dem regulären Fahrplan verkehren. Die Zugverbindungen werden zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient – der Großteil der Züge zwischen Bremen Hbf und Hude. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506195/rs-3-ersatzfahrplan-vom-18-09-bis-02-10-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
