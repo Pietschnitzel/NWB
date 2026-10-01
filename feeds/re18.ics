@@ -42,11 +42,27 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506177/rb-58-ersatzfahrplan-vom-22-09-bis-01-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261115T213000.000
 DTEND:20261119T011500.000
-DESCRIPTION:Aufgrund von Gleisarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RE 18 in den späten Abend-\, Nacht- und frühen Morgenstunden von Sonntag\, 15. November\, bis Mittwoch\, 18. November\, auf verschiedenen Streckenabschnitten zwischen Wilhelmshaven und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. verkehren einige Züge auf Teilabschnitten unter einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506177/rb-58-ersatzfahrplan-vom-22-09-bis-01-10-2026.pdf
+DESCRIPTION:Aufgrund von Gleisarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RE 18 in den späten Abend-\, Nacht- und frühen Morgenstunden von Sonntag\, 15. November\, bis Mittwoch\, 18. November\, auf verschiedenen Streckenabschnitten zwischen Wilhelmshaven und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. verkehren einige Züge auf Teilabschnitten unter einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506234/re-18-ersatzfahrplan-vom-30-11-bis-01-12-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261123T200000.000
+DTEND:20261124T050000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei fünf Zugverbindungen von Montagabend\, 23. November\, bis Dienstagmorgen\, 24. November\, zu einem Haltausfall in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506234/re-18-ersatzfahrplan-vom-30-11-bis-01-12-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506214/rb-58-ersatzfahrplan-vom-06-10-bis-08-10-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261130T210000.000
+DTEND:20261201T044500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei drei Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 30. November\, bis Dienstag\, 1. Dezember\, zwischen Oldenburg (Oldb) Hbf und Sandkrug zu einem Ersatzverkehr mit Bussen\, bzw. zu geänderten Zugnummern zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie geänderten Fahrtsteiten von Oldenburg (Oldb) Hbf in Richtung Cloppenburg Die genauen Zeiten stehen noch nicht fest. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506214/rb-58-ersatzfahrplan-vom-06-10-bis-08-10-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR
