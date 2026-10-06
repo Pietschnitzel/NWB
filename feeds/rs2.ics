@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506198/rs-2-ersatzfahrplan-von-07-10-bis-11-10-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20260928T214500.000
-DTEND:20261006T013000.000
-DESCRIPTION:Aufgrund von verschiedenen Bauarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend-\, Nacht- und frühen Morgenstunden von Montagabend\, 28. September\, bis Dienstagnacht\, 6. Oktober\, zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es am Dienstagmorgen\, 29. September\, bei zwei Zugverbindungen zu einem Haltausfall in Oldenbüttel. Alternativ nutzen die Fahrgäste hier bitte den Ersatzverkehr zwischen Lübberstedt und Oldenbüttel. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506198/rs-2-ersatzfahrplan-von-07-10-bis-11-10-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506209/rs-2-ersatzfahrplan-vom-12-10-bis-15-10-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20261007T223000.000
 DTEND:20261011T013000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 in den späten Abend- und Nachtstunden von Mittwoch\, 7. Oktober\, bis Sonntag\, 11. Oktober\, zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506209/rs-2-ersatzfahrplan-vom-12-10-bis-15-10-2026.pdf
+DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RS 2 in den späten Abend- und Nachtstunden von Montag\, 12. Oktober\, bis Donnerstag\, 15. Oktober\, zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient und zehn Zugverbindungen zwischen Bremen Hbf und Twistringen. Zudem hält am Montag\, 12. Oktober\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506209/rs-2-ersatzfahrplan-vom-12-10-bis-15-10-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
