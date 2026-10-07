@@ -42,11 +42,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506236/re-18-ersatzfahrplan-vom-22-11-bis-23-11-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261115T213000.000
 DTEND:20261119T011500.000
-DESCRIPTION:Aufgrund von Gleisarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RE 18 in den späten Abend-\, Nacht- und frühen Morgenstunden von Sonntag\, 15. November\, bis Mittwoch\, 18. November\, auf verschiedenen Streckenabschnitten zwischen Wilhelmshaven und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. verkehren einige Züge auf Teilabschnitten unter einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
+DESCRIPTION:Aufgrund von Gleisarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zehn Zugverbindungen der Linie RE 18 in den späten Abend-\, Nacht- und frühen Morgenstunden von Sonntag\, 15. November\, bis Mittwoch\, 18. November\, auf verschiedenen Streckenabschnitten zwischen Wilhelmshaven und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. verkehren einige Züge auf Teilabschnitten unter einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506236/re-18-ersatzfahrplan-vom-22-11-bis-23-11-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261122T110000.000
+DTEND:20261123T064500.000
+DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen von Sonntagmittag\, 22. November\, bis Montagmorgen\, 23. November\, zwischen Oldenburg (Oldb) Hbf und Sandkrug bzw. in den späten Abend-\, Nacht- und frühen Morgenstunden auch zwischen Oldenburg (Oldb) Hbf und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Die geänderten Zugnummern zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sind zurzeit noch nicht bekannt. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
