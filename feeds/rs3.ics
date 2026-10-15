@@ -10,18 +10,10 @@ DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruk
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506221/rs-3-rs-30-ersatzfahrplan-vom-14-10-bis-15-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506210/re-18-ersatzfahrplan-vom-12-10-bis-24-10-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20261012T063000.000
 DTEND:20261023T143000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden drei Zugverbindungen der Linie RS 3 und eine Zugverbindung der Linie RS 30 in den späten Abend- bzw. Nachtstunden am Mittwoch\, 14. Oktober\, zwischen Oldenburg Hbf und Bad Zwischenahn durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506221/rs-3-rs-30-ersatzfahrplan-vom-14-10-bis-15-10-2026.pdf
-CATEGORIES:RS3
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506210/re-18-ersatzfahrplan-vom-12-10-bis-24-10-2026.pdf
-SUMMARY:RS3 – Baustelle
-DTSTART:20261014T214500.000
-DTEND:20261015T004500.000
 DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montagmorgen\, 12. Oktober\, bis Freitagnachmittag\, 23. Oktober\, zwischen Wilhelmshaven und Sande auch in den späten Abend-\, Nacht- und frühen Morgenstunden an einzelnen Tagen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie zwischen Quakenbrück bzw. Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506210/re-18-ersatzfahrplan-vom-12-10-bis-24-10-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
