@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506209/rs-2-ersatzfahrplan-vom-12-10-bis-15-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20261012T213000.000
-DTEND:20261016T013000.000
-DESCRIPTION:Aufgrund von Brücken- und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen der Linie RS 2 in den späten Abend- und Nachtstunden von Montag\, 12. Oktober\, bis Donnerstag\, 15. Oktober\, zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient und zehn Zugverbindungen zwischen Bremen Hbf und Twistringen. Zudem hält am Montag\, 12. Oktober\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506209/rs-2-ersatzfahrplan-vom-12-10-bis-15-10-2026.pdf
+DTSTART:20261109T040000.000
+DTEND:20261116T013000.000
+DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) können die Zugverbindungen von Montag\, 9. November\, bis Montagnacht\, 16. November\, nicht in Bremen-Walle halten. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen und den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
