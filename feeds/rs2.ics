@@ -33,4 +33,12 @@ DTEND:20261023T143000.000
 DESCRIPTION:Aufgrund von Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen der Linie RS 3 von Montagmorgen\, 12. Oktober\, bis Freitagnachmittag\, 23. Oktober\, zwischen Wilhelmshaven und Sande durch einen Ersatzverkehr mit Bussen bedient. Zudem kommt es zwischen Sande und Varel (Oldb) zu veränderten Fahrzeiten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506220/rs-3-ersatzfahrplan-vom-12-10-bis-23-10-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506245/rs-1-ersatzfahrplan-vom-02-11-bis-04-11-2026.pdf
+SUMMARY:RS2 – Baustelle
+DTSTART:20261102T044500.000
+DTEND:20261109T014500.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Montag\, 2. November\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) von Langwedel bis Bremen Hbf zu späteren Fahrzeiten. Am Dienstag\, 3. November\, und Mittwoch\, 4. November\, werden vier Zugverbindung der Linie RS 1 in den späten Abendstunden zwischen Verden (Aller) und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506245/rs-1-ersatzfahrplan-vom-02-11-bis-04-11-2026.pdf
+CATEGORIES:RS2
+END:VEVENT
 END:VCALENDAR
