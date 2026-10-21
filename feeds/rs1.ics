@@ -14,15 +14,23 @@ UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506238/rs-2-fahr
 SUMMARY:RS1 – Baustelle
 DTSTART:20261025T010000.000
 DTEND:20261025T043000.000
-DESCRIPTION:Aufgrund von Brückenarbeiten\, Gleiserneuerungen und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) halten von Montag\, 2. November\, bis Montagnacht\, 9. November\, die Zugverbindungen der Linie RS 1 nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506238/rs-2-fahrplan-zeitumstellung-25-10-2026.pdf
+DESCRIPTION:Aufgrund von Brückenarbeiten\, Gleiserneuerungen und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) halten von Montag\, 2. November\, bis Montagnacht\, 9. November\, die Zugverbindungen der Linie RS 1 nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzve Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506238/rs-2-fahrplan-zeitumstellung-25-10-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506245/rs-1-ersatzfahrplan-vom-02-11-bis-04-11-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20261102T044000.000
+DTEND:20261109T013000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) fährt am Montag\, 2. November\, die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) von Langwedel bis Bremen Hbf zu späteren Fahrzeiten. Am Dienstag\, 3. November\, und Mittwoch\, 4. November\, werden vier Zugverbindung der Linie RS 1 in den späten Abendstunden zwischen Verden (Aller) und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506245/rs-1-ersatzfahrplan-vom-02-11-bis-04-11-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 SUMMARY:RS1 – Baustelle
-DTSTART:20261102T044000.000
-DTEND:20261109T013000.000
-DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) halten die Zugverbindungen von Montag\, 9. November\, bis Montagnacht\, 16. November\, nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
+DTSTART:20261102T223000.000
+DTEND:20261104T231500.000
+DESCRIPTION:Aufgrund von Straßenbauarbeiten bis voraussichtlich Sommer 2027 halten die Ersatzbusse in Baden (Kr Verden) an den Haltestellen \\"Baden\, Ortsmitte\\". Diese befinden sich ca. 1800 m vom Bahnhof entfernt._ Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT

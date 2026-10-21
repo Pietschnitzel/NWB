@@ -4,8 +4,8 @@ PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506210/re-18-ersatzfahrplan-vom-12-10-bis-24-10-2026.pdf
 SUMMARY:RS4 – Baustelle
-DTSTART:20261006T211500.000
-DTEND:20261008T014500.000
+DTSTART:20261103T211500.000
+DTEND:20261105T014500.000
 DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montagmorgen\, 12. Oktober\, bis Freitagnachmittag\, 23. Oktober\, zwischen Wilhelmshaven und Sande auch in den späten Abend-\, Nacht- und frühen Morgenstunden an einzelnen Tagen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie zwischen Quakenbrück bzw. Bramsche und Osnabrück Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506210/re-18-ersatzfahrplan-vom-12-10-bis-24-10-2026.pdf
 CATEGORIES:RS4
 END:VEVENT
