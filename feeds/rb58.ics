@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506217/rb-58-ersatzfahrplan-vom-26-10-bis-27-10-2026.pdf
-SUMMARY:RB58 – Baustelle
-DTSTART:20261021T211500.000
-DTEND:20261022T003000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Mittwoch\, 21. Oktober\, zwischen Osnabrück Hbf und Bramsche durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506217/rb-58-ersatzfahrplan-vom-26-10-bis-27-10-2026.pdf
-CATEGORIES:RB58
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506225/rb-58-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
 SUMMARY:RB58 – Baustelle
 DTSTART:20261026T231500.000
