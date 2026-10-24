@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506212/re-18-ersatzfahrplan-vom-25-10-bis-27-10-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20261012T040000.000
-DTEND:20261024T003000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Sonntag\, 25. Oktober\, zwischen Quakenbrück und Bramsche durch einen Ersatzverkehr mit Bussen bedient. Zudem entfällt bei fünf Zugverbindungen von Montagabend\, 26. Oktober\, bis Dienstagmorgen\, 27. Oktober\, der Halt in Sande. Hierfür ist ein Ersatzverkehr mit Bussen zwischen Wilhelmshaven und Varel (Oldb) eingerichtet. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506212/re-18-ersatzfahrplan-vom-25-10-bis-27-10-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506219/re-18-ersatzfahrplan-vom-29-10-bis-30-10-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261025T213000.000
