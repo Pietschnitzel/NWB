@@ -2,22 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506239/rs-3-fahrplan-zeitumstellung-25-10-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20261025T010000.000
-DTEND:20261025T043000.000
-DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Busse des Ersatzverkehrs an der Straße „Am Bahndamm“. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506239/rs-3-fahrplan-zeitumstellung-25-10-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20261025T010000.000
-DTEND:20261025T043000.000
-DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Busse des Ersatzverkehrs an der Straße „Am Bahndamm“. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506222/rs-2-ersatzfahrplan-vom-23-10-bis-01-11-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20261109T204500.000

@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
+SUMMARY:RB84 – Baustelle
+DTSTART:20261026T000000.000
+DTEND:20261112T234500.000
+DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Busse des Ersatzverkehrs an der Straße „Am Bahndamm“. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
+CATEGORIES:RB84
+END:VEVENT
+BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506243/rs-1-ersatzfahrplan-vom-02-11-bis-09-11-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261026T000000.000
