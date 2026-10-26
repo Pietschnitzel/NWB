@@ -18,14 +18,6 @@ DESCRIPTION:Aufgrund von Straßenbauarbeiten halten die Busse des Ersatzverkehrs
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506203/rb-84-ersatzfahrplan-vom-26-10-bis-29-10-2026.pdf
-SUMMARY:RB84 – Baustelle
-DTSTART:20261011T210000.000
-DTEND:20261026T210000.000
-DESCRIPTION:Aufgrund von Weichenarbeiten und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen von Montag\, 12. Oktober\, bis Sonntag\, 25. Oktober\, ganztägig\, zwischen Kreiensen und Holzminden durch einen Ersatzverkehr mit Bussen bedient. Zudem werden einige Zugverbindungen in den späten Abend\, Nacht\, und frühen Morgenstunden zwischen Holzminden und Paderborn Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506203/rb-84-ersatzfahrplan-vom-26-10-bis-29-10-2026.pdf
-CATEGORIES:RB84
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506223/rb-84-ersatzfahrplan-vom-30-10-bis-15-11-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261026T210000.000
