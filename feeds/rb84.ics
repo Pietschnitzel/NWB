@@ -5,32 +5,16 @@ BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261026T000000.000
-DTEND:20261112T234500.000
-DESCRIPTION:Aufgrund von Straßenbauarbeiten kann die reguläre Ersatzhaltestelle in Brakel\, Bussteig 1\, ab Montag\, 26. Oktober\, bis voraussichtlich Donnerstag\, 12. November\, nicht angefahren werden. An der Straße \\"Am Bahndamm\\" wird beidseitig alternativ in Richtung Paderborn Hbf an der Linienbushaltestelle Brakel\, Schulzentrum bzw. in der Gegenrichtung an einer neu eingerichteten Ersatzhaltestelle auf der gegenüberliegenden Straßenseite in Höhe der Hausnummer 34 gehalten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
+DTEND:20261231T234500.000
+DESCRIPTION:Aufgrund von Straßenbauarbeiten kann die reguläre Ersatzhaltestelle in Brakel\, Bussteig 1\, ab Montag\, 26. Oktober\, bis voraussichtlich Ende Dezember nicht angefahren werden. An der Straße \\"Am Bahndamm\\" wird beidseitig alternativ in Richtung Paderborn Hbf an der Linienbushaltestelle Brakel\, Schulzentrum bzw. in der Gegenrichtung an einer neu eingerichteten Ersatzhaltestelle auf der gegenüberliegenden Straßenseite in Höhe der Hausnummer 34 gehalten. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/media_document/688/original.pdf
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506243/rs-1-ersatzfahrplan-vom-02-11-bis-09-11-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261026T000000.000
-DTEND:20261112T234500.000
+DTEND:20261231T234500.000
 DESCRIPTION:Aufgrund von Brückenarbeiten\, Gleiserneuerungen und weiteren Bauarbeiten der Deutschen Bahn (DB InfraGO AG) halten von Montag\, 2. November\, bis Montagnacht\, 9. November\, die Zugverbindungen der Linie RS 1 nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506243/rs-1-ersatzfahrplan-vom-02-11-bis-09-11-2026.pdf
-CATEGORIES:RB84
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506223/rb-84-ersatzfahrplan-vom-30-10-bis-15-11-2026.pdf
-SUMMARY:RB84 – Baustelle
-DTSTART:20261026T210000.000
-DTEND:20261029T004500.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen ganztags von Freitagabend\, 30. Oktober\, bis Donnerstag\, 12. November\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. in den späten Abend-\, Nacht- und frühen Morgenstunden zwischen Paderborn Hbf und Holzminden durch einen Ersatzverkehr mit Bussen bedient. Zusätzlich werden in den späten Abend- und Nachtstunden am Freitag\, 13. November\, und Samstag\, 14. November\, weitere acht Zugverbindungen zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506223/rb-84-ersatzfahrplan-vom-30-10-bis-15-11-2026.pdf
-CATEGORIES:RB84
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506231/rb-84-ersatzfahrplan-vom-23-11-bis-26-11-2026.pdf
-SUMMARY:RB84 – Baustelle
-DTSTART:20261030T050000.000
-DTEND:20261115T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 23. November\, bis Mittwoch\, 25. November\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506231/rb-84-ersatzfahrplan-vom-23-11-bis-26-11-2026.pdf
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +22,7 @@ UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506204/rb-85-ers
 SUMMARY:RB84 – Baustelle
 DTSTART:20261123T210000.000
 DTEND:20261126T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 23. November\, bis Mittwoch\, 25. November\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506204/rb-85-ersatzfahrplan-am-04-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abend- und Nachtstunden am Mittwoch\, 4. November\, zwischen Göttingen und Bodenfelde durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506204/rb-85-ersatzfahrplan-am-04-11-2026.pdf
 CATEGORIES:RB84
 END:VEVENT
 END:VCALENDAR
