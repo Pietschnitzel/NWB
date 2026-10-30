@@ -10,11 +10,11 @@ DESCRIPTION:Aufgrund von Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden j
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506232/rb-59-ersatzfahrplan-am-18-11-und-23-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506251/rb-58-ersatzfahrplan-vom-10-12-bis-11-12-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20261201T201500.000
 DTEND:20261203T004500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils vier Zugverbindungen in den späten Abend- und Nachtstunden am Dienstag\, 1. Dezember\, zwischen Bremen Hbf und Wildeshausen sowie am Mittwoch\, 2. Dezember\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient bzw. ist ein Umstieg in die parallel verkehrende RS 3 von Bremen Hbf nach Delmenhorst notwendig. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506232/rb-59-ersatzfahrplan-am-18-11-und-23-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden jeweils vier Zugverbindungen in den späten Abend- und Nachtstunden am Dienstag\, 1. Dezember\, zwischen Bremen Hbf und Wildeshausen sowie am Mittwoch\, 2. Dezember\, zwischen Bremen Hbf und Delmenhorst durch einen Ersatzverkehr mit Bussen bedient bzw. ist ein Umstieg in die parallel verkehrende RS 3 von Bremen Hbf nach Delmenhorst notwendig. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506251/rb-58-ersatzfahrplan-vom-10-12-bis-11-12-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 END:VCALENDAR

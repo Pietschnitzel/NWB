@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506224/re-18-ersatzfahrplan-am-02-11-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20261029T213000.000
-DTEND:20261030T053000.000
-DESCRIPTION:Aufgrund von Gleisarbeiten der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 29. Oktober\, bis Freitag\, 30. Oktober\, zwischen Osnabrück Hbf und Oldenburg (Oldb) Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506224/re-18-ersatzfahrplan-am-02-11-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506226/re-18-ersatzfahrplan-vom-11-11-bis-12-11-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261102T210000.000
@@ -50,11 +42,19 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RE18
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506225/rb-58-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506253/re-18-ersatzfahrplan-vom-10-12-bis-11-12-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261130T210000.000
 DTEND:20261201T044500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei drei Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 30. November\, bis Dienstag\, 1. Dezember\, zwischen Oldenburg (Oldb) Hbf und Sandkrug zu einem Ersatzverkehr mit Bussen\, bzw. zu geänderten Zugnummern zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie geänderten Fahrtsteiten von Oldenburg (Oldb) Hbf in Richtung Cloppenburg Die genauen Zeiten stehen noch nicht fest. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506225/rb-58-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) kommt es bei drei Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Montag\, 30. November\, bis Dienstag\, 1. Dezember\, zwischen Oldenburg (Oldb) Hbf und Sandkrug zu einem Ersatzverkehr mit Bussen\, bzw. zu geänderten Zugnummern zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf sowie geänderten Fahrtsteiten von Oldenburg (Oldb) Hbf in Richtung Cloppenburg Die genauen Zeiten stehen noch nicht fest. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506253/re-18-ersatzfahrplan-vom-10-12-bis-11-12-2026.pdf
+CATEGORIES:RE18
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506225/rb-58-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
+SUMMARY:RE18 – Baustelle
+DTSTART:20261210T193000.000
+DTEND:20261211T073000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden sechs Zugverbindungen in den späten Abend-\, Nacht- und frühen Morgenstunden von Donnerstag\, 10. Dezember\, bis Freitag\, 11. Dezember\, zwischen Osnabrück Hbf und Bramsche durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506225/rb-58-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
 CATEGORIES:RE18
 END:VEVENT
 END:VCALENDAR

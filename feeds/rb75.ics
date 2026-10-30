@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506203/rb-84-ersatzfahrplan-vom-26-10-bis-29-10-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506229/rb-75-ersatzfahrplan-vom-19-11-bis-22-11-2026.pdf
 SUMMARY:RB75 – Baustelle
-DTSTART:20261119T213000.000
-DTEND:20261122T023000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Montag\, 26. Oktober\, bis Mittwoch\, 28. Oktober\, zwischen Paderborn Hbf und Höxter-Ottbergen bzw. Holzminden durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506203/rb-84-ersatzfahrplan-vom-26-10-bis-29-10-2026.pdf
+DTSTART:20261107T190000.000
+DTEND:20261116T060000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen in den späten Abend- und Nachtstunden von Samstag\, 07. November\, bis Montag\, 16. November\, zwischen Osnabrück Hbf undWellendorf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506229/rb-75-ersatzfahrplan-vom-19-11-bis-22-11-2026.pdf
 CATEGORIES:RB75
 END:VEVENT
 END:VCALENDAR
