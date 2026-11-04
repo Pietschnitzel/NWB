@@ -18,11 +18,11 @@ DESCRIPTION:Aufgrund von Arbeiten an der Leit- und Sicherungstechnik der Deutsch
 CATEGORIES:RS4
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506224/re-18-ersatzfahrplan-am-02-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506258/rs-4-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 SUMMARY:RS4 – Baustelle
 DTSTART:20261113T211500.000
 DTEND:20261116T014500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden zwei Zugverbindungen in den späten Abendstunden am Montag\, 2. November\, zwischen Oldenburg (Oldb) Hbf und Sandkrug durch einen Ersatzverkehr mit Bussen bedient. Zudem verkehren zwei Zugverbindungen zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf mit einer geänderten Zugnummer. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506224/re-18-ersatzfahrplan-am-02-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container/IH-Knoten-Container) und Arbeiten an der Leit- und Sicherungstechnik der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 4 in den späten Abend- und Nachtstunden von Montagabend\, 16. November\, bis Montagnacht\, 23. November\, zwischen Hude und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. von Bremen Hbf bis Hude müssen die Züge und der Ersatzverkehr der Linie RS 3 genutzt werden. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506258/rs-4-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 CATEGORIES:RS4
 END:VEVENT
 END:VCALENDAR

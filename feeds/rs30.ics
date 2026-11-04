@@ -2,10 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
+SUMMARY:RS30 – Baustelle
+DTSTART:20261116T050000.000
+DTEND:20261122T230000.000
+DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleisarbeiten\, Arbeiten an der Leit- und Sicherungstechnik\, Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 16. November\, bis Montagnacht\, 23. November\, auf unterschiedlichen Streckenabschnitten zwischen Bad Zwischenahn und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
+CATEGORIES:RS30
+END:VEVENT
+BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506246/rs-4-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
 SUMMARY:RS30 – Baustelle
-DTSTART:20261111T211500.000
-DTEND:20261116T004500.000
+DTSTART:20261103T211500.000
+DTEND:20261105T014500.000
 DESCRIPTION:Aufgrund von Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden je Richtung sechs Zugverbindungen der Linie RS 4 in den späten Abend- und Nachtstunden von Dienstag\, 3. November\, bis Donnerstag\, 5. November\, zwischen Hude und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506246/rs-4-ersatzfahrplan-vom-03-11-bis-05-11-2026.pdf
 CATEGORIES:RS30
 END:VEVENT

@@ -18,10 +18,26 @@ DESCRIPTION:Aufgrund von Straßenbauarbeiten bis voraussichtlich Sommer 2027 hal
 CATEGORIES:RS1
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506211/rs-2-ersatzfahrplan-vom-09-11-bis-14-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506257/rs-1-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20261109T040000.000
 DTEND:20261116T013000.000
+DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) halten von Montagnacht\, 16. November\, bis Montagnacht\, 23. November\, die Zugverbindungen der Linie RS 1 nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506257/rs-1-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506261/rs-1-ersatzfahrplan-vom-18-11-bis-21-11-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20261116T040000.000
+DTEND:20261123T013000.000
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container und IH-Knoten-Container) und Gleisarbeiten der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 18. November\, die Zugverbindung mit der regulären Abfahrtszeit um 21:32 Uhr ab Verden (Aller) mit einer geänderten Zugnummer. Am Donnerstag\, 19. November\, und Freitag\, 20. November\, fährt die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) bis Bremen Hbf zu späteren Fahrzeiten und am Samstag\, 21. November\, die Zugverbindung mit der regulären Abfahrtszeit um 23:42 Uhr. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506261/rs-1-ersatzfahrplan-vom-18-11-bis-21-11-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506211/rs-2-ersatzfahrplan-vom-09-11-bis-14-11-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20261118T213000.000
+DTEND:20261122T003000.000
 DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 von Montag\, 9. November\, bis Samstag\, 14. November\, in den späten Abend- und Nachtstunden zwischen Bremen Hbf und Twistringen durch einen Ersatzverkehr mit Bussen bedient. Außerdem hält am Montag\, 9. November\, die Zugverbindung mit der regulären Abfahrtszeit um 21:33 Uhr ab Bremen Hbf in Richtung Twistringen nicht in Dreye\, Barrien\, Bramstedt (b Syke) und Bassum. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506211/rs-2-ersatzfahrplan-vom-09-11-bis-14-11-2026.pdf
 CATEGORIES:RS1
 END:VEVENT
