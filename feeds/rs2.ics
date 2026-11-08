@@ -10,19 +10,11 @@ DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (I
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506252/rs-2-ersatzfahrplan-vom-07-11-bis-08-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506241/rs-2-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20261102T044500.000
 DTEND:20261109T014500.000
-DESCRIPTION:Aufgrund von Brückenarbeiten\, Gleiserneuerungen und weiteren Bauarbeiten an der Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 von Montag\, 2. November\, bis Montagnacht\, 9. November\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506252/rs-2-ersatzfahrplan-vom-07-11-bis-08-11-2026.pdf
-CATEGORIES:RS2
-END:VEVENT
-BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506241/rs-2-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
-SUMMARY:RS2 – Baustelle
-DTSTART:20261107T000000.000
-DTEND:20261108T073000.000
-DESCRIPTION:Aufgrund von Brückenarbeiten und weiteren Baumaßnahmen an der Strecke der Deutschen Bahn (DB InfraGO AG) können einige Zugverbindungen der Linie RS 2 von Montag\, 9. November\, bis Montagnacht\, 16. November\, nicht nach dem regulären Fahrplan verkehren. Die betroffenen Zugverbindungen werden zwischen Bremerhaven-Lehe und Bremerhaven Hbf oder zwischen Bremen-Burg und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506241/rs-2-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
+DESCRIPTION:Aufgrund von Brückenarbeiten\, Gleiserneuerungen und weiteren Bauarbeiten an der Strecke der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 von Montag\, 2. November\, bis Montagnacht\, 9. November\, zwischen Bremerhaven-Lehe und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506241/rs-2-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
@@ -34,11 +26,11 @@ DESCRIPTION:Aufgrund von Brückenarbeiten und weiteren Baumaßnahmen an der Stre
 CATEGORIES:RS2
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506242/rs-3-rs-30-ersatzfahrplan-vom-31-10-bis-08-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506254/rs-3-rs-30-ersatzfahrplan-vom-11-11-bis-16-11-2026.pdf
 SUMMARY:RS2 – Baustelle
 DTSTART:20261116T034500.000
 DTEND:20261123T011500.000
-DESCRIPTION:Aufgrund verschiedener Bauarbeiten der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 und RS 30 von Samstag\, 31. Oktober\, bis Sonntag\, 8. November\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Zudem werden in den späten Abend- und Nachtstunden Zugverbindungen zwischen Bad Zwischenahn und Bremen Hbf bzw. auf kürzeren Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506242/rs-3-rs-30-ersatzfahrplan-vom-31-10-bis-08-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) und Gleiserneuerungen der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 2 von Montagnacht\, 16. November\, bis Montagnacht\, 23. November\, auf unterschiedlichen Streckenabschnitten zwischen Bremerhaven-Lehe und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506254/rs-3-rs-30-ersatzfahrplan-vom-11-11-bis-16-11-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
 END:VCALENDAR
