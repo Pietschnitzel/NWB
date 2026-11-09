@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506260/rs-30-ersatzfahrplan-16-11-bis-22-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 SUMMARY:RS3 – Baustelle
 DTSTART:20261116T050000.000
 DTEND:20261122T230000.000
-DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleisarbeiten\, Arbeiten an der Leit- und Sicherungstechnik\, Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden die Züge der Linie RS 30 von Montagmorgen\, 16. November\, bis Sonntagmorgen\, 22. November\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient und von Sonntagmorgen bis Sonntagabend\, 22. November\, zwischen Bad Zwischenahn und Hude. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506260/rs-30-ersatzfahrplan-16-11-bis-22-11-2026.pdf
+DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleisarbeiten\, Arbeiten an der Leit- und Sicherungstechnik\, Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 16. November\, bis Montagnacht\, 23. November\, auf unterschiedlichen Streckenabschnitten zwischen Bad Zwischenahn und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506264/rs-30-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261116T050000.000
+DTEND:20261122T230000.000
+DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden die Züge der Linie RS 30 von Montagmorgen\, 23. November\, bis Sonntagabend\, 29. November\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506264/rs-30-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506265/rs-3-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261123T051500.000
+DTEND:20261129T223000.000
+DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten (IH-Knoten-Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 23. November\, bis Sonntagabend\, 29. November\, in den frühen Morgenstunden und späten Abendstunden zwischen Bad Zwischenahn und Oldenburg Hbf bzw. Hude durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506265/rs-3-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
