@@ -2,11 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506266/rs-1-ersatzfahrplan-vom-23-11-bis-30-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506267/rs-4-ersatzfahrplan-vom-23-11-bis-30-11-2026.pdf
 SUMMARY:RB85 – Baustelle
 DTSTART:20261202T203000.000
 DTEND:20261202T233000.000
-DESCRIPTION:Aufgrund von Gleiserneuerungen und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) halten von Montagnacht\, 16. November\, bis Montagnacht\, 23. November\, die Zugverbindungen der Linie RS 1 nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506266/rs-1-ersatzfahrplan-vom-23-11-bis-30-11-2026.pdf
+DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container/IH-Knoten-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Zugverbindungen der Linie RS 4 in den späten Abend- und Nachtstunden von Montagabend\, 16. November\, bis Montagnacht\, 23. November\, zwischen Hude und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient bzw. von Bremen Hbf bis Hude müssen die Züge und der Ersatzverkehr der Linie RS 3 genutzt werden. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506267/rs-4-ersatzfahrplan-vom-23-11-bis-30-11-2026.pdf
 CATEGORIES:RB85
 END:VEVENT
 END:VCALENDAR
