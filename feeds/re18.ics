@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506227/re-18-ersatzfahrplan-vom-15-11-bis-19-11-2026.pdf
-SUMMARY:RE18 – Baustelle
-DTSTART:20261111T210000.000
-DTEND:20261112T011500.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden vier Zugverbindungen in den späten Abend- und Nachtstunden am Mittwoch\, 11. November\, zwischen Wilhelmshaven und Oldenburg (Oldb) Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506227/re-18-ersatzfahrplan-vom-15-11-bis-19-11-2026.pdf
-CATEGORIES:RE18
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506233/re-18-ersatzfahrplan-vom-23-11-bis-24-11-2026.pdf
 SUMMARY:RE18 – Baustelle
 DTSTART:20261122T110000.000
