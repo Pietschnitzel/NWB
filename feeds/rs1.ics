@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
+SUMMARY:RS1 – Baustelle
+DTSTART:20261113T233000.000
+DTEND:20261114T043000.000
+DESCRIPTION:Aufgrund eines unbesetzten Stellwerks in Bremen-Farge können heute Nacht ab ca. 23:30 Uhr bis morgen früh ca. 4:30 Uhr keine Züge zwischen Bremen-Vegesack und Bremen-Farge verkehren. Betroffen sind die Zugverbindungen um 23:34 Uhr\, 0:01 Uhr und 0:34 Uhr von Bremen-Vegesack nach Bremen-Farge sowie in der Gegenrichtung um 0:11 Uhr und 4:11 Uhr von Bremen-Farge nach Bremen-Vegesack. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
+CATEGORIES:RS1
+END:VEVENT
+BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506257/rs-1-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20261109T040000.000

@@ -10,14 +10,6 @@ DESCRIPTION:Aufgrund von Straßenbauarbeiten kann die reguläre Ersatzhaltestell
 CATEGORIES:RB84
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
-SUMMARY:RB84 – Baustelle
-DTSTART:20261026T000000.000
-DTEND:20261231T234500.000
-DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) halten die Zugverbindungen von Montag\, 9. November\, bis Montagnacht\, 16. November\, nicht in Bremen-Walle. Alternativ können Reisende zwischen Bremen Hbf und Bremen-Oslebshausen den Ersatzverkehr mit Bussen nutzen. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506240/rs-1-ersatzfahrplan-vom-09-11-bis-16-11-2026.pdf
-CATEGORIES:RB84
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506250/rb-84-ersatzfahrplan-vom-10-12-bis-13-12-2026.pdf
 SUMMARY:RB84 – Baustelle
 DTSTART:20261123T210000.000
