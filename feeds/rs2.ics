@@ -12,8 +12,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 SUMMARY:RS2 – Baustelle
-DTSTART:20261123T040000.000
-DTEND:20261130T011500.000
+DTSTART:20261130T011500.000
+DTEND:20261116T050000.000
 DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleisarbeiten\, Arbeiten an der Leit- und Sicherungstechnik\, Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 16. November\, bis Montagnacht\, 23. November\, auf unterschiedlichen Streckenabschnitten zwischen Bad Zwischenahn und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506259/rs-3-ersatzfahrplan-vom-16-11-bis-23-11-2026.pdf
 CATEGORIES:RS2
 END:VEVENT
