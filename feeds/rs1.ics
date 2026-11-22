@@ -2,14 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506261/rs-1-ersatzfahrplan-vom-18-11-bis-21-11-2026.pdf
-SUMMARY:RS1 – Baustelle
-DTSTART:20261116T040000.000
-DTEND:20261123T013000.000
-DESCRIPTION:Aufgrund von Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Strecken-Container und IH-Knoten-Container) und Gleisarbeiten der Deutschen Bahn (DB InfraGO AG) fährt am Mittwoch\, 18. November\, die Zugverbindung mit der regulären Abfahrtszeit um 21:32 Uhr ab Verden (Aller) mit einer geänderten Zugnummer. Am Donnerstag\, 19. November\, und Freitag\, 20. November\, fährt die Zugverbindung mit der regulären Abfahrtszeit um 22:42 Uhr ab Verden (Aller) bis Bremen Hbf zu späteren Fahrzeiten und am Samstag\, 21. November\, die Zugverbindung mit der regulären Abfahrtszeit um 23:42 Uhr. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506261/rs-1-ersatzfahrplan-vom-18-11-bis-21-11-2026.pdf
-CATEGORIES:RS1
-END:VEVENT
-BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506268/rs-1-ersatzfahrplan-vom-30-11-bis-07-12-2026.pdf
 SUMMARY:RS1 – Baustelle
 DTSTART:20261123T040000.000
