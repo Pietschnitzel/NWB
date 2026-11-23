@@ -4,17 +4,33 @@ PRODID:-//NWB//Disruptions//DE
 BEGIN:VEVENT
 UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506271/rs-3-ersatzfahrplan-vom-30-11-bis-07-12-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20261130T004500.000
-DTEND:20261130T041500.000
+DTSTART:20261130T041500.000
+DTEND:20261207T004500.000
 DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Knoten-Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 30. November\, bis Montagnacht\, 7. Dezember\, in den frühen Morgen-\, späten Abend- und Nachtstunden auf unterschiedlichen Streckenabschnitten zwischen Bad Zwischenahn und Bremen Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506271/rs-3-ersatzfahrplan-vom-30-11-bis-07-12-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 BEGIN:VEVENT
-UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506264/rs-30-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506277/rs-3-ersatzfahrplan-vom-07-12-bis-13-12-2026.pdf
 SUMMARY:RS3 – Baustelle
-DTSTART:20261116T050000.000
-DTEND:20261122T230000.000
-DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten (IH-Knoten- Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden die Züge der Linie RS 30 von Montagmorgen\, 23. November\, bis Sonntagabend\, 29. November\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506264/rs-30-ersatzfahrplan-vom-23-11-bis-29-11-2026.pdf
+DTSTART:20261130T041500.000
+DTEND:20261207T004500.000
+DESCRIPTION:Aufgrund verschiedener Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Knoten-Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden einige Züge der Linie RS 3 von Montagmorgen\, 7. Dezember\, bis Samstagabend\, 12. Dezember\, in den frühen Morgen-\, späten Abend- und Nachtstunden auf unterschiedlichen Streckenabschnitten durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506277/rs-3-ersatzfahrplan-vom-07-12-bis-13-12-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506272/rs-30-ersatzfahrplan-ab-30-11-bis-06-12-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261123T051500.000
+DTEND:20261129T223000.000
+DESCRIPTION:Aufgrund diverser Bauarbeiten (Brücken-\, Weichen-\, Gleis-\, Schienenarbeiten\, Arbeiten an der Leit- und Sicherungstechnik und Instandhaltungsarbeiten an der Infrastruktur/Strecke (IH-Knoten-Container und IH-Strecken-Container)) der Deutschen Bahn (DB InfraGO AG) werden alle Züge der Linie RS 30 von Montagmorgen\, 30. November\, bis Sonntagabend\, 6. Dezember\, zwischen Bad Zwischenahn und Oldenburg Hbf durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506272/rs-30-ersatzfahrplan-ab-30-11-bis-06-12-2026.pdf
+CATEGORIES:RS3
+END:VEVENT
+BEGIN:VEVENT
+UID:https://download.transdev.de/transdev/uploads/nwb/schedule/1506280/rs-6-ersatzfahrplan-vom-08-12-bis-11-12-2026.pdf
+SUMMARY:RS3 – Baustelle
+DTSTART:20261207T211500.000
+DTEND:20261212T014500.000
+DESCRIPTION:Aufgrund von Brückenarbeiten der Deutschen Bahn (DB InfraGO AG) werden die Zugverbindungen der Linie RS 6 von Dienstag\, 8. Dezember\, bis Freitag\, 11. Dezember\, zwischen Verden (Aller) und Rotenburg (Wümme) durch einen Ersatzverkehr mit Bussen bedient. Ersatzfahrplan: https://download.transdev.de/transdev/uploads/nwb/schedule/1506280/rs-6-ersatzfahrplan-vom-08-12-bis-11-12-2026.pdf
 CATEGORIES:RS3
 END:VEVENT
 END:VCALENDAR
